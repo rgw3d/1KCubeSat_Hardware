@@ -1,0 +1,81 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BMG250
+D Small, low power GYROSCOPE 3-AXIS SPI/I2C SMD, LGA-14
+K Bosh IMU small low power Gyroscope
+F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMG250-DS000.pdf
+$ENDCMP
+#
+$CMP Conn_ARM_JTAG_SWD_20
+D Standard IDC20 Male Connector, ARM legacy JTAG and SWD interface
+K IDC20 Male Connector ARM JTAG SWD
+F http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_design_reference.pdf
+$ENDCMP
+#
+$CMP ECS-TXO-2016
+D 10MHz TCXO HCMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead
+K Crystal Clock Oscillator TCXO 10MHz
+F https://ecsxtal.com/store/pdf/ECS-TXO-2016.pdf
+$ENDCMP
+#
+$CMP I3G4250D
+D 3 Axis Digital Gyroscope
+K Gyro Gyroscope
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/e4/b1/d1/62/1a/e6/44/2f/DM00168691.pdf/files/DM00168691.pdf/jcr:content/translations/en.DM00168691.pdf
+$ENDCMP
+#
+$CMP MLX75306
+D Linear optical array, SPI
+K melexis MLX optical array
+F https://www.melexis.com/-/media/files/documents/datasheets/mlx75306-datasheet-melexis.pdf
+$ENDCMP
+#
+$CMP MMC5883MA
+D 3-axis Magnetic Sensor, I2C/ SPI Interface, LGA-16
+K Magnetic 3-axis sensor
+F http://www.memsic.com/userfiles/files/DataSheets/Magnetic-Sensors-Datasheets/MMC5883MA-RevC.pdf
+$ENDCMP
+#
+$CMP MMC5983MA
+D 3-axis Magnetic Sensor, I2C/ SPI Interface, LGA-16
+K Magnetic 3-axis sensor
+F https://media.digikey.com/pdf/Data%20Sheets/MEMSIC%20PDFs/MMC5983MA_RevA_4-3-19.pdf
+$ENDCMP
+#
+$CMP Micro_SD_Card_Latching
+D Micro SD Card Socket
+K connector SD microsd
+F https://www.molex.com/pdm_docs/sd/472192001_sd.pdf
+$ENDCMP
+#
+$CMP SS4-10-3.00-L-D-K-TR
+D Samtec low-profile 20-pin connector. Irridium 9603n requires this.
+K Samtec ss4
+F https://www.samtec.com/partnumber/ss4-10-3.00-l-d-k-tr
+$ENDCMP
+#
+$CMP TG-3541CE
+D 32.768kHz TCXO CMOS Oscillator 1.5V ~ 5.5V Enable/Disable 10-SMD, No Lead
+K TCXO EPSON 32kHz
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_TG-3541CE&lang=en
+$ENDCMP
+#
+$CMP TP_1.5x1.5
+D test point, square 1.5x1.5mm, 0.7mm drill
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TP_1x1
+D test point TH 1.0x1.0mm square
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TP_smt_1x1
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+#End Doc Library
