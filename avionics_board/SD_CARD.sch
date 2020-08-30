@@ -252,7 +252,7 @@ U 1 1 5EFBE1A2
 P 7625 3675
 F 0 "J1" H 7575 4392 50  0000 C CNN
 F 1 "Micro_SD_Card_Latching" H 7575 4301 50  0000 C CNN
-F 2 "avionics_board:microSD_HC_Molex_0472192001" H 8775 3975 50  0001 C CNN
+F 2 "footprint_custom:microSD_HC_Molex_0472192001" H 8775 3975 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/472192001_sd.pdf" H 7625 3675 50  0001 C CNN
 F 4 "0472192001" H 7625 2875 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/molex/0472192001/WM6698CT-ND/3044147" H 7425 2975 50  0001 C CNN "Order"

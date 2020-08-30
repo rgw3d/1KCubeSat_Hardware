@@ -21,7 +21,7 @@ AR Path="/5EA31C93/5FEDC1F7" Ref="X?"  Part="1"
 AR Path="/5EA31C93/5FEDB823/5FEDC1F7" Ref="X1"  Part="1" 
 F 0 "X1" H 5950 4040 50  0000 C CNN
 F 1 "TG-3541CE" H 5950 3949 50  0000 C CNN
-F 2 "avionics_board:Oscillator_SMD_SeikoEpson_TG3541CE-10Pin_3.2x2.5mm_HandSoldering" H 5900 3175 50  0001 C CNN
+F 2 "footprint_custom:Oscillator_SMD_SeikoEpson_TG3541CE-10Pin_3.2x2.5mm_HandSoldering" H 5900 3175 50  0001 C CNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_TG-3541CE&lang=en" H 6050 3625 50  0001 C CNN
 F 4 "TG-3541CE 32.7680KXA3" H 5900 2925 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/epson/TG-3541CE-32-7680KXA3/SER4421CT-ND/10239844" H 5900 3075 50  0001 C CNN "Order"

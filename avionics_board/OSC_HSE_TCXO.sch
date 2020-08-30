@@ -19,7 +19,7 @@ U 1 1 60074DB6
 P 5425 3800
 F 0 "X2" H 5225 4100 50  0000 R CNN
 F 1 "ECS-TXO-2016" H 5225 3525 50  0000 R CNN
-F 2 "avionics_board:Oscillator_SMD_ECS_TXO-2016-xx-xxx-4Pin_2.0x1.6mm" H 5225 2900 50  0001 C CNN
+F 2 "footprint_custom:Oscillator_SMD_ECS_TXO-2016-xx-xxx-4Pin_2.0x1.6mm" H 5225 2900 50  0001 C CNN
 F 3 "https://ecsxtal.com/store/pdf/ECS-TXO-2016.pdf" H 5250 3925 50  0001 C CNN
 F 4 "ECS-TXO-2016-33-100-TR" H 5425 3000 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/ecs-inc/ECS-TXO-2016-33-100-TR/XC3159CT-ND/10244142" H 4675 3100 50  0001 C CNN "Order"
