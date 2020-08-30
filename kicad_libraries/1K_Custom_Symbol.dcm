@@ -18,10 +18,40 @@ K Crystal Clock Oscillator TCXO 10MHz
 F https://ecsxtal.com/store/pdf/ECS-TXO-2016.pdf
 $ENDCMP
 #
+$CMP FPF2000
+D Load Switch, 50mA current limit, RDS=700mOhm
+K load switch
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
 $CMP I3G4250D
 D 3 Axis Digital Gyroscope
 K Gyro Gyroscope
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/e4/b1/d1/62/1a/e6/44/2f/DM00168691.pdf/files/DM00168691.pdf/jcr:content/translations/en.DM00168691.pdf
+$ENDCMP
+#
+$CMP LTC3130-1
+D 25V, 600mA Buck-Boost DC/DC with 1.6uA Quiescent. MPPT
+K MPPT, MPPC, Buck-Boost
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3130f.pdf
+$ENDCMP
+#
+$CMP LTC4066
+D USB Power Controller and Li-ion linear charger with low loss ideal diode
+K Battery charger, power path, powerpath, idea diode
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4066fc.pdf
+$ENDCMP
+#
+$CMP LTC4415
+D Dual 4A Ideal Diodes with Adjustable Current Limit
+K Ideal Diodes
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4415fa.pdf
+$ENDCMP
+#
+$CMP MCP6541
+D 1 μA Comparator, SOT-23-5
+K comparator reference
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22269B.pdf
 $ENDCMP
 #
 $CMP MLX75306
