@@ -3,8 +3,8 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 14
-Title "BATTERY_CHARGER"
+Sheet 5 39
+Title "LTC4066"
 Date "2020-08-09"
 Rev ""
 Comp ""
@@ -2074,7 +2074,7 @@ E4 18 EF F6 1F C7 31 2E B7 1E 65 72 58 F4 4E CF 77 18 B7 AE 9E CE 54 94 A3 13 25
 EndData
 $EndBitmap
 $Bitmap
-Pos 5475 7050
+Pos 9525 3450
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 68 00 00 01 0D 08 02 00 00 00 AD BE 68 
@@ -6285,7 +6285,7 @@ AR Path="/5F301C23/5F33B731" Ref="R?"  Part="1"
 AR Path="/5F39A2F0/5F33B731" Ref="R?"  Part="1" 
 AR Path="/5F4CFCEF/5F33B731" Ref="R?"  Part="1" 
 F 0 "R?" H 3055 4729 50  0000 R CNN
-F 1 "R" H 3055 4820 50  0000 R CNN
+F 1 "10k" H 3055 4820 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3055 4775 50  0001 C CNN
 F 3 "~" H 3125 4775 50  0001 C CNN
 	1    3125 4775
@@ -6294,15 +6294,15 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5F33BEE4
-P 3750 4775
+P 3550 4775
 AR Path="/5F301C23/5F33BEE4" Ref="C?"  Part="1" 
 AR Path="/5F39A2F0/5F33BEE4" Ref="C?"  Part="1" 
 AR Path="/5F4CFCEF/5F33BEE4" Ref="C?"  Part="1" 
-F 0 "C?" H 3865 4821 50  0000 L CNN
-F 1 "C" H 3865 4730 50  0000 L CNN
-F 2 "" H 3788 4625 50  0001 C CNN
-F 3 "~" H 3750 4775 50  0001 C CNN
-	1    3750 4775
+F 0 "C?" H 3665 4821 50  0000 L CNN
+F 1 "4.7uF" H 3665 4730 50  0000 L CNN
+F 2 "" H 3588 4625 50  0001 C CNN
+F 3 "~" H 3550 4775 50  0001 C CNN
+	1    3550 4775
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -6313,7 +6313,7 @@ AR Path="/5F301C23/5F33EC40" Ref="R?"  Part="1"
 AR Path="/5F39A2F0/5F33EC40" Ref="R?"  Part="1" 
 AR Path="/5F4CFCEF/5F33EC40" Ref="R?"  Part="1" 
 F 0 "R?" H 2455 4729 50  0000 R CNN
-F 1 "R" H 2455 4820 50  0000 R CNN
+F 1 "1M" H 2455 4820 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2455 4775 50  0001 C CNN
 F 3 "~" H 2525 4775 50  0001 C CNN
 	1    2525 4775
@@ -8637,10 +8637,8 @@ Text HLabel 8350 4225 2    50   Output ~ 0
 POL
 Wire Wire Line
 	6425 4225 6525 4225
-Text HLabel 8350 4025 2    50   Output ~ 0
+Text HLabel 9500 4025 2    50   Output ~ 0
 ISTAT
-Wire Wire Line
-	6425 4025 6525 4025
 Wire Wire Line
 	1775 5175 2125 5175
 Connection ~ 2525 5175
@@ -8648,14 +8646,14 @@ Wire Wire Line
 	2525 5175 3125 5175
 Connection ~ 3125 5175
 Wire Wire Line
-	3125 5175 3750 5175
+	3125 5175 3550 5175
 Wire Wire Line
 	2525 4625 2525 4175
-Connection ~ 3750 5175
+Connection ~ 3550 5175
 Wire Wire Line
-	3750 5175 4825 5175
+	3550 5175 4025 5175
 Wire Wire Line
-	4225 4625 3750 4625
+	4225 4625 4025 4625
 Wire Wire Line
 	4225 4425 3125 4425
 Wire Wire Line
@@ -8667,27 +8665,13 @@ Wire Wire Line
 Wire Wire Line
 	5825 4825 5825 5175
 Wire Wire Line
-	3750 4925 3750 5175
+	3550 4925 3550 5175
 Wire Wire Line
 	3125 4925 3125 5175
 Wire Wire Line
 	2525 4925 2525 5175
 Text HLabel 1800 1700 0    50   Input ~ 0
 EXT
-$Comp
-L Device:D_Schottky D?
-U 1 1 5F37A7F4
-P 5325 1700
-AR Path="/5F301C23/5F37A7F4" Ref="D?"  Part="1" 
-AR Path="/5F39A2F0/5F37A7F4" Ref="D?"  Part="1" 
-AR Path="/5F4CFCEF/5F37A7F4" Ref="D?"  Part="1" 
-F 0 "D?" H 5325 1483 50  0000 C CNN
-F 1 "D_Schottky" H 5325 1574 50  0000 C CNN
-F 2 "" H 5325 1700 50  0001 C CNN
-F 3 "~" H 5325 1700 50  0001 C CNN
-	1    5325 1700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1800 1700 2125 1700
 Wire Wire Line
@@ -16725,30 +16709,88 @@ Wire Wire Line
 Connection ~ 6525 4225
 Wire Wire Line
 	6525 4225 8350 4225
-$Comp
-L 1K_Custom_Symbol:TP_1x1 TP?
-U 1 1 5F430011
-P 6600 4075
-AR Path="/5F301C23/5F430011" Ref="TP?"  Part="1" 
-AR Path="/5F39A2F0/5F430011" Ref="TP?"  Part="1" 
-AR Path="/5F4CFCEF/5F430011" Ref="TP?"  Part="1" 
-F 0 "TP?" V 6600 4375 50  0000 C CNN
-F 1 "TP_1x1" V 6675 4150 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 6800 4075 50  0001 C CNN
-F 3 "~" H 6800 4075 50  0001 C CNN
-	1    6600 4075
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6600 4075 6525 4075
-Wire Wire Line
-	6525 4025 6525 4075
-Connection ~ 6525 4025
-Wire Wire Line
-	6525 4025 8350 4025
 Wire Wire Line
 	2125 3925 4225 3925
 Wire Wire Line
 	3975 2925 4025 2925
 Connection ~ 4025 2925
+$Comp
+L Device:D_Schottky D?
+U 1 1 61553601
+P 5325 1700
+AR Path="/61553601" Ref="D?"  Part="1" 
+AR Path="/5F301B61/61553601" Ref="D?"  Part="1" 
+AR Path="/5F3BB61D/61553601" Ref="D?"  Part="1" 
+AR Path="/5F3BED82/61553601" Ref="D?"  Part="1" 
+AR Path="/5F3BD959/61553601" Ref="D?"  Part="1" 
+AR Path="/5F3BC7D4/61553601" Ref="D?"  Part="1" 
+AR Path="/5F3C01C1/61553601" Ref="D?"  Part="1" 
+AR Path="/5F301C23/61553601" Ref="D?"  Part="1" 
+AR Path="/5F4CFCEF/61553601" Ref="D?"  Part="1" 
+F 0 "D?" H 5325 1483 50  0000 C CNN
+F 1 "NRVB120VLSFT1G" H 5325 1574 50  0000 C CNN
+F 2 "footprint_custom:D_SOD-123FL_handsolder" H 5325 1700 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF" H 5325 1700 50  0001 C CNN
+F 4 "NRVB120VLSFT1G" H 5325 1700 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/NRVB120VLSFT1G/NRVB120VLSFT1GOSCT-ND/8538727" H 5325 1700 50  0001 C CNN "Order"
+	1    5325 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FC28CDC
+P 9150 4200
+AR Path="/5F301C23/5FC28CDC" Ref="R?"  Part="1" 
+AR Path="/5F39A2F0/5FC28CDC" Ref="R?"  Part="1" 
+AR Path="/5F4CFCEF/5FC28CDC" Ref="R?"  Part="1" 
+F 0 "R?" H 9080 4154 50  0000 R CNN
+F 1 "10K" H 9080 4245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9080 4200 50  0001 C CNN
+F 3 "~" H 9150 4200 50  0001 C CNN
+	1    9150 4200
+	-1   0    0    1   
+$EndComp
+Text HLabel 9500 4400 2    50   Input ~ 0
+GND
+Wire Wire Line
+	9150 4350 9150 4400
+Wire Wire Line
+	9150 4400 9500 4400
+Wire Wire Line
+	9150 4050 9150 4025
+Connection ~ 9150 4025
+Wire Wire Line
+	9150 4025 9500 4025
+Text Notes 9425 4225 0    50   ~ 0
+10K = 10mA
+Text Notes 2500 5450 0    50   ~ 0
+Input current limit = 0.1A\nIcl(A) = 1000V/(10k ohms)
+Text Notes 875  4875 0    50   ~ 0
+Charge current = 50mA\nIchg(A) = 50000V/1000000
+Text Notes 3800 5550 0    50   ~ 0
+Charge Timer: \n136hours = 3400mAh/25mA charge rate\n136*0.1uF*100k/Rprog/3.0 = Ctimer = 4.5uF
+$Comp
+L Device:C C?
+U 1 1 5F76909E
+P 4025 4775
+AR Path="/5F301C23/5F76909E" Ref="C?"  Part="1" 
+AR Path="/5F39A2F0/5F76909E" Ref="C?"  Part="1" 
+AR Path="/5F4CFCEF/5F76909E" Ref="C?"  Part="1" 
+F 0 "C?" H 4140 4821 50  0000 L CNN
+F 1 "DNP" H 4140 4730 50  0000 L CNN
+F 2 "" H 4063 4625 50  0001 C CNN
+F 3 "~" H 4025 4775 50  0001 C CNN
+	1    4025 4775
+	1    0    0    -1  
+$EndComp
+Connection ~ 4025 4625
+Wire Wire Line
+	4025 4625 3550 4625
+Wire Wire Line
+	4025 4925 4025 5175
+Connection ~ 4025 5175
+Wire Wire Line
+	4025 5175 4825 5175
+Wire Wire Line
+	6425 4025 9150 4025
 $EndSCHEMATC

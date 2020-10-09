@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 5 25
+Sheet 4 39
 Title "EXTERNAL WATCHDOG"
 Date "2020-05-02"
 Rev ""
@@ -15,7 +15,7 @@ Comment4 ""
 $EndDescr
 $Comp
 L Timer:TPL5010 U3
-U 1 1 5EB1B3D3
+U 1 1 6310C545
 P 5550 3475
 F 0 "U3" H 5300 3925 50  0000 R CNN
 F 1 "TPL5010" H 6050 3925 50  0000 R CNN
@@ -34,12 +34,13 @@ Text Notes 2245 5205 2    50   ~ 0
 Layout Note: Decoupling\n
 $Comp
 L Device:C C?
-U 1 1 5EB1E933
+U 1 1 6310C546
 P 1900 5500
-AR Path="/5EA31C93/5EA7CBB1/5EB1E933" Ref="C?"  Part="1" 
-AR Path="/5EA31C93/5EAB027D/5EB1E933" Ref="C?"  Part="1" 
-AR Path="/5EA31C93/5EAB163E/5EB1E933" Ref="C?"  Part="1" 
-AR Path="/5EA31C93/5EAB0A1F/5EB1E933" Ref="C21"  Part="1" 
+AR Path="/5EA31C93/5EA7CBB1/6310C546" Ref="C?"  Part="1" 
+AR Path="/5EA31C93/5EAB027D/6310C546" Ref="C?"  Part="1" 
+AR Path="/5EA31C93/5EAB163E/6310C546" Ref="C?"  Part="1" 
+AR Path="/5EA31C93/5EAB0A1F/6310C546" Ref="C21"  Part="1" 
+AR Path="/5FBFFCB6/5EAB0A1F/6310C546" Ref="C21"  Part="1" 
 F 0 "C21" H 2015 5546 50  0000 L CNN
 F 1 "0.1uF" H 2015 5455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1938 5350 50  0001 C CNN
@@ -80,7 +81,7 @@ Text HLabel 4700 3575 0    50   Output ~ 0
 WAKE
 $Comp
 L Switch:SW_DIP_x01 SW1
-U 1 1 5EB20C87
+U 1 1 6310C547
 P 3800 3375
 F 0 "SW1" H 3800 3642 50  0000 C CNN
 F 1 "SW_DIP_x01" H 3800 3551 50  0000 C CNN
@@ -93,7 +94,7 @@ F 5 "https://www.digikey.com/product-detail/en/nidec-copal-electronics/CHS-01TB/
 $EndComp
 $Comp
 L Device:R R14
-U 1 1 5EB21A87
+U 1 1 6310C548
 P 3200 3025
 F 0 "R14" H 3270 3071 50  0000 L CNN
 F 1 "100K" H 3270 2980 50  0000 L CNN
@@ -110,7 +111,7 @@ Wire Wire Line
 	5550 2825 6900 2825
 $Comp
 L Device:R R15
-U 1 1 5EB25535
+U 1 1 6310C549
 P 6900 3900
 F 0 "R15" H 6970 3946 50  0000 L CNN
 F 1 "8.85K" H 6970 3855 50  0000 L CNN
@@ -129,7 +130,7 @@ Text Notes 7975 3000 2    50   ~ 0
 Manual Reset
 $Comp
 L Switch:SW_Push SW2
-U 1 1 5EB263A3
+U 1 1 6310C54A
 P 6900 3025
 F 0 "SW2" V 6854 3173 50  0000 L CNN
 F 1 "SW_Push" V 6945 3173 50  0000 L CNN
@@ -165,8 +166,6 @@ Wire Wire Line
 Wire Wire Line
 	3200 2825 5550 2825
 Wire Wire Line
-	4100 3375 4650 3375
-Wire Wire Line
 	4700 3475 5050 3475
 Wire Wire Line
 	5050 3575 4700 3575
@@ -182,26 +181,6 @@ Wire Wire Line
 	1375 1825 2650 1825
 Text Notes 4025 3600 2    50   ~ 0
 Disable switch
-$Comp
-L 1K_Custom_Symbol:TP_1.5x1.5 TP?
-U 1 1 5EB2E7B0
-P 4550 3275
-AR Path="/5EA31C93/5EAB163E/5EB2E7B0" Ref="TP?"  Part="1" 
-AR Path="/5EA31C93/5EAB0A1F/5EB2E7B0" Ref="TP10"  Part="1" 
-F 0 "TP10" V 4745 3347 50  0000 C CNN
-F 1 "TP_1.5x1.5" V 4654 3347 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 4750 3275 50  0001 C CNN
-F 3 "~" H 4750 3275 50  0001 C CNN
-	1    4550 3275
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4550 3275 4650 3275
-Wire Wire Line
-	4650 3275 4650 3375
-Connection ~ 4650 3375
-Wire Wire Line
-	4650 3375 5050 3375
 $Comp
 L 1K_Custom_Symbol:TP_smt_1x1 TP9
 U 1 1 5ECB360E
@@ -224,4 +203,6 @@ F 3 "~" H 2175 1925 50  0001 C CNN
 	1    1975 1925
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4100 3375 5050 3375
 $EndSCHEMATC

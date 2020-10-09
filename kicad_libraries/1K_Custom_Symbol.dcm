@@ -24,6 +24,12 @@ K load switch
 F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
 $ENDCMP
 #
+$CMP FPF2123
+D Power Switch/Driver 1:1 P-Channel 1.5A SOT-23-5
+K Load Switch FPF ON SEMI
+F https://www.onsemi.com/pub/Collateral/FPF2125-D.pdf
+$ENDCMP
+#
 $CMP I3G4250D
 D 3 Axis Digital Gyroscope
 K Gyro Gyroscope
@@ -51,7 +57,7 @@ $ENDCMP
 $CMP MCP6541
 D 1 μA Comparator, SOT-23-5
 K comparator reference
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22269B.pdf
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6541%20Output%20SubMicroamp%20Comparators%2020001696K.pdf
 $ENDCMP
 #
 $CMP MLX75306
@@ -72,6 +78,12 @@ K Magnetic 3-axis sensor
 F https://media.digikey.com/pdf/Data%20Sheets/MEMSIC%20PDFs/MMC5983MA_RevA_4-3-19.pdf
 $ENDCMP
 #
+$CMP MP3414A
+D Step-up converter, 3A Switches, 1MHz, 22uA quiescent
+K Step-up converter, MPS, Boost, 5V
+F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP3414A/document_id/1172/
+$ENDCMP
+#
 $CMP Micro_SD_Card_Latching
 D Micro SD Card Socket
 K connector SD microsd
@@ -88,6 +100,12 @@ $CMP TG-3541CE
 D 32.768kHz TCXO CMOS Oscillator 1.5V ~ 5.5V Enable/Disable 10-SMD, No Lead
 K TCXO EPSON 32kHz
 F https://support.epson.biz/td/api/doc_check.php?dl=brief_TG-3541CE&lang=en
+$ENDCMP
+#
+$CMP TPS270
+D Power Switch/Driver 1:1 3A TSOT-23-6
+K TPS270 Load Switch
+F https://www.ti.com/lit/ds/symlink/tps27081a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1599272332553
 $ENDCMP
 #
 $CMP TP_1.5x1.5

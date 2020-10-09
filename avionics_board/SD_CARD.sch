@@ -117,7 +117,7 @@ VSS
 Text Notes 2345 5730 2    50   ~ 0
 Layout Note: Decoupling\n
 Text Notes 1425 7000 0    39   ~ 0
-I haven't found the proper spec regarding bypass caps\nForums suggest ~45uF and a smaller cap as well. \n\nhttp://elm-chan.org/docs/mmc/mmc_e.html\n\nIt doesn't seem like one is always necessary. \n\nIf size constrains, go with small cap only
+I haven't found the proper spec regarding bypass caps\nForums suggest a 45uF and a smaller cap as well. \n\nhttp://elm-chan.org/docs/mmc/mmc_e.html\n\nIt doesn't seem like one is always necessary. \n\nIf size constrains, go with small cap only
 $Comp
 L Device:C C?
 U 1 1 5EABCED1

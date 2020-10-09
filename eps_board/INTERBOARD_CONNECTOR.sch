@@ -3,8 +3,8 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 23 24
-Title "Interboard Connector"
+Sheet 26 39
+Title "Current Monitor"
 Date "2020-05-25"
 Rev ""
 Comp ""
@@ -14,10 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J8
-U 1 1 61C172A8
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 6310C580
 P 5775 3775
-F 0 "J8" H 5825 4892 50  0000 C CNN
+AR Path="/5EA31C93/6310AFB3/5FD3BACF/6310C580" Ref="J?"  Part="1" 
+AR Path="/5EA31C93/631545C7/6310C580" Ref="J?"  Part="1" 
+AR Path="/5FD3BACF/6310C580" Ref="J?"  Part="1" 
+F 0 "J?" H 5825 4892 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 5825 4801 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5775 3775 50  0001 C CNN
 F 3 "~" H 5775 3775 50  0001 C CNN
@@ -27,31 +30,17 @@ F 5 "https://www.digikey.com/product-detail/en/samtec-inc/ESQ-120-13-T-D/ESQ-120
 	1    0    0    -1  
 $EndComp
 Text HLabel 5100 2875 0    50   Output ~ 0
-PWR_STM_CORE
-Text HLabel 5100 3775 0    50   Output ~ 0
-AVO_RESET
-Text HLabel 5100 2975 0    50   Output ~ 0
-PWR_GPS
-Text HLabel 5100 3075 0    50   Output ~ 0
-PWR_IRIDIUM
-Text HLabel 5100 3175 0    50   Output ~ 0
-PWR_ACS_COIL
-Text HLabel 5100 3275 0    50   Output ~ 0
-PWR_ACS_LOGIC
-Text HLabel 5100 3375 0    50   Output ~ 0
-PWR_GYRO
-Text HLabel 5100 3475 0    50   Output ~ 0
-PWR_MAG
-Text HLabel 5100 3575 0    50   Output ~ 0
-PWR_TEMPERATURE
-Text HLabel 5100 4475 0    50   Output ~ 0
+3V3_1
+Text HLabel 5100 4275 0    50   Output ~ 0
+AVI_RESET
+Text HLabel 5100 4475 0    50   BiDi ~ 0
 CANH
-Text HLabel 5100 4575 0    50   Output ~ 0
+Text HLabel 5100 4575 0    50   BiDi ~ 0
 CANL
 Text HLabel 5100 4675 0    50   Output ~ 0
-UART_TXO
-Text HLabel 5100 4775 0    50   Output ~ 0
-UART_RXI
+UART_A_TXO
+Text HLabel 5100 4775 0    50   Input ~ 0
+UART_A_RXI
 Text HLabel 6550 2875 2    50   Output ~ 0
 GND
 Wire Wire Line
@@ -90,19 +79,13 @@ Text HLabel 6550 3675 2    50   Output ~ 0
 GND
 Wire Wire Line
 	6075 3675 6550 3675
-Text HLabel 6550 4775 2    50   Output ~ 0
-GND
 Wire Wire Line
 	6075 4775 6550 4775
-Text HLabel 6550 4675 2    50   Output ~ 0
-GND
 Wire Wire Line
 	6075 4675 6550 4675
-Text HLabel 6550 4575 2    50   Output ~ 0
-GND
 Wire Wire Line
 	6075 4575 6550 4575
-Text HLabel 6550 4475 2    50   Output ~ 0
+Text HLabel 6550 4175 2    50   Output ~ 0
 GND
 Wire Wire Line
 	6075 4475 6550 4475
@@ -140,13 +123,7 @@ Wire Wire Line
 	5100 4675 5575 4675
 Wire Wire Line
 	5100 4775 5575 4775
-Text HLabel 5100 4275 0    50   Output ~ 0
-SPARE_8
-Text HLabel 5100 4175 0    50   Output ~ 0
-SPARE_6
-Text HLabel 5100 4075 0    50   Output ~ 0
-SPARE_4
-Text HLabel 5100 3975 0    50   Output ~ 0
+Text HLabel 6550 4375 2    50   Output ~ 0
 SPARE_2
 Wire Wire Line
 	6075 4075 6550 4075
@@ -154,36 +131,62 @@ Wire Wire Line
 	6075 4175 6550 4175
 Wire Wire Line
 	6075 4275 6550 4275
-Text HLabel 6550 4175 2    50   Output ~ 0
-SPARE_7
-Text HLabel 6550 4275 2    50   Output ~ 0
-SPARE_9
-Text HLabel 6550 4075 2    50   Output ~ 0
-SPARE_5
-Text HLabel 6550 3975 2    50   Output ~ 0
+Text HLabel 6550 4475 2    50   Output ~ 0
 SPARE_3
-Text HLabel 6550 3875 2    50   Output ~ 0
+Text HLabel 6550 4275 2    50   Output ~ 0
 SPARE_1
 Wire Wire Line
 	6075 3875 6550 3875
 Wire Wire Line
 	6075 3975 6550 3975
-Text HLabel 5100 3675 0    50   Output ~ 0
-PWR_MRAM
 Text HLabel 6550 3775 2    50   Output ~ 0
 GND
 Wire Wire Line
 	6075 3775 6550 3775
 Wire Wire Line
 	5100 3775 5575 3775
-Text HLabel 5100 4375 0    50   Output ~ 0
-PWR_CAN
 Wire Wire Line
 	5100 4375 5575 4375
-Text HLabel 6550 4375 2    50   Output ~ 0
+Text HLabel 6550 4075 2    50   Output ~ 0
 GND
 Wire Wire Line
 	6075 4375 6550 4375
-Text HLabel 5100 3875 0    50   Output ~ 0
+Text HLabel 5100 4375 0    50   Output ~ 0
 EPS_RESET
+Text HLabel 5100 2975 0    50   Output ~ 0
+3V3_2
+Text HLabel 5100 3075 0    50   Output ~ 0
+3V3_3
+Text HLabel 5100 3175 0    50   Output ~ 0
+3V3_4
+Text HLabel 5100 3275 0    50   Output ~ 0
+3V3_5
+Text HLabel 5100 3375 0    50   Output ~ 0
+3V3_6
+Text HLabel 5100 3475 0    50   Output ~ 0
+3V3_7
+Text HLabel 5100 3575 0    50   Output ~ 0
+3V3_8
+Text HLabel 5100 3675 0    50   Output ~ 0
+3V3_9
+Text HLabel 5100 3775 0    50   Output ~ 0
+3V3_10
+Text HLabel 5100 3875 0    50   Output ~ 0
+3V3_11
+Text HLabel 5100 3975 0    50   Output ~ 0
+3V3_12
+Text HLabel 5100 4075 0    50   Output ~ 0
+5V0_1
+Text HLabel 5100 4175 0    50   Output ~ 0
+5V0_2
+Text HLabel 6550 3875 2    50   Output ~ 0
+GND
+Text HLabel 6550 3975 2    50   Output ~ 0
+GND
+Text HLabel 6550 4575 2    50   Output ~ 0
+SPARE_4
+Text HLabel 6550 4675 2    50   Output ~ 0
+UART_B_TXO
+Text HLabel 6550 4775 2    50   Input ~ 0
+UART_B_RXI
 $EndSCHEMATC

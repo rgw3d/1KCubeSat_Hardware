@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 9 25
+Sheet 31 39
 Title "DEBUG INTERFACE"
 Date "2020-05-02"
 Rev ""
@@ -31,7 +31,7 @@ Wire Wire Line
 	2675 5050 2800 5050
 $Comp
 L 1K_Custom_Symbol:TP_1.5x1.5 TP39
-U 1 1 5EB675C0
+U 1 1 6310C54C
 P 2250 8250
 F 0 "TP39" V 2175 8425 50  0000 R CNN
 F 1 "TP_1.5x1.5" V 2300 8675 50  0000 R CNN
@@ -42,7 +42,7 @@ F 3 "~" H 2450 8250 50  0001 C CNN
 $EndComp
 $Comp
 L 1K_Custom_Symbol:TP_1.5x1.5 TP41
-U 1 1 5EB6D3E1
+U 1 1 6310C54D
 P 2800 5075
 F 0 "TP41" H 2742 5101 50  0000 R CNN
 F 1 "TP_1.5x1.5" H 2742 5192 50  0000 R CNN
@@ -156,7 +156,7 @@ F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060RS750
 $EndComp
 $Comp
 L Device:LED_Small_ALT D2
-U 1 1 5EBA85B7
+U 1 1 6310C553
 P 7550 1775
 F 0 "D2" H 7550 2010 50  0000 C CNN
 F 1 "LED_SMD_GREEN" H 7550 1919 50  0000 C CNN
@@ -169,7 +169,7 @@ F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060VS750
 $EndComp
 $Comp
 L Device:LED_Small_ALT D3
-U 1 1 5EBA8B3C
+U 1 1 6310C554
 P 7550 2125
 F 0 "D3" H 7550 2360 50  0000 C CNN
 F 1 "LED_SMD_YELLOW" H 7550 2269 50  0000 C CNN
@@ -325,7 +325,7 @@ F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZ
 $EndComp
 $Comp
 L Device:R R23
-U 1 1 5EBF59E5
+U 1 1 6310C55D
 P 1925 8250
 F 0 "R23" V 2025 8350 50  0000 C CNN
 F 1 "49.9" V 2025 8150 50  0000 C CNN
@@ -340,7 +340,7 @@ Text Notes 775  6075 0    50   ~ 0
 SRST = System Reset\nTRST = JTAG specific reset
 $Comp
 L Diode:ESD9B5.0ST5G D6
-U 1 1 6036D94F
+U 1 1 6310C57A
 P 8850 5225
 F 0 "D6" H 8850 5441 50  0000 C CNN
 F 1 "ESD9B5.0ST5G" H 8850 5350 50  0000 C CNN
@@ -353,7 +353,7 @@ F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/ESD9B5-0ST5G/ESD
 $EndComp
 $Comp
 L Diode:ESD9B5.0ST5G D7
-U 1 1 60382707
+U 1 1 6310C57B
 P 8850 5600
 F 0 "D7" H 8850 5384 50  0000 C CNN
 F 1 "ESD9B5.0ST5G" H 8850 5475 50  0000 C CNN
@@ -430,7 +430,7 @@ F 3 "~" H 2450 7975 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R R19
-U 1 1 5EB63175
+U 1 1 6310C54B
 P 1925 7975
 F 0 "R19" V 2025 8075 50  0000 C CNN
 F 1 "49.9" V 2025 7875 50  0000 C CNN
@@ -495,7 +495,7 @@ F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060YS750
 $EndComp
 $Comp
 L Device:LED_Small_ALT D5
-U 1 1 5F061D2F
+U 1 1 6310C566
 P 7550 2800
 F 0 "D5" H 7550 3035 50  0000 C CNN
 F 1 "LED_SMD_YELLOW" H 7550 2944 50  0000 C CNN

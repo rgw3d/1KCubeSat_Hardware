@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 25 25
+Sheet 25 24
 Title "I3G4250D 3-axis digital gyroscope"
 Date "2020-04-27"
 Rev ""

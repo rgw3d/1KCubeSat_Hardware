@@ -3,8 +3,8 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 5 14
-Title ""
+Sheet 6 39
+Title "Battery, Battery Heater, NTC"
 Date "2020-08-11"
 Rev ""
 Comp ""
@@ -102,49 +102,40 @@ Wire Wire Line
 Connection ~ 8125 5200
 Text Notes 1175 5975 0    50   ~ 0
 NTC is placed on only 1 battery.\nIt is assumed that one battery's temperature\nwill closely follow the others.
-Text Notes 7775 1775 0    50   ~ 0
+Text Notes 8100 1875 0    50   ~ 0
 One heater per battery. 
-Text HLabel 3125 2200 0    50   Output ~ 0
+Text HLabel 3200 2400 0    50   Output ~ 0
 NTC
 Wire Wire Line
-	3125 2200 3300 2200
+	3200 2400 3375 2400
 $Comp
 L Device:R R?
 U 1 1 5F46781C
-P 2375 2200
+P 2375 2000
 AR Path="/5F301C6D/5F46781C" Ref="R?"  Part="1" 
 AR Path="/5F39A2F6/5F46781C" Ref="R?"  Part="1" 
 AR Path="/5F4CFCF6/5F46781C" Ref="R?"  Part="1" 
-F 0 "R?" H 2445 2246 50  0000 L CNN
-F 1 "R" H 2445 2155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2305 2200 50  0001 C CNN
-F 3 "~" H 2375 2200 50  0001 C CNN
-	1    2375 2200
+F 0 "R?" H 2445 2046 50  0000 L CNN
+F 1 "R" H 2445 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2305 2000 50  0001 C CNN
+F 3 "~" H 2375 2000 50  0001 C CNN
+	1    2375 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5F467DEB
-P 2375 2600
+P 2375 2400
 AR Path="/5F301C6D/5F467DEB" Ref="R?"  Part="1" 
 AR Path="/5F39A2F6/5F467DEB" Ref="R?"  Part="1" 
 AR Path="/5F4CFCF6/5F467DEB" Ref="R?"  Part="1" 
-F 0 "R?" H 2445 2646 50  0000 L CNN
-F 1 "R" H 2445 2555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2305 2600 50  0001 C CNN
-F 3 "~" H 2375 2600 50  0001 C CNN
-	1    2375 2600
+F 0 "R?" H 2445 2446 50  0000 L CNN
+F 1 "R" H 2445 2355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2305 2400 50  0001 C CNN
+F 3 "~" H 2375 2400 50  0001 C CNN
+	1    2375 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2375 2350 2375 2400
-Wire Wire Line
-	2375 2400 3375 2400
-Connection ~ 2375 2400
-Wire Wire Line
-	2375 2400 2375 2450
-Wire Wire Line
-	2375 2750 2375 2800
 Wire Wire Line
 	2375 2800 2800 2800
 Wire Wire Line
@@ -154,14 +145,14 @@ GND
 Wire Wire Line
 	2175 2800 2375 2800
 Connection ~ 2375 2800
-Text HLabel 2175 2000 0    50   Input ~ 0
+Text HLabel 2175 1800 0    50   Input ~ 0
 VNTC
 Wire Wire Line
-	2175 2000 2375 2000
+	2175 1800 2375 1800
 Wire Wire Line
-	2375 2000 2375 2050
-Text Notes 2025 3100 0    50   ~ 0
-When NTC > %VNTC, the comparator will pull high.\nThis indicates it is cold, and the heater should be on. 
+	2375 1800 2375 1850
+Text Notes 2000 3200 0    50   ~ 0
+When %VNTC > NTC, the comparator will be open drain.\nThis indicates it is hot, and the heater sholdn't be on.\nWhen NTC > %VNTC, the comparator will be high impedance \nand the load switch will turn on.
 Text HLabel 2175 1650 0    50   Input ~ 0
 VHEAT
 Wire Wire Line
@@ -212,31 +203,8 @@ F 5 "https://www.digikey.com/product-detail/en/littelfuse-inc/1206L300SLTHYR/F57
 	1    9300 4575
 	1    0    0    -1  
 $EndComp
-$Comp
-L 1K_Custom_Symbol:FPF2000 U?
-U 1 1 5F47E314
-P 5700 2550
-AR Path="/5F301C6D/5F47E314" Ref="U?"  Part="1" 
-AR Path="/5F4CFCF6/5F47E314" Ref="U?"  Part="1" 
-F 0 "U?" H 5700 3215 50  0000 C CNN
-F 1 "FPF2000" H 5700 3124 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" H 5650 2050 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf" H 5700 3000 50  0001 C CNN
-F 4 "FPF2000" H 5700 1900 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/FPF2000/FPF2000CT-ND/820974" H 5500 2150 50  0001 C CNN "Order"
-	1    5700 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 2800 5700 2500
 Connection ~ 3575 2800
-Wire Wire Line
-	4925 1650 4925 2150
 Connection ~ 3575 1650
-Wire Wire Line
-	5700 2800 6675 2800
-Wire Wire Line
-	6200 2150 6675 2150
 Wire Wire Line
 	6675 2800 6675 2700
 Wire Wire Line
@@ -260,7 +228,6 @@ Wire Wire Line
 	3975 2300 4325 2300
 Wire Wire Line
 	3575 2800 4925 2800
-Connection ~ 5700 2800
 $Comp
 L Device:C C?
 U 1 1 5F48BF1E
@@ -275,15 +242,8 @@ F 3 "~" H 4925 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4925 2150 5200 2150
-Wire Wire Line
-	4925 2400 4925 2150
-Connection ~ 4925 2150
-Wire Wire Line
 	4925 2700 4925 2800
 Connection ~ 4925 2800
-Wire Wire Line
-	4925 2800 5700 2800
 $Comp
 L Device:C C?
 U 1 1 5F48FA37
@@ -307,12 +267,12 @@ Wire Wire Line
 Connection ~ 2800 2800
 Wire Wire Line
 	2800 2800 3575 2800
-Text Notes 4400 2925 0    50   ~ 0
+Text Notes 4450 2925 0    50   ~ 0
 Bypass CAP for FPF VIN
 Text Notes 2525 1575 0    50   ~ 0
 Bypass CAP for MCP VIN
 Wire Wire Line
-	3575 1650 4925 1650
+	3575 1650 4600 1650
 $Comp
 L Device:R R?
 U 1 1 5F493212
@@ -331,18 +291,12 @@ Wire Wire Line
 	4225 1925 4325 1925
 Wire Wire Line
 	4325 1925 4325 2300
-Connection ~ 4325 2300
-Wire Wire Line
-	4325 2300 5200 2300
 Wire Wire Line
 	3925 1925 3300 1925
 Wire Wire Line
 	3300 1925 3300 2200
-Connection ~ 3300 2200
 Wire Wire Line
 	3300 2200 3375 2200
-Text Notes 5300 1750 0    50   ~ 0
-Active High load switch
 Wire Notes Line width 20
 	6325 4050 6325 5800
 Wire Notes Line width 20
@@ -395,7 +349,6 @@ Wire Wire Line
 	8125 5200 9300 5200
 Wire Wire Line
 	6675 2150 7500 2150
-Connection ~ 6675 2150
 Wire Wire Line
 	7500 2150 7500 2525
 Wire Wire Line
@@ -411,33 +364,197 @@ Text HLabel 7975 2250 0    50   Input ~ 0
 GND
 Wire Wire Line
 	7975 2250 8275 2250
-Text Notes 7800 2050 0    50   ~ 0
+Text Notes 8100 2050 0    50   ~ 0
 Heater connection
-Text Notes 7800 2750 0    50   ~ 0
+Text Notes 8100 2825 0    50   ~ 0
 Heater connection
 Wire Notes Line width 20
-	1700 1450 9550 1450
+	1700 1300 9550 1300
 Wire Notes Line width 20
-	9550 1450 9550 3150
-Wire Notes Line width 20
-	9550 3150 1700 3150
-Wire Notes Line width 20
-	1700 3150 1700 1450
-Text Notes 4075 1325 0    118  ~ 0
+	9550 3250 1700 3250
+Text Notes 4075 1050 0    118  ~ 0
 Battery heater control circuit
 $Comp
-L 1K_Custom_Symbol:MCP6541 U?
-U 1 1 5F7599F3
+L Comparator:MCP65R46 U?
+U 1 1 5FB8079B
 P 3675 2300
-AR Path="/5F4CFCF6/5F7599F3" Ref="U?"  Part="1" 
-AR Path="/5F301C6D/5F7599F3" Ref="U?"  Part="1" 
-F 0 "U?" H 3725 2450 50  0000 L CNN
-F 1 "MCP6541" H 3725 2175 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3625 1550 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22269B.pdf" H 3675 2300 50  0001 C CNN
-F 4 "MCP6541T-E/OT" H 3575 1300 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6541T-E-OT/MCP6541T-E-OTDKR-ND/1969576" H 3725 1000 50  0001 C CNN "Order"
+AR Path="/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5F9E2C1D/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FD99E71/5FD9E900/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FDB177A/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FE63F05/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FE6C132/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FE76853/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FEA93FC/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FEB69C0/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FEC3A8E/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FEDF5B1/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FF37CF1/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FF37D2C/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FF37D67/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FF37DA2/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FFBB4AA/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FFBB4E4/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FFBB51E/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5FFBB558/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A1647/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A1682/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A16BD/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A16F8/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A1733/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A176E/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A17A9/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A17E4/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A181F/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A1859/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A1893/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A18CD/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A1907/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A1941/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A197B/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/601A19B5/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F64B658/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F657107/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F662C19/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F66E783/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F67A0FE/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F685A4D/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F691457/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F69DE13/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F69DE1F/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F69DE2B/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F69DE37/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F6AA08F/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F6AA09B/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F6AA0A7/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5F6AA0B3/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5FABAC0D/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/60177EB3/5FAEE84A/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5F4CFCF6/5FB8079B" Ref="U?"  Part="1" 
+AR Path="/5F301C6D/5FB8079B" Ref="U?"  Part="1" 
+F 0 "U?" H 3775 2450 50  0000 L CNN
+F 1 "MCP65R46" H 3775 2100 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 3675 2300 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22269B.pdf" H 4225 3250 50  0001 C CNN
+F 4 "MCP65R46T-2402E/CHY" H 3675 2300 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/microchip-technology/MCP65R46T-2402E-CHY/MCP65R46T-2402E-CHYCT-ND/2618485" H 3675 2300 50  0001 C CNN "Order"
 	1    3675 2300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2375 2150 2375 2200
+Connection ~ 2375 2200
+Wire Wire Line
+	2375 2200 2375 2250
+Wire Wire Line
+	2375 2200 3300 2200
+Connection ~ 3300 2200
+Wire Wire Line
+	2375 2550 2375 2800
+$Comp
+L 1K_Custom_Symbol:FPF2123 U?
+U 1 1 5FB89477
+P 5700 1950
+AR Path="/5F4CFCF6/5FB89477" Ref="U?"  Part="1" 
+AR Path="/5F301C6D/5FB89477" Ref="U?"  Part="1" 
+F 0 "U?" H 5700 2475 50  0000 C CNN
+F 1 "FPF2123" H 5700 2400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 5750 1000 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/FPF2125-D.pdf" H 5700 2250 50  0001 C CNN
+F 4 "FPF2123" H 5700 750 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/FPF2123/FPF2123CT-ND/1033703" H 5400 900 50  0001 C CNN "Order"
+	1    5700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4925 2800 5700 2800
+Wire Wire Line
+	5700 2500 5700 2800
+Connection ~ 5700 2800
+Wire Wire Line
+	6100 1650 6675 1650
+Wire Wire Line
+	6675 1650 6675 2150
+Connection ~ 6675 2150
+Connection ~ 4925 1650
+Wire Wire Line
+	4925 1650 4925 2400
+Wire Wire Line
+	4925 1650 5300 1650
+Wire Wire Line
+	4325 2300 4600 2300
+Wire Wire Line
+	5150 2300 5150 1800
+Wire Wire Line
+	5150 1800 5300 1800
+Connection ~ 4325 2300
+$Comp
+L Device:R R?
+U 1 1 5FB9809C
+P 4600 1975
+AR Path="/5F301C6D/5FB9809C" Ref="R?"  Part="1" 
+AR Path="/5F39A2F6/5FB9809C" Ref="R?"  Part="1" 
+AR Path="/5F4CFCF6/5FB9809C" Ref="R?"  Part="1" 
+F 0 "R?" H 4670 2021 50  0000 L CNN
+F 1 "1M" H 4670 1930 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4530 1975 50  0001 C CNN
+F 3 "~" H 4600 1975 50  0001 C CNN
+	1    4600 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1825 4600 1650
+Connection ~ 4600 1650
+Wire Wire Line
+	4600 1650 4925 1650
+Wire Wire Line
+	4600 2125 4600 2300
+Connection ~ 4600 2300
+Wire Wire Line
+	4600 2300 5150 2300
+Wire Notes Line width 20
+	1700 3250 1700 1300
+Wire Notes Line width 20
+	9550 3250 9550 1300
+$Comp
+L Device:R R?
+U 1 1 5FBAF948
+P 6300 2075
+AR Path="/5F301AC2/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/5F354B8C/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/5F354E2A/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/5F3552FC/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/5F355926/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/5F356470/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/5F52BDC8/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/5F5A5959/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/5F5C3BDB/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/5F9E2C1D/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/5FD99E71/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/60177EB3/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/5F301C6D/5FBAF948" Ref="R?"  Part="1" 
+AR Path="/5F4CFCF6/5FBAF948" Ref="R?"  Part="1" 
+F 0 "R?" H 6175 2025 50  0000 C CNN
+F 1 "3090" H 6125 2125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6230 2075 50  0001 C CNN
+F 3 "~" H 6300 2075 50  0001 C CNN
+F 4 "" H 6300 2075 50  0001 C CNN "Mfr. #"
+F 5 "" H 6300 2075 50  0001 C CNN "Order"
+	1    6300 2075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 1800 6300 1800
+Wire Wire Line
+	6300 1800 6300 1925
+Wire Wire Line
+	6300 2225 6300 2800
+Wire Wire Line
+	5700 2800 6300 2800
+Connection ~ 6300 2800
+Wire Wire Line
+	6300 2800 6675 2800
+Text Notes 6725 2050 0    50   ~ 0
+150mA current Limit\nset by 3090 Ohm resistor
 $EndSCHEMATC

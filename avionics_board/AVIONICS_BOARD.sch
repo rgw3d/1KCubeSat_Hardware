@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 25
+Sheet 1 24
 Title ""
 Date "2020-04-24"
 Rev ""

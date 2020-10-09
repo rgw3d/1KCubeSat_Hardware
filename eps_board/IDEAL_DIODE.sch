@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
-Sheet 4 14
-Title ""
-Date ""
+Sheet 7 39
+Title "LTC4415"
+Date "2020-09-06"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1750,7 +1750,7 @@ AR Path="/5F3E03A5/5F33369A" Ref="R?"  Part="1"
 AR Path="/5F40A177/5F33369A" Ref="R?"  Part="1" 
 AR Path="/5F71F783/5F33369A" Ref="R?"  Part="1" 
 F 0 "R?" V 4550 3350 50  0000 C CNN
-F 1 "1K" V 4550 3525 50  0000 C CNN
+F 1 "150" V 4550 3525 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 3450 50  0001 C CNN
 F 3 "~" H 4650 3450 50  0001 C CNN
 	1    4650 3450
@@ -1760,25 +1760,6 @@ Wire Wire Line
 	4800 3450 5100 3450
 Wire Wire Line
 	4800 3750 5100 3750
-$Comp
-L Device:R R?
-U 1 1 5F334C9A
-P 4650 3750
-AR Path="/5F301BD2/5F334C9A" Ref="R?"  Part="1" 
-AR Path="/5F33AC42/5F334C9A" Ref="R?"  Part="1" 
-AR Path="/5F35742D/5F334C9A" Ref="R?"  Part="1" 
-AR Path="/5F3589F2/5F334C9A" Ref="R?"  Part="1" 
-AR Path="/5F3DE515/5F334C9A" Ref="R?"  Part="1" 
-AR Path="/5F3E03A5/5F334C9A" Ref="R?"  Part="1" 
-AR Path="/5F40A177/5F334C9A" Ref="R?"  Part="1" 
-AR Path="/5F71F783/5F334C9A" Ref="R?"  Part="1" 
-F 0 "R?" V 4550 3650 50  0000 C CNN
-F 1 "1K" V 4550 3825 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 3750 50  0001 C CNN
-F 3 "~" H 4650 3750 50  0001 C CNN
-	1    4650 3750
-	0    1    1    0   
-$EndComp
 Text HLabel 4125 3450 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -1790,66 +1771,37 @@ Wire Wire Line
 Connection ~ 4300 3450
 Wire Wire Line
 	4300 3450 4500 3450
-Text Notes 3275 3650 0    50   ~ 0
-0.5A current limit is set
+Text Notes 3175 3675 0    50   ~ 0
+3.33A current limit per diode
 Text Notes 1025 5800 0    50   ~ 0
 Voltage Threasholds for the Enable pins:\nVenth = 0.8V with Venhyst = 0.055V
-Text HLabel 2100 3575 0    50   Input ~ 0
-VIN1
-Text HLabel 2100 3875 0    50   Input ~ 0
-EN1
-$Comp
-L Device:R R?
-U 1 1 5F33798B
-P 2375 3725
-AR Path="/5F301BD2/5F33798B" Ref="R?"  Part="1" 
-AR Path="/5F33AC42/5F33798B" Ref="R?"  Part="1" 
-AR Path="/5F35742D/5F33798B" Ref="R?"  Part="1" 
-AR Path="/5F3589F2/5F33798B" Ref="R?"  Part="1" 
-AR Path="/5F3DE515/5F33798B" Ref="R?"  Part="1" 
-AR Path="/5F3E03A5/5F33798B" Ref="R?"  Part="1" 
-AR Path="/5F40A177/5F33798B" Ref="R?"  Part="1" 
-AR Path="/5F71F783/5F33798B" Ref="R?"  Part="1" 
-F 0 "R?" H 2250 3600 50  0000 C CNN
-F 1 "100K" H 2200 3850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2305 3725 50  0001 C CNN
-F 3 "~" H 2375 3725 50  0001 C CNN
-	1    2375 3725
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2100 3875 2375 3875
-Wire Wire Line
-	2100 3575 2375 3575
-Text Notes 1025 3450 0    50   ~ 0
+Text Notes 2000 3225 0    50   ~ 0
 Weekly pullup EN1, so EN1 is always enabled\n
-Text HLabel 2100 4150 0    50   Input ~ 0
-~EN2
+Text Notes 1925 4025 0    50   ~ 0
+Weekly pulldown EN2, so EN2 is always enabled
+Text Notes 6125 2000 0    50   ~ 0
+STAT\nOpen-drain output pulls down during forward diode conduction. \nThis pin can be left open or grounded when not used.
+Text Notes 6125 2375 0    50   ~ 0
+WARN\nOpen-drain output pulls down when the diode current exceeds its\ncurrent limit or die temperature is close to thermal shutdown.
+Text Notes 4975 4950 0    50   ~ 0
+Maximum 4A current limit for each diode
 $Comp
 L Device:R R?
-U 1 1 5F3398C4
-P 2375 4300
-AR Path="/5F301BD2/5F3398C4" Ref="R?"  Part="1" 
-AR Path="/5F33AC42/5F3398C4" Ref="R?"  Part="1" 
-AR Path="/5F35742D/5F3398C4" Ref="R?"  Part="1" 
-AR Path="/5F3589F2/5F3398C4" Ref="R?"  Part="1" 
-AR Path="/5F3DE515/5F3398C4" Ref="R?"  Part="1" 
-AR Path="/5F3E03A5/5F3398C4" Ref="R?"  Part="1" 
-AR Path="/5F40A177/5F3398C4" Ref="R?"  Part="1" 
-AR Path="/5F71F783/5F3398C4" Ref="R?"  Part="1" 
-F 0 "R?" H 2250 4175 50  0000 C CNN
-F 1 "100K" H 2200 4425 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2305 4300 50  0001 C CNN
-F 3 "~" H 2375 4300 50  0001 C CNN
-	1    2375 4300
-	-1   0    0    1   
+U 1 1 5F7F3229
+P 4650 3750
+AR Path="/5F301BD2/5F7F3229" Ref="R?"  Part="1" 
+AR Path="/5F33AC42/5F7F3229" Ref="R?"  Part="1" 
+AR Path="/5F35742D/5F7F3229" Ref="R?"  Part="1" 
+AR Path="/5F3589F2/5F7F3229" Ref="R?"  Part="1" 
+AR Path="/5F3DE515/5F7F3229" Ref="R?"  Part="1" 
+AR Path="/5F3E03A5/5F7F3229" Ref="R?"  Part="1" 
+AR Path="/5F40A177/5F7F3229" Ref="R?"  Part="1" 
+AR Path="/5F71F783/5F7F3229" Ref="R?"  Part="1" 
+F 0 "R?" V 4550 3650 50  0000 C CNN
+F 1 "150" V 4550 3825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 3750 50  0001 C CNN
+F 3 "~" H 4650 3750 50  0001 C CNN
+	1    4650 3750
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2100 4150 2375 4150
-Text HLabel 2100 4450 0    50   Input ~ 0
-GND
-Wire Wire Line
-	2100 4450 2375 4450
-Text Notes 1000 4050 0    50   ~ 0
-Weekly pulldown EN2, so EN2 is always enabled
 $EndSCHEMATC
