@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 8 24
+Sheet 7 23
 Title "Attitude Control System"
 Date "2020-05-15"
 Rev ""

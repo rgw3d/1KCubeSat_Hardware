@@ -14,13 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 1K_Custom_Symbol:LTC4066 U?
+L 1K_Custom_Symbol:LTC4066 U9
 U 1 1 5F325BE6
 P 5325 3625
-AR Path="/5F301C23/5F325BE6" Ref="U?"  Part="1" 
+AR Path="/5F301C23/5F325BE6" Ref="U9"  Part="1" 
 AR Path="/5F39A2F0/5F325BE6" Ref="U?"  Part="1" 
-AR Path="/5F4CFCEF/5F325BE6" Ref="U?"  Part="1" 
-F 0 "U?" H 5325 4790 50  0000 C CNN
+AR Path="/5F4CFCEF/5F325BE6" Ref="U12"  Part="1" 
+F 0 "U12" H 5325 4790 50  0000 C CNN
 F 1 "LTC4066" H 5325 4699 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" H 5275 1725 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4066fc.pdf" H 5325 3625 50  0001 C CNN
@@ -39,8 +39,6 @@ Wire Wire Line
 	6700 2825 6700 2725
 Connection ~ 6700 2725
 Wire Wire Line
-	6700 2725 7500 2725
-Wire Wire Line
 	6425 2825 6700 2825
 Wire Wire Line
 	6425 2925 6700 2925
@@ -56,8 +54,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 3225 6700 3125
 Connection ~ 6700 3125
-Wire Wire Line
-	6700 3125 8350 3125
 Wire Wire Line
 	6425 3325 6700 3325
 Wire Wire Line
@@ -77,13 +73,13 @@ Wire Wire Line
 	4825 5175 5825 5175
 Connection ~ 4825 5175
 $Comp
-L 1K_Custom_Symbol:TP_1x1 TP?
+L 1K_Custom_Symbol:TP_1x1 TP7
 U 1 1 5F32AA59
 P 3975 2925
-AR Path="/5F301C23/5F32AA59" Ref="TP?"  Part="1" 
+AR Path="/5F301C23/5F32AA59" Ref="TP7"  Part="1" 
 AR Path="/5F39A2F0/5F32AA59" Ref="TP?"  Part="1" 
-AR Path="/5F4CFCEF/5F32AA59" Ref="TP?"  Part="1" 
-F 0 "TP?" V 3975 3225 50  0000 C CNN
+AR Path="/5F4CFCEF/5F32AA59" Ref="TP15"  Part="1" 
+F 0 "TP15" V 3975 3225 50  0000 C CNN
 F 1 "TP_1x1" V 4050 3000 50  0000 C CNN
 F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 4175 2925 50  0001 C CNN
 F 3 "~" H 4175 2925 50  0001 C CNN
@@ -6278,44 +6274,51 @@ BD E8 C5 7F 16 BD 67 95 7A D1 8B FF 2C FE 0F 09 A7 38 44 BE A4 2C 7D 00 00 00 00
 EndData
 $EndBitmap
 $Comp
-L Device:R R?
+L Device:R R64
 U 1 1 5F33B731
 P 3125 4775
-AR Path="/5F301C23/5F33B731" Ref="R?"  Part="1" 
+AR Path="/5F301C23/5F33B731" Ref="R64"  Part="1" 
 AR Path="/5F39A2F0/5F33B731" Ref="R?"  Part="1" 
-AR Path="/5F4CFCEF/5F33B731" Ref="R?"  Part="1" 
-F 0 "R?" H 3055 4729 50  0000 R CNN
-F 1 "10k" H 3055 4820 50  0000 R CNN
+AR Path="/5F4CFCEF/5F33B731" Ref="R76"  Part="1" 
+F 0 "R76" H 3055 4729 50  0000 R CNN
+F 1 "10K" H 3055 4820 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3055 4775 50  0001 C CNN
 F 3 "~" H 3125 4775 50  0001 C CNN
+F 4 "RMCF0603FT10K0" H 3125 4775 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT10K0/1761235" H 3125 4775 50  0001 C CNN "Order"
 	1    3125 4775
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C22
 U 1 1 5F33BEE4
 P 3550 4775
-AR Path="/5F301C23/5F33BEE4" Ref="C?"  Part="1" 
+AR Path="/5F301C23/5F33BEE4" Ref="C22"  Part="1" 
 AR Path="/5F39A2F0/5F33BEE4" Ref="C?"  Part="1" 
-AR Path="/5F4CFCEF/5F33BEE4" Ref="C?"  Part="1" 
-F 0 "C?" H 3665 4821 50  0000 L CNN
+AR Path="/5F4CFCEF/5F33BEE4" Ref="C27"  Part="1" 
+F 0 "C27" H 3665 4821 50  0000 L CNN
 F 1 "4.7uF" H 3665 4730 50  0000 L CNN
-F 2 "" H 3588 4625 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3588 4625 50  0001 C CNN
 F 3 "~" H 3550 4775 50  0001 C CNN
+F 4 "C1608X7S1A475K080AC" H 3550 4775 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X7S1A475K080AC/445-14258-1-ND/3955924" H 3550 4775 50  0001 C CNN "Order"
+F 6 "10V" H 3750 4650 50  0000 C CNN "Voltage"
 	1    3550 4775
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R63
 U 1 1 5F33EC40
 P 2525 4775
-AR Path="/5F301C23/5F33EC40" Ref="R?"  Part="1" 
+AR Path="/5F301C23/5F33EC40" Ref="R63"  Part="1" 
 AR Path="/5F39A2F0/5F33EC40" Ref="R?"  Part="1" 
-AR Path="/5F4CFCEF/5F33EC40" Ref="R?"  Part="1" 
-F 0 "R?" H 2455 4729 50  0000 R CNN
+AR Path="/5F4CFCEF/5F33EC40" Ref="R75"  Part="1" 
+F 0 "R75" H 2455 4729 50  0000 R CNN
 F 1 "1M" H 2455 4820 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2455 4775 50  0001 C CNN
 F 3 "~" H 2525 4775 50  0001 C CNN
+F 4 "RMCF0603JT1M00" H 2525 4775 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603JT1M00/1758066" H 2525 4775 50  0001 C CNN "Order"
 	1    2525 4775
 	-1   0    0    1   
 $EndComp
@@ -8598,13 +8601,13 @@ AF 4D BD 7C 5A AF 7A F5 23 F4 3F 4E CD F4 AA 57 FF 12 F5 CE B4 5E F5 EA 47 A8 77
 EndData
 $EndBitmap
 $Comp
-L 1K_Custom_Symbol:TP_1x1 TP?
+L 1K_Custom_Symbol:TP_1x1 TP11
 U 1 1 5F349591
 P 3975 3425
-AR Path="/5F301C23/5F349591" Ref="TP?"  Part="1" 
+AR Path="/5F301C23/5F349591" Ref="TP11"  Part="1" 
 AR Path="/5F39A2F0/5F349591" Ref="TP?"  Part="1" 
-AR Path="/5F4CFCEF/5F349591" Ref="TP?"  Part="1" 
-F 0 "TP?" V 3975 3725 50  0000 C CNN
+AR Path="/5F4CFCEF/5F349591" Ref="TP17"  Part="1" 
+F 0 "TP17" V 3975 3725 50  0000 C CNN
 F 1 "TP_1x1" V 4050 3500 50  0000 C CNN
 F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 4175 3425 50  0001 C CNN
 F 3 "~" H 4175 3425 50  0001 C CNN
@@ -8614,13 +8617,13 @@ $EndComp
 Wire Wire Line
 	3975 3425 4025 3425
 $Comp
-L 1K_Custom_Symbol:TP_1x1 TP?
+L 1K_Custom_Symbol:TP_1x1 TP10
 U 1 1 5F34A1E8
 P 3975 3175
-AR Path="/5F301C23/5F34A1E8" Ref="TP?"  Part="1" 
+AR Path="/5F301C23/5F34A1E8" Ref="TP10"  Part="1" 
 AR Path="/5F39A2F0/5F34A1E8" Ref="TP?"  Part="1" 
-AR Path="/5F4CFCEF/5F34A1E8" Ref="TP?"  Part="1" 
-F 0 "TP?" V 3975 3475 50  0000 C CNN
+AR Path="/5F4CFCEF/5F34A1E8" Ref="TP16"  Part="1" 
+F 0 "TP16" V 3975 3475 50  0000 C CNN
 F 1 "TP_1x1" V 4050 3250 50  0000 C CNN
 F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 4175 3175 50  0001 C CNN
 F 3 "~" H 4175 3175 50  0001 C CNN
@@ -8643,7 +8646,7 @@ Wire Wire Line
 	1775 5175 2125 5175
 Connection ~ 2525 5175
 Wire Wire Line
-	2525 5175 3125 5175
+	2525 5175 2850 5175
 Connection ~ 3125 5175
 Wire Wire Line
 	3125 5175 3550 5175
@@ -8695,30 +8698,34 @@ Connection ~ 2125 5175
 Wire Wire Line
 	2125 5175 2525 5175
 $Comp
-L Device:R R?
+L Device:R R62
 U 1 1 5F381DE7
 P 2125 4175
-AR Path="/5F301C23/5F381DE7" Ref="R?"  Part="1" 
+AR Path="/5F301C23/5F381DE7" Ref="R62"  Part="1" 
 AR Path="/5F39A2F0/5F381DE7" Ref="R?"  Part="1" 
-AR Path="/5F4CFCEF/5F381DE7" Ref="R?"  Part="1" 
-F 0 "R?" H 2055 4129 50  0000 R CNN
+AR Path="/5F4CFCEF/5F381DE7" Ref="R74"  Part="1" 
+F 0 "R74" H 2055 4129 50  0000 R CNN
 F 1 "10K" H 2055 4220 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2055 4175 50  0001 C CNN
 F 3 "~" H 2125 4175 50  0001 C CNN
+F 4 "RMCF0603FT10K0" H 2125 4175 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT10K0/1761235" H 2125 4175 50  0001 C CNN "Order"
 	1    2125 4175
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R61
 U 1 1 5F382217
 P 2125 3675
-AR Path="/5F301C23/5F382217" Ref="R?"  Part="1" 
+AR Path="/5F301C23/5F382217" Ref="R61"  Part="1" 
 AR Path="/5F39A2F0/5F382217" Ref="R?"  Part="1" 
-AR Path="/5F4CFCEF/5F382217" Ref="R?"  Part="1" 
-F 0 "R?" H 2055 3629 50  0000 R CNN
+AR Path="/5F4CFCEF/5F382217" Ref="R73"  Part="1" 
+F 0 "R73" H 2055 3629 50  0000 R CNN
 F 1 "26.7K" H 2055 3720 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2055 3675 50  0001 C CNN
 F 3 "~" H 2125 3675 50  0001 C CNN
+F 4 "RK73H1JTTD2672F" H 2125 3675 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD2672F/9845116" H 2125 3675 50  0001 C CNN "Order"
 	1    2125 3675
 	-1   0    0    1   
 $EndComp
@@ -16591,16 +16598,18 @@ $EndBitmap
 Text Notes 4725 2800 0    50   ~ 0
 VMAX = 5.5V for IN, OUT, BAT\n
 $Comp
-L Device:R R?
+L Device:R R65
 U 1 1 5F38AFBD
 P 3275 3475
-AR Path="/5F301C23/5F38AFBD" Ref="R?"  Part="1" 
+AR Path="/5F301C23/5F38AFBD" Ref="R65"  Part="1" 
 AR Path="/5F39A2F0/5F38AFBD" Ref="R?"  Part="1" 
-AR Path="/5F4CFCEF/5F38AFBD" Ref="R?"  Part="1" 
-F 0 "R?" H 3205 3429 50  0000 R CNN
+AR Path="/5F4CFCEF/5F38AFBD" Ref="R77"  Part="1" 
+F 0 "R77" H 3205 3429 50  0000 R CNN
 F 1 "100K" H 3205 3520 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3205 3475 50  0001 C CNN
 F 3 "~" H 3275 3475 50  0001 C CNN
+F 4 "RMCF0603FT100K" H 3275 3475 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT100K/1761112" H 3275 3475 50  0001 C CNN "Order"
 	1    3275 3475
 	-1   0    0    1   
 $EndComp
@@ -16615,7 +16624,7 @@ VOUT
 Wire Wire Line
 	2125 1700 5175 1700
 Wire Wire Line
-	1800 2725 4225 2725
+	1800 2725 2850 2725
 Wire Wire Line
 	3225 3275 3275 3275
 Wire Wire Line
@@ -16647,13 +16656,13 @@ Wire Wire Line
 Wire Wire Line
 	4025 2925 4225 2925
 $Comp
-L 1K_Custom_Symbol:TP_1x1 TP?
+L 1K_Custom_Symbol:TP_1x1 TP14
 U 1 1 5F422665
 P 6600 4675
-AR Path="/5F301C23/5F422665" Ref="TP?"  Part="1" 
+AR Path="/5F301C23/5F422665" Ref="TP14"  Part="1" 
 AR Path="/5F39A2F0/5F422665" Ref="TP?"  Part="1" 
-AR Path="/5F4CFCEF/5F422665" Ref="TP?"  Part="1" 
-F 0 "TP?" V 6600 4975 50  0000 C CNN
+AR Path="/5F4CFCEF/5F422665" Ref="TP20"  Part="1" 
+F 0 "TP20" V 6600 4975 50  0000 C CNN
 F 1 "TP_1x1" V 6675 4750 50  0000 C CNN
 F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 6800 4675 50  0001 C CNN
 F 3 "~" H 6800 4675 50  0001 C CNN
@@ -16668,13 +16677,13 @@ Connection ~ 6525 4625
 Wire Wire Line
 	6525 4625 8350 4625
 $Comp
-L 1K_Custom_Symbol:TP_1x1 TP?
+L 1K_Custom_Symbol:TP_1x1 TP13
 U 1 1 5F42AD64
 P 6600 4475
-AR Path="/5F301C23/5F42AD64" Ref="TP?"  Part="1" 
+AR Path="/5F301C23/5F42AD64" Ref="TP13"  Part="1" 
 AR Path="/5F39A2F0/5F42AD64" Ref="TP?"  Part="1" 
-AR Path="/5F4CFCEF/5F42AD64" Ref="TP?"  Part="1" 
-F 0 "TP?" V 6600 4775 50  0000 C CNN
+AR Path="/5F4CFCEF/5F42AD64" Ref="TP19"  Part="1" 
+F 0 "TP19" V 6600 4775 50  0000 C CNN
 F 1 "TP_1x1" V 6675 4550 50  0000 C CNN
 F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 6800 4475 50  0001 C CNN
 F 3 "~" H 6800 4475 50  0001 C CNN
@@ -16689,13 +16698,13 @@ Connection ~ 6525 4425
 Wire Wire Line
 	6525 4425 8350 4425
 $Comp
-L 1K_Custom_Symbol:TP_1x1 TP?
+L 1K_Custom_Symbol:TP_1x1 TP12
 U 1 1 5F42CC1E
 P 6600 4275
-AR Path="/5F301C23/5F42CC1E" Ref="TP?"  Part="1" 
+AR Path="/5F301C23/5F42CC1E" Ref="TP12"  Part="1" 
 AR Path="/5F39A2F0/5F42CC1E" Ref="TP?"  Part="1" 
-AR Path="/5F4CFCEF/5F42CC1E" Ref="TP?"  Part="1" 
-F 0 "TP?" V 6600 4575 50  0000 C CNN
+AR Path="/5F4CFCEF/5F42CC1E" Ref="TP18"  Part="1" 
+F 0 "TP18" V 6600 4575 50  0000 C CNN
 F 1 "TP_1x1" V 6675 4350 50  0000 C CNN
 F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 6800 4275 50  0001 C CNN
 F 3 "~" H 6800 4275 50  0001 C CNN
@@ -16725,9 +16734,9 @@ AR Path="/5F3BED82/61553601" Ref="D?"  Part="1"
 AR Path="/5F3BD959/61553601" Ref="D?"  Part="1" 
 AR Path="/5F3BC7D4/61553601" Ref="D?"  Part="1" 
 AR Path="/5F3C01C1/61553601" Ref="D?"  Part="1" 
-AR Path="/5F301C23/61553601" Ref="D?"  Part="1" 
-AR Path="/5F4CFCEF/61553601" Ref="D?"  Part="1" 
-F 0 "D?" H 5325 1483 50  0000 C CNN
+AR Path="/5F301C23/61553601" Ref="D11"  Part="1" 
+AR Path="/5F4CFCEF/61553601" Ref="D12"  Part="1" 
+F 0 "D12" H 5325 1483 50  0000 C CNN
 F 1 "NRVB120VLSFT1G" H 5325 1574 50  0000 C CNN
 F 2 "footprint_custom:D_SOD-123FL_handsolder" H 5325 1700 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF" H 5325 1700 50  0001 C CNN
@@ -16737,16 +16746,18 @@ F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/NRVB120VLSFT1G/N
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R66
 U 1 1 5FC28CDC
 P 9150 4200
-AR Path="/5F301C23/5FC28CDC" Ref="R?"  Part="1" 
+AR Path="/5F301C23/5FC28CDC" Ref="R66"  Part="1" 
 AR Path="/5F39A2F0/5FC28CDC" Ref="R?"  Part="1" 
-AR Path="/5F4CFCEF/5FC28CDC" Ref="R?"  Part="1" 
-F 0 "R?" H 9080 4154 50  0000 R CNN
+AR Path="/5F4CFCEF/5FC28CDC" Ref="R78"  Part="1" 
+F 0 "R78" H 9080 4154 50  0000 R CNN
 F 1 "10K" H 9080 4245 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9080 4200 50  0001 C CNN
 F 3 "~" H 9150 4200 50  0001 C CNN
+F 4 "RMCF0603FT10K0" H 9150 4200 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT10K0/1761235" H 9150 4200 50  0001 C CNN "Order"
 	1    9150 4200
 	-1   0    0    1   
 $EndComp
@@ -16770,15 +16781,15 @@ Charge current = 50mA\nIchg(A) = 50000V/1000000
 Text Notes 3800 5550 0    50   ~ 0
 Charge Timer: \n136hours = 3400mAh/25mA charge rate\n136*0.1uF*100k/Rprog/3.0 = Ctimer = 4.5uF
 $Comp
-L Device:C C?
+L Device:C C23
 U 1 1 5F76909E
 P 4025 4775
-AR Path="/5F301C23/5F76909E" Ref="C?"  Part="1" 
+AR Path="/5F301C23/5F76909E" Ref="C23"  Part="1" 
 AR Path="/5F39A2F0/5F76909E" Ref="C?"  Part="1" 
-AR Path="/5F4CFCEF/5F76909E" Ref="C?"  Part="1" 
-F 0 "C?" H 4140 4821 50  0000 L CNN
+AR Path="/5F4CFCEF/5F76909E" Ref="C28"  Part="1" 
+F 0 "C28" H 4140 4821 50  0000 L CNN
 F 1 "DNP" H 4140 4730 50  0000 L CNN
-F 2 "" H 4063 4625 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4063 4625 50  0001 C CNN
 F 3 "~" H 4025 4775 50  0001 C CNN
 	1    4025 4775
 	1    0    0    -1  
@@ -16793,4 +16804,124 @@ Wire Wire Line
 	4025 5175 4825 5175
 Wire Wire Line
 	6425 4025 9150 4025
+$Comp
+L Device:C C188
+U 1 1 62DCAE3A
+P 7500 2925
+AR Path="/5F301C23/62DCAE3A" Ref="C188"  Part="1" 
+AR Path="/5F39A2F0/62DCAE3A" Ref="C?"  Part="1" 
+AR Path="/5F4CFCEF/62DCAE3A" Ref="C191"  Part="1" 
+F 0 "C191" H 7615 2971 50  0000 L CNN
+F 1 "4.7uF" H 7615 2880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7538 2775 50  0001 C CNN
+F 3 "~" H 7500 2925 50  0001 C CNN
+F 4 "C1608X7S1A475K080AC" H 7500 2925 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X7S1A475K080AC/445-14258-1-ND/3955924" H 7500 2925 50  0001 C CNN "Order"
+F 6 "10V" H 7700 2800 50  0000 C CNN "Voltage"
+	1    7500 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2725 7500 2725
+Wire Wire Line
+	7500 2775 7500 2725
+Wire Wire Line
+	7500 5175 5825 5175
+Connection ~ 5825 5175
+$Comp
+L Device:C C189
+U 1 1 62DD37F1
+P 8150 3325
+AR Path="/5F301C23/62DD37F1" Ref="C189"  Part="1" 
+AR Path="/5F39A2F0/62DD37F1" Ref="C?"  Part="1" 
+AR Path="/5F4CFCEF/62DD37F1" Ref="C192"  Part="1" 
+F 0 "C192" H 8265 3371 50  0000 L CNN
+F 1 "4.7uF" H 8265 3280 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8188 3175 50  0001 C CNN
+F 3 "~" H 8150 3325 50  0001 C CNN
+F 4 "C1608X7S1A475K080AC" H 8150 3325 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X7S1A475K080AC/445-14258-1-ND/3955924" H 8150 3325 50  0001 C CNN "Order"
+F 6 "10V" H 8350 3200 50  0000 C CNN "Voltage"
+	1    8150 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R324
+U 1 1 62DD4A99
+P 7825 3500
+AR Path="/5F301C23/62DD4A99" Ref="R324"  Part="1" 
+AR Path="/5F39A2F0/62DD4A99" Ref="R?"  Part="1" 
+AR Path="/5F4CFCEF/62DD4A99" Ref="R326"  Part="1" 
+F 0 "R326" V 7900 3500 50  0000 R CNN
+F 1 "1" V 7900 3650 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7755 3500 50  0001 C CNN
+F 3 "~" H 7825 3500 50  0001 C CNN
+F 4 "RK73H1JTTD1R00F" H 7825 3500 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1R00F/9844862" H 7825 3500 50  0001 C CNN "Order"
+	1    7825 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 3475 8150 3500
+Wire Wire Line
+	8150 3500 7975 3500
+Wire Wire Line
+	7675 3500 7500 3500
+Connection ~ 7500 3500
+Wire Wire Line
+	7500 3500 7500 5175
+Wire Wire Line
+	8150 3175 8150 3125
+Connection ~ 8150 3125
+Wire Wire Line
+	8150 3125 8350 3125
+Wire Wire Line
+	6700 3125 8150 3125
+Wire Wire Line
+	7500 3075 7500 3500
+$Comp
+L Device:C C187
+U 1 1 62DE8F44
+P 2850 2975
+AR Path="/5F301C23/62DE8F44" Ref="C187"  Part="1" 
+AR Path="/5F39A2F0/62DE8F44" Ref="C?"  Part="1" 
+AR Path="/5F4CFCEF/62DE8F44" Ref="C190"  Part="1" 
+F 0 "C190" H 2965 3021 50  0000 L CNN
+F 1 "4.7uF" H 2965 2930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2888 2825 50  0001 C CNN
+F 3 "~" H 2850 2975 50  0001 C CNN
+F 4 "C1608X7S1A475K080AC" H 2850 2975 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X7S1A475K080AC/445-14258-1-ND/3955924" H 2850 2975 50  0001 C CNN "Order"
+F 6 "10V" H 3050 2850 50  0000 C CNN "Voltage"
+	1    2850 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R323
+U 1 1 62DE8F4C
+P 2850 3675
+AR Path="/5F301C23/62DE8F4C" Ref="R323"  Part="1" 
+AR Path="/5F39A2F0/62DE8F4C" Ref="R?"  Part="1" 
+AR Path="/5F4CFCEF/62DE8F4C" Ref="R325"  Part="1" 
+F 0 "R325" H 3100 3725 50  0000 R CNN
+F 1 "1" H 2975 3600 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2780 3675 50  0001 C CNN
+F 3 "~" H 2850 3675 50  0001 C CNN
+F 4 "RK73H1JTTD1R00F" H 2850 3675 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1R00F/9844862" H 2850 3675 50  0001 C CNN "Order"
+	1    2850 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3125 2850 3525
+Wire Wire Line
+	2850 3825 2850 5175
+Connection ~ 2850 5175
+Wire Wire Line
+	2850 5175 3125 5175
+Wire Wire Line
+	2850 2825 2850 2725
+Connection ~ 2850 2725
+Wire Wire Line
+	2850 2725 4225 2725
 $EndSCHEMATC

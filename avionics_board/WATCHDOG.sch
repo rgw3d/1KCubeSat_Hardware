@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 39
+Sheet 28 39
 Title "EXTERNAL WATCHDOG"
 Date "2020-05-02"
 Rev ""
@@ -100,8 +100,8 @@ F 0 "R14" H 3270 3071 50  0000 L CNN
 F 1 "100K" H 3270 2980 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3130 3025 50  0001 C CNN
 F 3 "~" H 3200 3025 50  0001 C CNN
-F 4 "RMCF0603JG100K" H 3200 3025 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG100K/RMCF0603JG100KCT-ND/4425127" H 3200 3025 50  0001 C CNN "Order"
+F 4 "RMCF0603FT100K" H 3200 3025 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT100K/1761112" H 3200 3025 50  0001 C CNN "Order"
 	1    3200 3025
 	1    0    0    -1  
 $EndComp

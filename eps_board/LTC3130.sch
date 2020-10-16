@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 8 39
+Sheet 39 39
 Title "LTC3130"
 Date "2020-08-09"
 Rev ""
@@ -7130,10 +7130,10 @@ Connection ~ 2275 3325
 Wire Wire Line
 	2275 3425 2275 3325
 $Comp
-L Device:C C?
+L Device:C C33
 U 1 1 5F325818
 P 2275 3575
-AR Path="/5F301AC2/5F325818" Ref="C?"  Part="1" 
+AR Path="/5F301AC2/5F325818" Ref="C33"  Part="1" 
 AR Path="/5F354B8C/5F325818" Ref="C?"  Part="1" 
 AR Path="/5F354E2A/5F325818" Ref="C?"  Part="1" 
 AR Path="/5F3552FC/5F325818" Ref="C?"  Part="1" 
@@ -7143,11 +7143,14 @@ AR Path="/5F52BDC8/5F325818" Ref="C?"  Part="1"
 AR Path="/5F5A5959/5F325818" Ref="C?"  Part="1" 
 AR Path="/5F5C3BDB/5F325818" Ref="C?"  Part="1" 
 AR Path="/5F62C305/5F325818" Ref="C?"  Part="1" 
-AR Path="/5FCD393E/5F325818" Ref="C?"  Part="1" 
-F 0 "C?" H 2390 3621 50  0000 L CNN
-F 1 "4.7uF" H 2390 3530 50  0000 L CNN
+AR Path="/5FCD393E/5F325818" Ref="C175"  Part="1" 
+F 0 "C175" H 2375 3625 50  0000 L CNN
+F 1 "4.7uF" H 2375 3550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2313 3425 50  0001 C CNN
 F 3 "~" H 2275 3575 50  0001 C CNN
+F 4 "C1608X7S1A475K080AC" H 2275 3575 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X7S1A475K080AC/445-14258-1-ND/3955924" H 2275 3575 50  0001 C CNN "Order"
+F 6 "10V" H 2450 3475 50  0000 C CNN "Voltage"
 	1    2275 3575
 	1    0    0    -1  
 $EndComp
@@ -7156,12 +7159,12 @@ Wire Wire Line
 Text HLabel 1625 3325 0    50   Input ~ 0
 VIN
 Wire Wire Line
-	4275 4025 4400 4025
+	3975 4025 4400 4025
 $Comp
-L Device:R R?
+L Device:R R89
 U 1 1 5F316C45
-P 4125 4025
-AR Path="/5F301AC2/5F316C45" Ref="R?"  Part="1" 
+P 3825 4025
+AR Path="/5F301AC2/5F316C45" Ref="R89"  Part="1" 
 AR Path="/5F354B8C/5F316C45" Ref="R?"  Part="1" 
 AR Path="/5F354E2A/5F316C45" Ref="R?"  Part="1" 
 AR Path="/5F3552FC/5F316C45" Ref="R?"  Part="1" 
@@ -7171,21 +7174,23 @@ AR Path="/5F52BDC8/5F316C45" Ref="R?"  Part="1"
 AR Path="/5F5A5959/5F316C45" Ref="R?"  Part="1" 
 AR Path="/5F5C3BDB/5F316C45" Ref="R?"  Part="1" 
 AR Path="/5F62C305/5F316C45" Ref="R?"  Part="1" 
-AR Path="/5FCD393E/5F316C45" Ref="R?"  Part="1" 
-F 0 "R?" V 4025 3975 50  0000 C CNN
-F 1 "0" V 4025 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4055 4025 50  0001 C CNN
-F 3 "~" H 4125 4025 50  0001 C CNN
-	1    4125 4025
+AR Path="/5FCD393E/5F316C45" Ref="R318"  Part="1" 
+F 0 "R318" V 3725 3975 50  0000 C CNN
+F 1 "0" V 3725 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3755 4025 50  0001 C CNN
+F 3 "~" H 3825 4025 50  0001 C CNN
+F 4 "RK73Z1JTTD" H 3825 4025 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" H 3825 4025 50  0001 C CNN "Order"
+	1    3825 4025
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4275 3625 4400 3625
 $Comp
-L Device:R R?
+L Device:R R90
 U 1 1 5F3159CA
 P 6450 3625
-AR Path="/5F301AC2/5F3159CA" Ref="R?"  Part="1" 
+AR Path="/5F301AC2/5F3159CA" Ref="R90"  Part="1" 
 AR Path="/5F354B8C/5F3159CA" Ref="R?"  Part="1" 
 AR Path="/5F354E2A/5F3159CA" Ref="R?"  Part="1" 
 AR Path="/5F3552FC/5F3159CA" Ref="R?"  Part="1" 
@@ -7195,11 +7200,13 @@ AR Path="/5F52BDC8/5F3159CA" Ref="R?"  Part="1"
 AR Path="/5F5A5959/5F3159CA" Ref="R?"  Part="1" 
 AR Path="/5F5C3BDB/5F3159CA" Ref="R?"  Part="1" 
 AR Path="/5F62C305/5F3159CA" Ref="R?"  Part="1" 
-AR Path="/5FCD393E/5F3159CA" Ref="R?"  Part="1" 
-F 0 "R?" V 6350 3575 50  0000 C CNN
+AR Path="/5FCD393E/5F3159CA" Ref="R319"  Part="1" 
+F 0 "R319" V 6350 3575 50  0000 C CNN
 F 1 "0" V 6350 3700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6380 3625 50  0001 C CNN
 F 3 "~" H 6450 3625 50  0001 C CNN
+F 4 "RK73Z1JTTD" H 6450 3625 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" H 6450 3625 50  0001 C CNN "Order"
 	1    6450 3625
 	0    1    1    0   
 $EndComp
@@ -7214,10 +7221,10 @@ Wire Wire Line
 	6800 3325 6150 3325
 Connection ~ 6800 3325
 $Comp
-L Device:C C?
+L Device:C C41
 U 1 1 5F30F8B8
 P 6800 3475
-AR Path="/5F301AC2/5F30F8B8" Ref="C?"  Part="1" 
+AR Path="/5F301AC2/5F30F8B8" Ref="C41"  Part="1" 
 AR Path="/5F354B8C/5F30F8B8" Ref="C?"  Part="1" 
 AR Path="/5F354E2A/5F30F8B8" Ref="C?"  Part="1" 
 AR Path="/5F3552FC/5F30F8B8" Ref="C?"  Part="1" 
@@ -7227,13 +7234,14 @@ AR Path="/5F52BDC8/5F30F8B8" Ref="C?"  Part="1"
 AR Path="/5F5A5959/5F30F8B8" Ref="C?"  Part="1" 
 AR Path="/5F5C3BDB/5F30F8B8" Ref="C?"  Part="1" 
 AR Path="/5F62C305/5F30F8B8" Ref="C?"  Part="1" 
-AR Path="/5FCD393E/5F30F8B8" Ref="C?"  Part="1" 
-F 0 "C?" H 6915 3521 50  0000 L CNN
-F 1 "47uF" H 6915 3430 50  0000 L CNN
+AR Path="/5FCD393E/5F30F8B8" Ref="C180"  Part="1" 
+F 0 "C180" H 6900 3550 50  0000 L CNN
+F 1 "47uF" H 6900 3475 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 6838 3325 50  0001 C CNN
 F 3 "~" H 6800 3475 50  0001 C CNN
 F 4 "GRM32EC81C476KE15L" H 6800 3475 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/murata-electronics/GRM32EC81C476KE15L/490-10531-1-ND/5026469" H 6800 3475 50  0001 C CNN "Order"
+F 6 "16V" H 6975 3400 50  0000 C CNN "Voltage"
 	1    6800 3475
 	1    0    0    -1  
 $EndComp
@@ -7241,24 +7249,11 @@ Text HLabel 8100 3325 2    50   Output ~ 0
 VOUT
 Wire Wire Line
 	8100 3325 7700 3325
-Wire Wire Line
-	4850 2500 4850 2975
-Wire Wire Line
-	5650 2500 5650 2975
-Wire Wire Line
-	5450 2500 5450 2975
-Wire Wire Line
-	5400 2500 5450 2500
-Connection ~ 5050 2500
-Wire Wire Line
-	5050 2500 5050 2975
-Wire Wire Line
-	5050 2500 5100 2500
 $Comp
-L Device:C_Small C?
+L Device:C_Small C35
 U 1 1 5F30E2F4
-P 4950 2500
-AR Path="/5F301AC2/5F30E2F4" Ref="C?"  Part="1" 
+P 4750 2500
+AR Path="/5F301AC2/5F30E2F4" Ref="C35"  Part="1" 
 AR Path="/5F354B8C/5F30E2F4" Ref="C?"  Part="1" 
 AR Path="/5F354E2A/5F30E2F4" Ref="C?"  Part="1" 
 AR Path="/5F3552FC/5F30E2F4" Ref="C?"  Part="1" 
@@ -7268,21 +7263,22 @@ AR Path="/5F52BDC8/5F30E2F4" Ref="C?"  Part="1"
 AR Path="/5F5A5959/5F30E2F4" Ref="C?"  Part="1" 
 AR Path="/5F5C3BDB/5F30E2F4" Ref="C?"  Part="1" 
 AR Path="/5F62C305/5F30E2F4" Ref="C?"  Part="1" 
-AR Path="/5FCD393E/5F30E2F4" Ref="C?"  Part="1" 
-F 0 "C?" V 4721 2500 50  0000 C CNN
-F 1 "22nF" V 4812 2500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4950 2500 50  0001 C CNN
-F 3 "~" H 4950 2500 50  0001 C CNN
-F 4 "GCM188R72A223KA37D" V 4950 2500 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/murata-electronics/GCM188R72A223KA37D/490-4782-1-ND/1641701" V 4950 2500 50  0001 C CNN "Order"
-	1    4950 2500
+AR Path="/5FCD393E/5F30E2F4" Ref="C177"  Part="1" 
+F 0 "C177" V 4521 2500 50  0000 C CNN
+F 1 "22nF" V 4612 2500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4750 2500 50  0001 C CNN
+F 3 "~" H 4750 2500 50  0001 C CNN
+F 4 "GCM188R72A223KA37D" V 4750 2500 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/murata-electronics/GCM188R72A223KA37D/490-4782-1-ND/1641701" V 4750 2500 50  0001 C CNN "Order"
+F 6 "100V" V 4875 2500 50  0000 C CNN "Voltage"
+	1    4750 2500
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:L L?
+L Device:L L1
 U 1 1 5F30C7DB
 P 5250 2500
-AR Path="/5F301AC2/5F30C7DB" Ref="L?"  Part="1" 
+AR Path="/5F301AC2/5F30C7DB" Ref="L1"  Part="1" 
 AR Path="/5F354B8C/5F30C7DB" Ref="L?"  Part="1" 
 AR Path="/5F354E2A/5F30C7DB" Ref="L?"  Part="1" 
 AR Path="/5F3552FC/5F30C7DB" Ref="L?"  Part="1" 
@@ -7292,12 +7288,12 @@ AR Path="/5F52BDC8/5F30C7DB" Ref="L?"  Part="1"
 AR Path="/5F5A5959/5F30C7DB" Ref="L?"  Part="1" 
 AR Path="/5F5C3BDB/5F30C7DB" Ref="L?"  Part="1" 
 AR Path="/5F62C305/5F30C7DB" Ref="L?"  Part="1" 
-AR Path="/5FCD393E/5F30C7DB" Ref="L?"  Part="1" 
-F 0 "L?" V 5440 2500 50  0000 C CNN
-F 1 "4.7uH" V 5349 2500 50  0000 C CNN
+AR Path="/5FCD393E/5F30C7DB" Ref="L2"  Part="1" 
+F 0 "L2" V 5400 2500 50  0000 C CNN
+F 1 "4.7uH" V 5325 2500 50  0000 C CNN
 F 2 "Inductor_SMD:L_Coilcraft_LPS4018" H 5250 2500 50  0001 C CNN
 F 3 "~" H 5250 2500 50  0001 C CNN
-F 4 "LPS4018-472" V 5250 2500 50  0001 C CNN "Mfr. #"
+F 4 "LPS4018-472" V 5175 2500 50  0000 C CNN "Mfr. #"
 F 5 "https://www.coilcraft.com/en-us/products/power/shielded-inductors/ferrite-drum/lps/lps4018/" V 5250 2500 50  0001 C CNN "Order"
 	1    5250 2500
 	0    -1   -1   0   
@@ -7322,10 +7318,10 @@ Wire Wire Line
 Wire Wire Line
 	6150 4225 6425 4225
 $Comp
-L Device:C C?
+L Device:C C40
 U 1 1 5F30A62E
 P 6425 4500
-AR Path="/5F301AC2/5F30A62E" Ref="C?"  Part="1" 
+AR Path="/5F301AC2/5F30A62E" Ref="C40"  Part="1" 
 AR Path="/5F354B8C/5F30A62E" Ref="C?"  Part="1" 
 AR Path="/5F354E2A/5F30A62E" Ref="C?"  Part="1" 
 AR Path="/5F3552FC/5F30A62E" Ref="C?"  Part="1" 
@@ -7335,11 +7331,14 @@ AR Path="/5F52BDC8/5F30A62E" Ref="C?"  Part="1"
 AR Path="/5F5A5959/5F30A62E" Ref="C?"  Part="1" 
 AR Path="/5F5C3BDB/5F30A62E" Ref="C?"  Part="1" 
 AR Path="/5F62C305/5F30A62E" Ref="C?"  Part="1" 
-AR Path="/5FCD393E/5F30A62E" Ref="C?"  Part="1" 
-F 0 "C?" H 6540 4546 50  0000 L CNN
-F 1 "4.7uF" H 6540 4455 50  0000 L CNN
+AR Path="/5FCD393E/5F30A62E" Ref="C179"  Part="1" 
+F 0 "C179" H 6525 4550 50  0000 L CNN
+F 1 "4.7uF" H 6525 4475 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6463 4350 50  0001 C CNN
 F 3 "~" H 6425 4500 50  0001 C CNN
+F 4 "C1608X7S1A475K080AC" H 6425 4500 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X7S1A475K080AC/445-14258-1-ND/3955924" H 6425 4500 50  0001 C CNN "Order"
+F 6 "10V" H 6600 4400 50  0000 C CNN "Voltage"
 	1    6425 4500
 	1    0    0    -1  
 $EndComp
@@ -7354,40 +7353,6 @@ Wire Wire Line
 	1625 4825 1825 4825
 Text HLabel 1625 4825 0    50   Input ~ 0
 GND
-$Comp
-L 1K_Custom_Symbol:LTC3130-1 U?
-U 1 1 5F30989D
-P 5250 3825
-AR Path="/5F301AC2/5F30989D" Ref="U?"  Part="1" 
-AR Path="/5F354B8C/5F30989D" Ref="U?"  Part="1" 
-AR Path="/5F354E2A/5F30989D" Ref="U?"  Part="1" 
-AR Path="/5F3552FC/5F30989D" Ref="U?"  Part="1" 
-AR Path="/5F355926/5F30989D" Ref="U?"  Part="1" 
-AR Path="/5F356470/5F30989D" Ref="U?"  Part="1" 
-AR Path="/5F52BDC8/5F30989D" Ref="U?"  Part="1" 
-AR Path="/5F5A5959/5F30989D" Ref="U?"  Part="1" 
-AR Path="/5F5C3BDB/5F30989D" Ref="U?"  Part="1" 
-AR Path="/5F62C305/5F30989D" Ref="U?"  Part="1" 
-AR Path="/5FCD393E/5F30989D" Ref="U?"  Part="1" 
-F 0 "U?" H 5250 3650 50  0000 C CNN
-F 1 "LTC3130-1" H 5250 4050 50  0000 C CNN
-F 2 "Package_SO:MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm_ThermalVias" H 5300 2575 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3130f.pdf" H 5250 3825 50  0001 C CNN
-F 4 "LTC3130EMSE-1#PBF" H 5250 3975 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/analog-devices-inc/LTC3130EMSE-1-PBF/LTC3130EMSE-1-PBF-ND/6174043" H 5350 2475 50  0001 C CNN "Order"
-	1    5250 3825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 4675 4850 4825
-Connection ~ 4850 4825
-Wire Wire Line
-	4850 4825 4950 4825
-Wire Wire Line
-	4950 4675 4950 4825
-Connection ~ 4950 4825
-Wire Wire Line
-	4950 4825 5050 4825
 Text HLabel 7075 4225 2    50   Output ~ 0
 VCC
 Wire Wire Line
@@ -7395,13 +7360,13 @@ Wire Wire Line
 Connection ~ 6425 4225
 Text HLabel 3250 4225 0    50   Input ~ 0
 VS1
-Text HLabel 3250 4325 0    50   Input ~ 0
+Text HLabel 3250 4425 0    50   Input ~ 0
 VS2
 $Comp
-L Device:R R?
+L Device:R R88
 U 1 1 5F5775AC
 P 3825 4425
-AR Path="/5F301AC2/5F5775AC" Ref="R?"  Part="1" 
+AR Path="/5F301AC2/5F5775AC" Ref="R88"  Part="1" 
 AR Path="/5F354B8C/5F5775AC" Ref="R?"  Part="1" 
 AR Path="/5F354E2A/5F5775AC" Ref="R?"  Part="1" 
 AR Path="/5F3552FC/5F5775AC" Ref="R?"  Part="1" 
@@ -7412,19 +7377,21 @@ AR Path="/5F5775AC" Ref="R?"  Part="1"
 AR Path="/5F5A5959/5F5775AC" Ref="R?"  Part="1" 
 AR Path="/5F5C3BDB/5F5775AC" Ref="R?"  Part="1" 
 AR Path="/5F62C305/5F5775AC" Ref="R?"  Part="1" 
-AR Path="/5FCD393E/5F5775AC" Ref="R?"  Part="1" 
-F 0 "R?" V 3725 4375 50  0000 C CNN
+AR Path="/5FCD393E/5F5775AC" Ref="R317"  Part="1" 
+F 0 "R317" V 3725 4375 50  0000 C CNN
 F 1 "0" V 3725 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3755 4425 50  0001 C CNN
 F 3 "~" H 3825 4425 50  0001 C CNN
+F 4 "RK73Z1JTTD" H 3825 4425 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" H 3825 4425 50  0001 C CNN "Order"
 	1    3825 4425
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R87
 U 1 1 5F5775B2
 P 3825 4225
-AR Path="/5F301AC2/5F5775B2" Ref="R?"  Part="1" 
+AR Path="/5F301AC2/5F5775B2" Ref="R87"  Part="1" 
 AR Path="/5F354B8C/5F5775B2" Ref="R?"  Part="1" 
 AR Path="/5F354E2A/5F5775B2" Ref="R?"  Part="1" 
 AR Path="/5F3552FC/5F5775B2" Ref="R?"  Part="1" 
@@ -7435,11 +7402,13 @@ AR Path="/5F5775B2" Ref="R?"  Part="1"
 AR Path="/5F5A5959/5F5775B2" Ref="R?"  Part="1" 
 AR Path="/5F5C3BDB/5F5775B2" Ref="R?"  Part="1" 
 AR Path="/5F62C305/5F5775B2" Ref="R?"  Part="1" 
-AR Path="/5FCD393E/5F5775B2" Ref="R?"  Part="1" 
-F 0 "R?" V 3725 4175 50  0000 C CNN
+AR Path="/5FCD393E/5F5775B2" Ref="R316"  Part="1" 
+F 0 "R316" V 3725 4175 50  0000 C CNN
 F 1 "0" V 3725 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3755 4225 50  0001 C CNN
 F 3 "~" H 3825 4225 50  0001 C CNN
+F 4 "RK73Z1JTTD" H 3825 4225 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" H 3825 4225 50  0001 C CNN "Order"
 	1    3825 4225
 	0    1    1    0   
 $EndComp
@@ -7453,18 +7422,12 @@ Wire Wire Line
 	4050 4425 4050 4325
 Wire Wire Line
 	4050 4325 4400 4325
-Wire Wire Line
-	3675 4425 3600 4425
-Wire Wire Line
-	3600 4425 3600 4325
-Wire Wire Line
-	3600 4325 3250 4325
 Text HLabel 3250 3825 0    50   Output ~ 0
 MPPC
 Wire Wire Line
 	3250 3825 4400 3825
 Wire Wire Line
-	3250 4025 3975 4025
+	3250 4025 3675 4025
 $Bitmap
 Pos 5225 6225
 Scale 1.000000
@@ -8715,10 +8678,10 @@ A4 4D A0 22 43 20 10 08 5E 80 F3 C8 10 08 04 82 17 A0 22 43 20 10 08 5E 80 8A 0C
 EndData
 $EndBitmap
 $Comp
-L Device:C_Small C?
+L Device:C_Small C37
 U 1 1 5F915D60
-P 5550 2500
-AR Path="/5F301AC2/5F915D60" Ref="C?"  Part="1" 
+P 5750 2500
+AR Path="/5F301AC2/5F915D60" Ref="C37"  Part="1" 
 AR Path="/5F354B8C/5F915D60" Ref="C?"  Part="1" 
 AR Path="/5F354E2A/5F915D60" Ref="C?"  Part="1" 
 AR Path="/5F3552FC/5F915D60" Ref="C?"  Part="1" 
@@ -8728,22 +8691,22 @@ AR Path="/5F52BDC8/5F915D60" Ref="C?"  Part="1"
 AR Path="/5F5A5959/5F915D60" Ref="C?"  Part="1" 
 AR Path="/5F5C3BDB/5F915D60" Ref="C?"  Part="1" 
 AR Path="/5F62C305/5F915D60" Ref="C?"  Part="1" 
-AR Path="/5FCD393E/5F915D60" Ref="C?"  Part="1" 
-F 0 "C?" V 5321 2500 50  0000 C CNN
-F 1 "22nF" V 5412 2500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5550 2500 50  0001 C CNN
-F 3 "~" H 5550 2500 50  0001 C CNN
-F 4 "GCM188R72A223KA37D" V 5550 2500 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/murata-electronics/GCM188R72A223KA37D/490-4782-1-ND/1641701" V 5550 2500 50  0001 C CNN "Order"
-	1    5550 2500
+AR Path="/5FCD393E/5F915D60" Ref="C178"  Part="1" 
+F 0 "C178" V 5525 2500 50  0000 C CNN
+F 1 "22nF" V 5600 2500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5750 2500 50  0001 C CNN
+F 3 "~" H 5750 2500 50  0001 C CNN
+F 4 "GCM188R72A223KA37D" V 5750 2500 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/murata-electronics/GCM188R72A223KA37D/490-4782-1-ND/1641701" V 5750 2500 50  0001 C CNN "Order"
+F 6 "100V" V 5875 2500 50  0000 C CNN "Voltage"
+	1    5750 2500
 	0    1    1    0   
 $EndComp
-Connection ~ 5450 2500
 $Comp
-L Device:C C?
+L Device:C C42
 U 1 1 5F918110
 P 7250 3475
-AR Path="/5F301AC2/5F918110" Ref="C?"  Part="1" 
+AR Path="/5F301AC2/5F918110" Ref="C42"  Part="1" 
 AR Path="/5F354B8C/5F918110" Ref="C?"  Part="1" 
 AR Path="/5F354E2A/5F918110" Ref="C?"  Part="1" 
 AR Path="/5F3552FC/5F918110" Ref="C?"  Part="1" 
@@ -8753,13 +8716,13 @@ AR Path="/5F52BDC8/5F918110" Ref="C?"  Part="1"
 AR Path="/5F5A5959/5F918110" Ref="C?"  Part="1" 
 AR Path="/5F5C3BDB/5F918110" Ref="C?"  Part="1" 
 AR Path="/5F62C305/5F918110" Ref="C?"  Part="1" 
-AR Path="/5FCD393E/5F918110" Ref="C?"  Part="1" 
-F 0 "C?" H 7365 3521 50  0000 L CNN
+AR Path="/5FCD393E/5F918110" Ref="C181"  Part="1" 
+F 0 "C181" H 7365 3521 50  0000 L CNN
 F 1 "DNP" H 7365 3430 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7288 3325 50  0001 C CNN
 F 3 "~" H 7250 3475 50  0001 C CNN
-F 4 "GRM32EC81C476KE15L" H 7250 3475 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/murata-electronics/GRM32EC81C476KE15L/490-10531-1-ND/5026469" H 7250 3475 50  0001 C CNN "Order"
+F 4 "" H 7250 3475 50  0001 C CNN "Mfr. #"
+F 5 "" H 7250 3475 50  0001 C CNN "Order"
 	1    7250 3475
 	1    0    0    -1  
 $EndComp
@@ -8770,10 +8733,10 @@ Connection ~ 7250 3625
 Wire Wire Line
 	7250 3625 7700 3625
 $Comp
-L Device:C C?
+L Device:C C43
 U 1 1 5F91837D
 P 7700 3475
-AR Path="/5F301AC2/5F91837D" Ref="C?"  Part="1" 
+AR Path="/5F301AC2/5F91837D" Ref="C43"  Part="1" 
 AR Path="/5F354B8C/5F91837D" Ref="C?"  Part="1" 
 AR Path="/5F354E2A/5F91837D" Ref="C?"  Part="1" 
 AR Path="/5F3552FC/5F91837D" Ref="C?"  Part="1" 
@@ -8783,13 +8746,13 @@ AR Path="/5F52BDC8/5F91837D" Ref="C?"  Part="1"
 AR Path="/5F5A5959/5F91837D" Ref="C?"  Part="1" 
 AR Path="/5F5C3BDB/5F91837D" Ref="C?"  Part="1" 
 AR Path="/5F62C305/5F91837D" Ref="C?"  Part="1" 
-AR Path="/5FCD393E/5F91837D" Ref="C?"  Part="1" 
-F 0 "C?" H 7815 3521 50  0000 L CNN
+AR Path="/5FCD393E/5F91837D" Ref="C182"  Part="1" 
+F 0 "C182" H 7815 3521 50  0000 L CNN
 F 1 "DNP" H 7815 3430 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7738 3325 50  0001 C CNN
 F 3 "~" H 7700 3475 50  0001 C CNN
-F 4 "GRM32EC81C476KE15L" H 7700 3475 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/murata-electronics/GRM32EC81C476KE15L/490-10531-1-ND/5026469" H 7700 3475 50  0001 C CNN "Order"
+F 4 "" H 7700 3475 50  0001 C CNN "Mfr. #"
+F 5 "" H 7700 3475 50  0001 C CNN "Order"
 	1    7700 3475
 	1    0    0    -1  
 $EndComp
@@ -8802,10 +8765,10 @@ Wire Wire Line
 Wire Wire Line
 	2275 3325 2725 3325
 $Comp
-L Device:C C?
+L Device:C C34
 U 1 1 5F91FDED
 P 2725 3575
-AR Path="/5F301AC2/5F91FDED" Ref="C?"  Part="1" 
+AR Path="/5F301AC2/5F91FDED" Ref="C34"  Part="1" 
 AR Path="/5F354B8C/5F91FDED" Ref="C?"  Part="1" 
 AR Path="/5F354E2A/5F91FDED" Ref="C?"  Part="1" 
 AR Path="/5F3552FC/5F91FDED" Ref="C?"  Part="1" 
@@ -8815,13 +8778,14 @@ AR Path="/5F52BDC8/5F91FDED" Ref="C?"  Part="1"
 AR Path="/5F5A5959/5F91FDED" Ref="C?"  Part="1" 
 AR Path="/5F5C3BDB/5F91FDED" Ref="C?"  Part="1" 
 AR Path="/5F62C305/5F91FDED" Ref="C?"  Part="1" 
-AR Path="/5FCD393E/5F91FDED" Ref="C?"  Part="1" 
-F 0 "C?" H 2840 3621 50  0000 L CNN
-F 1 "1uF" H 2840 3530 50  0000 L CNN
+AR Path="/5FCD393E/5F91FDED" Ref="C176"  Part="1" 
+F 0 "C176" H 2825 3625 50  0000 L CNN
+F 1 "1uF" H 2825 3550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2763 3425 50  0001 C CNN
 F 3 "~" H 2725 3575 50  0001 C CNN
-F 4 "" H 2725 3575 50  0001 C CNN "Mfr. #"
-F 5 "" H 2725 3575 50  0001 C CNN "Order"
+F 4 "CL10B105KP8NFNC" H 2725 3575 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KP8NFNC/1276-1945-1-ND/3890031" H 2725 3575 50  0001 C CNN "Order"
+F 6 "10V" H 2900 3475 50  0000 C CNN "Voltage"
 	1    2725 3575
 	1    0    0    -1  
 $EndComp
@@ -8839,13 +8803,11 @@ Connection ~ 2725 3425
 Wire Wire Line
 	2725 3725 2725 4825
 Connection ~ 2725 4825
-Wire Wire Line
-	2725 4825 4850 4825
 $Comp
-L Device:C C?
+L Device:C C32
 U 1 1 5F92B281
 P 1825 3575
-AR Path="/5F301AC2/5F92B281" Ref="C?"  Part="1" 
+AR Path="/5F301AC2/5F92B281" Ref="C32"  Part="1" 
 AR Path="/5F354B8C/5F92B281" Ref="C?"  Part="1" 
 AR Path="/5F354E2A/5F92B281" Ref="C?"  Part="1" 
 AR Path="/5F3552FC/5F92B281" Ref="C?"  Part="1" 
@@ -8855,13 +8817,14 @@ AR Path="/5F52BDC8/5F92B281" Ref="C?"  Part="1"
 AR Path="/5F5A5959/5F92B281" Ref="C?"  Part="1" 
 AR Path="/5F5C3BDB/5F92B281" Ref="C?"  Part="1" 
 AR Path="/5F62C305/5F92B281" Ref="C?"  Part="1" 
-AR Path="/5FCD393E/5F92B281" Ref="C?"  Part="1" 
-F 0 "C?" H 1940 3621 50  0000 L CNN
-F 1 "47uF" H 1940 3530 50  0000 L CNN
+AR Path="/5FCD393E/5F92B281" Ref="C174"  Part="1" 
+F 0 "C174" H 1925 3625 50  0000 L CNN
+F 1 "47uF" H 1925 3550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1863 3425 50  0001 C CNN
 F 3 "~" H 1825 3575 50  0001 C CNN
 F 4 "GRM32EC81C476KE15L" H 1825 3575 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/murata-electronics/GRM32EC81C476KE15L/490-10531-1-ND/5026469" H 1825 3575 50  0001 C CNN "Order"
+F 6 "16V" H 2000 3475 50  0000 C CNN "Voltage"
 	1    1825 3575
 	1    0    0    -1  
 $EndComp
@@ -8875,4 +8838,61 @@ Wire Wire Line
 Connection ~ 1825 4825
 Wire Wire Line
 	1825 4825 2275 4825
+Wire Wire Line
+	4850 2500 4925 2500
+Wire Wire Line
+	4925 2500 4925 2775
+Wire Wire Line
+	4925 2775 5050 2775
+Wire Wire Line
+	5050 2775 5050 2975
+Wire Wire Line
+	4925 2500 5100 2500
+Connection ~ 4925 2500
+Wire Wire Line
+	5575 2500 5575 2775
+Wire Wire Line
+	5575 2775 5450 2775
+Wire Wire Line
+	5450 2775 5450 2975
+Wire Wire Line
+	5400 2500 5575 2500
+Wire Wire Line
+	5575 2500 5650 2500
+Connection ~ 5575 2500
+Wire Wire Line
+	4650 2500 4575 2500
+Wire Wire Line
+	4575 2500 4575 2775
+Wire Wire Line
+	4575 2775 4850 2775
+Wire Wire Line
+	4850 2775 4850 2975
+Wire Wire Line
+	5850 2500 5925 2500
+Wire Wire Line
+	5925 2500 5925 2775
+Wire Wire Line
+	5925 2775 5650 2775
+Wire Wire Line
+	5650 2775 5650 2975
+Wire Wire Line
+	3250 4425 3675 4425
+$Comp
+L 1K_Custom_Symbol:LTC3130-1 U83
+U 1 1 638BE07D
+P 5250 3825
+AR Path="/5FCD393E/638BE07D" Ref="U83"  Part="1" 
+AR Path="/5F301AC2/638BE07D" Ref="U16"  Part="1" 
+F 0 "U83" H 5275 3825 50  0000 C CNN
+F 1 "LTC3130-1" H 5250 3425 50  0000 C CNN
+F 2 "Package_SO:MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm_ThermalVias" H 5300 2575 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3130f.pdf" H 5250 3825 50  0001 C CNN
+F 4 "LTC3130EMSE-1#PBF" H 5250 3975 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/analog-devices-inc/LTC3130EMSE-1-PBF/LTC3130EMSE-1-PBF-ND/6174043" H 5350 2475 50  0001 C CNN "Order"
+	1    5250 3825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2725 4825 5050 4825
 $EndSCHEMATC

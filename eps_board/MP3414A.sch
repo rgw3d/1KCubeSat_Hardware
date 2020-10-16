@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 41 39
+Sheet 38 39
 Title "5V Boost"
 Date "2020-10-04"
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 1K_Custom_Symbol:MP3414A U?
+L 1K_Custom_Symbol:MP3414A U84
 U 1 1 5F888DFB
 P 5500 4000
-F 0 "U?" H 5500 4175 50  0000 C CNN
+F 0 "U84" H 5500 4175 50  0000 C CNN
 F 1 "MP3414A" H 5500 4075 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-8_HandSoldering" H 5500 3050 50  0001 C CNN
 F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP3414A/document_id/1172/" H 5500 3650 50  0001 C CNN
@@ -27,14 +27,14 @@ F 5 "https://www.digikey.com/en/products/detail/monolithic-power-systems-inc/MP3
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L?
+L Device:L L3
 U 1 1 5F88C434
 P 5100 3400
-F 0 "L?" V 4919 3400 50  0000 C CNN
+F 0 "L3" V 4919 3400 50  0000 C CNN
 F 1 "2.2uH" V 5010 3400 50  0000 C CNN
 F 2 "Inductor_SMD:L_Coilcraft_XAL5030" H 5100 3400 50  0001 C CNN
 F 3 "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xgl/xgl5030/#" H 5100 3400 50  0001 C CNN
-F 4 "XAL5030-222" V 5100 3400 50  0001 C CNN "Mfr. #"
+F 4 "XAL5030-222" V 5175 3400 50  0000 C CNN "Mfr. #"
 F 5 "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xgl/xgl5030/#" V 5100 3400 50  0001 C CNN "Order"
 	1    5100 3400
 	0    1    1    0   
@@ -69,11 +69,13 @@ AR Path="/5F5A5959/5F88D8FA" Ref="R?"  Part="1"
 AR Path="/5F5C3BDB/5F88D8FA" Ref="R?"  Part="1" 
 AR Path="/5F62C305/5F88D8FA" Ref="R?"  Part="1" 
 AR Path="/5F88D8FA" Ref="R?"  Part="1" 
-AR Path="/5F8870A6/5F88D8FA" Ref="R?"  Part="1" 
-F 0 "R?" H 6225 3850 50  0000 C CNN
+AR Path="/5F8870A6/5F88D8FA" Ref="R321"  Part="1" 
+F 0 "R321" H 6175 3850 50  0000 C CNN
 F 1 "1M" H 6175 4075 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6255 3950 50  0001 C CNN
 F 3 "~" H 6325 3950 50  0001 C CNN
+F 4 "RMCF0603JT1M00" H 6325 3950 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603JT1M00/1758066" H 6325 3950 50  0001 C CNN "Order"
 	1    6325 3950
 	-1   0    0    1   
 $EndComp
@@ -92,11 +94,13 @@ AR Path="/5F5A5959/5F88DA87" Ref="R?"  Part="1"
 AR Path="/5F5C3BDB/5F88DA87" Ref="R?"  Part="1" 
 AR Path="/5F62C305/5F88DA87" Ref="R?"  Part="1" 
 AR Path="/5F88DA87" Ref="R?"  Part="1" 
-AR Path="/5F8870A6/5F88DA87" Ref="R?"  Part="1" 
-F 0 "R?" H 6225 4275 50  0000 C CNN
-F 1 "137k" H 6175 4500 50  0000 C CNN
+AR Path="/5F8870A6/5F88DA87" Ref="R322"  Part="1" 
+F 0 "R322" H 6175 4275 50  0000 C CNN
+F 1 "137K" H 6175 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6255 4375 50  0001 C CNN
 F 3 "~" H 6325 4375 50  0001 C CNN
+F 4 "RMCF0603FT137K" H 6325 4375 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT137K/1713607" H 6325 4375 50  0001 C CNN "Order"
 	1    6325 4375
 	-1   0    0    1   
 $EndComp
@@ -135,11 +139,13 @@ AR Path="/5F5A5959/5F88E26F" Ref="R?"  Part="1"
 AR Path="/5F5C3BDB/5F88E26F" Ref="R?"  Part="1" 
 AR Path="/5F62C305/5F88E26F" Ref="R?"  Part="1" 
 AR Path="/5F88E26F" Ref="R?"  Part="1" 
-AR Path="/5F8870A6/5F88E26F" Ref="R?"  Part="1" 
-F 0 "R?" H 4575 4350 50  0000 C CNN
-F 1 "100k" H 4525 4575 50  0000 C CNN
+AR Path="/5F8870A6/5F88E26F" Ref="R320"  Part="1" 
+F 0 "R320" H 4525 4350 50  0000 C CNN
+F 1 "100K" H 4525 4575 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4605 4450 50  0001 C CNN
 F 3 "~" H 4675 4450 50  0001 C CNN
+F 4 "RMCF0603FT100K" H 4675 4450 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT100K/1761112" H 4675 4450 50  0001 C CNN "Order"
 	1    4675 4450
 	-1   0    0    1   
 $EndComp
@@ -165,24 +171,30 @@ Connection ~ 4700 3700
 Wire Wire Line
 	4700 3700 5000 3700
 $Comp
-L Device:C C?
+L Device:C C184
 U 1 1 5FEE559E
 P 6800 3950
-F 0 "C?" H 6915 3996 50  0000 L CNN
-F 1 "1uF" H 6915 3905 50  0000 L CNN
-F 2 "" H 6838 3800 50  0001 C CNN
+F 0 "C184" H 6900 3975 50  0000 L CNN
+F 1 "1uF" H 6900 3900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6838 3800 50  0001 C CNN
 F 3 "~" H 6800 3950 50  0001 C CNN
+F 4 "CL10B105KP8NFNC" H 6800 3950 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KP8NFNC/1276-1945-1-ND/3890031" H 6800 3950 50  0001 C CNN "Order"
+F 6 "10V" H 6975 3825 50  0000 C CNN "Voltage"
 	1    6800 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C185
 U 1 1 5FEE5AB1
 P 7250 3950
-F 0 "C?" H 7365 3996 50  0000 L CNN
-F 1 "22uF" H 7365 3905 50  0000 L CNN
-F 2 "" H 7288 3800 50  0001 C CNN
+F 0 "C185" H 7350 3975 50  0000 L CNN
+F 1 "47uF" H 7350 3900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7288 3800 50  0001 C CNN
 F 3 "~" H 7250 3950 50  0001 C CNN
+F 4 "GRM32EC81C476KE15L" H 7250 3950 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/murata-electronics/GRM32EC81C476KE15L/490-10531-1-ND/5026469" H 7250 3950 50  0001 C CNN "Order"
+F 6 "16V" H 7425 3825 50  0000 C CNN "Voltage"
 	1    7250 3950
 	1    0    0    -1  
 $EndComp
@@ -197,12 +209,12 @@ Wire Wire Line
 	7250 4725 6800 4725
 Connection ~ 6800 4725
 $Comp
-L Device:C C?
+L Device:C C186
 U 1 1 5FEE7883
 P 7750 3950
-F 0 "C?" H 7865 3996 50  0000 L CNN
+F 0 "C186" H 7865 3996 50  0000 L CNN
 F 1 "DNP" H 7865 3905 50  0000 L CNN
-F 2 "" H 7788 3800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7788 3800 50  0001 C CNN
 F 3 "~" H 7750 3950 50  0001 C CNN
 	1    7750 3950
 	1    0    0    -1  
@@ -1336,23 +1348,26 @@ Wire Wire Line
 	8425 3700 7750 3700
 Connection ~ 7750 3700
 $Comp
-L Device:C C?
+L Device:C C183
 U 1 1 5FEF85AA
-P 4000 4150
-F 0 "C?" H 4115 4196 50  0000 L CNN
-F 1 "10uF" H 4115 4105 50  0000 L CNN
-F 2 "" H 4038 4000 50  0001 C CNN
-F 3 "~" H 4000 4150 50  0001 C CNN
-	1    4000 4150
+P 4000 3950
+F 0 "C183" H 4100 4000 50  0000 L CNN
+F 1 "47uF" H 4100 3925 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4038 3800 50  0001 C CNN
+F 3 "~" H 4000 3950 50  0001 C CNN
+F 4 "GRM32EC81C476KE15L" H 4000 3950 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/murata-electronics/GRM32EC81C476KE15L/490-10531-1-ND/5026469" H 4000 3950 50  0001 C CNN "Order"
+F 6 "16V" H 4175 3850 50  0000 C CNN "Voltage"
+	1    4000 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 4000 4000 3700
+	4000 3800 4000 3700
 Connection ~ 4000 3700
 Wire Wire Line
 	4000 3700 4700 3700
 Wire Wire Line
-	4000 4300 4000 4725
+	4000 4100 4000 4725
 Connection ~ 4000 4725
 Wire Wire Line
 	4000 4725 4675 4725

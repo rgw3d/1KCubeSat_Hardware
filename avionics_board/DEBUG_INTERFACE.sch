@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr B 17000 11000
+$Descr A 11000 8500
 encoding utf-8
-Sheet 31 39
+Sheet 29 39
 Title "DEBUG INTERFACE"
 Date "2020-05-02"
 Rev ""
@@ -13,506 +13,530 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 825  6925 0    50   ~ 0
+Text Notes 925  4025 0    50   ~ 0
 The series resistors are useful on high-speed traces. \nhttps://electronics.stackexchange.com/questions/7709/why-put-a-resistor-in-series-with-signal-line\n\nSo I'm going with 50 ohm 
-Text HLabel 1900 4475 0    50   Input ~ 0
+Text HLabel 2000 1575 0    50   Input ~ 0
 NRST
-Text HLabel 1900 5275 0    50   Input ~ 0
+Text HLabel 2000 2375 0    50   Input ~ 0
 TARGET_GND
-Text Notes 850  7600 0    50   ~ 0
+Text Notes 950  4700 0    50   ~ 0
 JTAG    \n    TDI (Test Data In)\n    TDO (Test Data Out)\n    TCK (Test Clock)\n    TMS (Test Mode Select)\n    TRST (Test Reset) optional.
-Text Notes 2275 7425 0    50   ~ 0
+Text Notes 2375 4525 0    50   ~ 0
 SWD\n    SWCLK (Clock signal to target CPU)\n    SWDIO (Bi-directional data pin)\n    SWO  (Serial Wire output) optional
 Wire Wire Line
-	2675 4650 2800 4650
+	2775 1750 2900 1750
 Wire Wire Line
-	2675 4850 2725 4850
+	2775 1950 2825 1950
 Wire Wire Line
-	2675 5050 2800 5050
+	2775 2150 2900 2150
 $Comp
 L 1K_Custom_Symbol:TP_1.5x1.5 TP39
 U 1 1 6310C54C
-P 2250 8250
-F 0 "TP39" V 2175 8425 50  0000 R CNN
-F 1 "TP_1.5x1.5" V 2300 8675 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2450 8250 50  0001 C CNN
-F 3 "~" H 2450 8250 50  0001 C CNN
-	1    2250 8250
+P 2350 5350
+F 0 "TP39" V 2275 5525 50  0000 R CNN
+F 1 "TP_1.5x1.5" V 2400 5775 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2550 5350 50  0001 C CNN
+F 3 "~" H 2550 5350 50  0001 C CNN
+	1    2350 5350
 	0    1    1    0   
 $EndComp
 $Comp
 L 1K_Custom_Symbol:TP_1.5x1.5 TP41
 U 1 1 6310C54D
-P 2800 5075
-F 0 "TP41" H 2742 5101 50  0000 R CNN
-F 1 "TP_1.5x1.5" H 2742 5192 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 3000 5075 50  0001 C CNN
-F 3 "~" H 3000 5075 50  0001 C CNN
-	1    2800 5075
+P 2900 2175
+F 0 "TP41" H 2842 2201 50  0000 R CNN
+F 1 "TP_1.5x1.5" H 2842 2292 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 3100 2175 50  0001 C CNN
+F 3 "~" H 3100 2175 50  0001 C CNN
+	1    2900 2175
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2800 5075 2800 5050
-Connection ~ 2800 5050
+	2900 2175 2900 2150
+Connection ~ 2900 2150
 Wire Wire Line
-	2800 5050 3500 5050
+	2900 2150 3600 2150
 $Comp
 L 1K_Custom_Symbol:TP_1.5x1.5 TP38
 U 1 1 5EB6E467
-P 2725 4875
-F 0 "TP38" H 2667 4901 50  0000 R CNN
-F 1 "TP_1.5x1.5" H 2667 4992 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2925 4875 50  0001 C CNN
-F 3 "~" H 2925 4875 50  0001 C CNN
-	1    2725 4875
+P 2825 1975
+F 0 "TP38" H 2767 2001 50  0000 R CNN
+F 1 "TP_1.5x1.5" H 2767 2092 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 3025 1975 50  0001 C CNN
+F 3 "~" H 3025 1975 50  0001 C CNN
+	1    2825 1975
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2725 4850 2725 4875
-Connection ~ 2725 4850
+	2825 1950 2825 1975
+Connection ~ 2825 1950
 Wire Wire Line
-	2725 4850 3425 4850
+	2825 1950 3525 1950
 $Comp
 L 1K_Custom_Symbol:TP_1.5x1.5 TP40
 U 1 1 5EB6F13C
-P 2800 4675
-F 0 "TP40" H 2742 4701 50  0000 R CNN
-F 1 "TP_1.5x1.5" H 2742 4792 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 3000 4675 50  0001 C CNN
-F 3 "~" H 3000 4675 50  0001 C CNN
-	1    2800 4675
+P 2900 1775
+F 0 "TP40" H 2842 1801 50  0000 R CNN
+F 1 "TP_1.5x1.5" H 2842 1892 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 3100 1775 50  0001 C CNN
+F 3 "~" H 3100 1775 50  0001 C CNN
+	1    2900 1775
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2800 4650 2800 4675
-Connection ~ 2800 4650
-Text HLabel 1900 4650 0    50   Input ~ 0
+	2900 1750 2900 1775
+Connection ~ 2900 1750
+Text HLabel 2000 1750 0    50   Input ~ 0
 JTAG_TCK_SWD_SWCLK
-Text HLabel 1900 5050 0    50   Input ~ 0
+Text HLabel 2000 2150 0    50   Input ~ 0
 JTAG_TDO_SWD_SWO
-Text HLabel 1900 4850 0    50   Input ~ 0
+Text HLabel 2000 1950 0    50   Input ~ 0
 JTAG_TMS_SWD_SWDIO
-Text HLabel 1300 8250 0    50   Input ~ 0
+Text HLabel 1400 5350 0    50   Input ~ 0
 JTAG_TDI
 Wire Wire Line
-	1900 4850 2375 4850
+	2000 1950 2475 1950
 Wire Wire Line
-	2375 4650 1900 4650
+	2475 1750 2000 1750
 Wire Wire Line
-	1900 5050 2375 5050
+	2000 2150 2475 2150
 Wire Wire Line
-	1775 8250 1300 8250
-Text Notes 750  5825 0    50   ~ 0
+	1875 5350 1400 5350
+Text Notes 850  2925 0    50   ~ 0
 The TDI and TDO pins here match with the target's (the STM32's) TDI and TDO pins. \n
-Text Notes 2225 4100 0    118  ~ 0
+Text Notes 2500 1250 0    118  ~ 0
 JTAG / SWD
-Text Notes 7825 4075 0    118  ~ 0
+Text Notes 7700 3775 0    118  ~ 0
 DEBUG UART
 $Comp
 L Connector:Conn_01x04_Male J13
 U 1 1 5EB9A283
-P 8875 4600
-F 0 "J13" H 8847 4482 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 8847 4573 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8875 4600 50  0001 C CNN
-F 3 "~" H 8875 4600 50  0001 C CNN
-F 4 "PREC004SBAN-M71RC" H 8875 4600 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PREC004SBAN-M71RC/S1112EC-04-ND/2774930" H 8875 4600 50  0001 C CNN "Order"
-	1    8875 4600
+P 8375 4175
+F 0 "J13" H 8347 4057 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 8347 4148 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8375 4175 50  0001 C CNN
+F 3 "~" H 8375 4175 50  0001 C CNN
+F 4 "PREC004SBAN-M71RC" H 8375 4175 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PREC004SBAN-M71RC/S1112EC-04-ND/2774930" H 8375 4175 50  0001 C CNN "Order"
+	1    8375 4175
 	-1   0    0    1   
 $EndComp
-Text HLabel 8225 4400 0    50   Input ~ 0
+Text HLabel 7725 3975 0    50   Input ~ 0
 TARGET_VDD
-Text HLabel 8225 4700 0    50   Input ~ 0
+Text HLabel 7725 4275 0    50   Input ~ 0
 TARGET_GND
 Wire Wire Line
-	8225 4700 8675 4700
+	7725 4275 8175 4275
 Wire Wire Line
-	8675 4400 8525 4400
-Text HLabel 8225 4600 0    50   Input ~ 0
+	8175 3975 8025 3975
+Text HLabel 7725 4175 0    50   Input ~ 0
 TARGET_UART_RX
-Text HLabel 8225 4500 0    50   Input ~ 0
+Text HLabel 7725 4075 0    50   Input ~ 0
 TARGET_UART_TX
 Wire Wire Line
-	8225 4500 8450 4500
+	7725 4075 7950 4075
 Wire Wire Line
-	8675 4600 8350 4600
-Text Notes 7025 4950 0    50   ~ 0
+	8175 4175 7850 4175
+Text Notes 6525 4525 0    50   ~ 0
 Target's RX and TX pins
-Text Notes 7125 725  0    118  ~ 0
+Text Notes 7700 1275 0    118  ~ 0
 DEBUG LED\n
 $Comp
 L Device:LED_Small_ALT D1
 U 1 1 5EBA3C4D
-P 7550 1425
-F 0 "D1" H 7550 1660 50  0000 C CNN
-F 1 "LED_SMD_RED" H 7550 1569 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7550 1425 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150060RS75000.pdf" V 7550 1425 50  0001 C CNN
-F 4 "150060RS75000" H 7550 1425 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060RS75000/732-4978-1-ND/4489899" H 7550 1425 50  0001 C CNN "Order"
-	1    7550 1425
+P 8100 1825
+F 0 "D1" H 8100 2060 50  0000 C CNN
+F 1 "LED_SMD_RED" H 8100 1969 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8100 1825 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150060RS75000.pdf" V 8100 1825 50  0001 C CNN
+F 4 "150060RS75000" H 8100 1825 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060RS75000/732-4978-1-ND/4489899" H 8100 1825 50  0001 C CNN "Order"
+	1    8100 1825
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED_Small_ALT D2
 U 1 1 6310C553
-P 7550 1775
-F 0 "D2" H 7550 2010 50  0000 C CNN
-F 1 "LED_SMD_GREEN" H 7550 1919 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7550 1775 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150060VS75000.pdf" V 7550 1775 50  0001 C CNN
-F 4 "150060VS75000" H 7550 1775 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060VS75000/732-4980-1-ND/4489904" H 7550 1775 50  0001 C CNN "Order"
-	1    7550 1775
+P 8100 2175
+F 0 "D2" H 8100 2410 50  0000 C CNN
+F 1 "LED_SMD_GREEN" H 8100 2319 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8100 2175 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150060VS75000.pdf" V 8100 2175 50  0001 C CNN
+F 4 "150060VS75000" H 8100 2175 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060VS75000/732-4980-1-ND/4489904" H 8100 2175 50  0001 C CNN "Order"
+	1    8100 2175
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED_Small_ALT D3
 U 1 1 6310C554
-P 7550 2125
-F 0 "D3" H 7550 2360 50  0000 C CNN
-F 1 "LED_SMD_YELLOW" H 7550 2269 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7550 2125 50  0001 C CNN
-F 3 "https://www.digikey.com/Web%20Export/Common/icons/datasheet.png" V 7550 2125 50  0001 C CNN
-F 4 "150060YS75000" H 7550 2125 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060YS75000/732-4981-1-ND/4489907" H 7550 2125 50  0001 C CNN "Order"
-	1    7550 2125
+P 8100 2525
+F 0 "D3" H 8100 2760 50  0000 C CNN
+F 1 "LED_SMD_YELLOW" H 8100 2669 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8100 2525 50  0001 C CNN
+F 3 "https://www.digikey.com/Web%20Export/Common/icons/datasheet.png" V 8100 2525 50  0001 C CNN
+F 4 "150060YS75000" H 8100 2525 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060YS75000/732-4981-1-ND/4489907" H 8100 2525 50  0001 C CNN "Order"
+	1    8100 2525
 	1    0    0    -1  
 $EndComp
-Text Notes 7075 1125 0    50   ~ 0
+Text Notes 7275 1725 0    50   ~ 0
 Vf=2.0V \nIf=20mA
-Text HLabel 9300 1425 2    50   Input ~ 0
+Text HLabel 9500 1825 2    50   Input ~ 0
 TARGET_VDD
 $Comp
 L Device:R R24
 U 1 1 5EBBE0B8
-P 8250 1425
-F 0 "R24" V 8043 1425 50  0000 C CNN
-F 1 "330" V 8134 1425 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8180 1425 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8250 1425 50  0001 C CNN
-F 4 "CRCW0603330RJNEA" V 8250 1425 50  0001 C CNN "Mfr. #"
-F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8250 1425 50  0001 C CNN "Order"
-	1    8250 1425
+P 8800 1825
+F 0 "R24" V 8593 1825 50  0000 C CNN
+F 1 "330" V 8684 1825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 1825 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8800 1825 50  0001 C CNN
+F 4 "CRCW0603330RJNEA" V 8800 1825 50  0001 C CNN "Mfr. #"
+F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8800 1825 50  0001 C CNN "Order"
+	1    8800 1825
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8400 1425 9300 1425
-Connection ~ 8400 1425
+	8950 1825 9500 1825
+Connection ~ 8950 1825
 Wire Wire Line
-	7650 1425 8100 1425
+	8200 1825 8650 1825
 Wire Wire Line
-	7650 1775 8100 1775
+	8200 2175 8650 2175
 Wire Wire Line
-	7650 2125 8100 2125
+	8200 2525 8650 2525
 Wire Wire Line
-	8100 2450 7650 2450
+	8650 2850 8200 2850
 Wire Wire Line
-	7650 2800 8100 2800
-Text HLabel 6500 1425 0    50   Input ~ 0
+	8200 3200 8650 3200
+Text HLabel 7050 1825 0    50   Input ~ 0
 LED_GPIO1
-Text HLabel 6500 1775 0    50   Input ~ 0
+Text HLabel 7050 2175 0    50   Input ~ 0
 LED_GPIO2
-Text HLabel 6500 2125 0    50   Input ~ 0
+Text HLabel 7050 2525 0    50   Input ~ 0
 LED_GPIO3
-Text HLabel 6500 2450 0    50   Input ~ 0
+Text HLabel 7050 2850 0    50   Input ~ 0
 LED_GPIO4
-Text HLabel 6500 2800 0    50   Input ~ 0
+Text HLabel 7050 3200 0    50   Input ~ 0
 LED_GPIO5
 Wire Wire Line
-	6500 1425 7450 1425
+	7050 1825 8000 1825
 Wire Wire Line
-	7450 1775 6500 1775
+	8000 2175 7050 2175
 Wire Wire Line
-	6500 2125 7450 2125
+	7050 2525 8000 2525
 Wire Wire Line
-	7450 2450 6500 2450
+	8000 2850 7050 2850
 Wire Wire Line
-	6500 2800 7450 2800
+	7050 3200 8000 3200
 Wire Wire Line
-	8400 1425 8400 1775
+	8950 1825 8950 2175
 $Comp
 L Device:R R25
 U 1 1 5EBF2CE3
-P 8250 1775
-F 0 "R25" V 8043 1775 50  0000 C CNN
-F 1 "330" V 8134 1775 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8180 1775 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8250 1775 50  0001 C CNN
-F 4 "CRCW0603330RJNEA" V 8250 1775 50  0001 C CNN "Mfr. #"
-F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8250 1775 50  0001 C CNN "Order"
-	1    8250 1775
+P 8800 2175
+F 0 "R25" V 8593 2175 50  0000 C CNN
+F 1 "330" V 8684 2175 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 2175 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8800 2175 50  0001 C CNN
+F 4 "CRCW0603330RJNEA" V 8800 2175 50  0001 C CNN "Mfr. #"
+F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8800 2175 50  0001 C CNN "Order"
+	1    8800 2175
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R26
 U 1 1 5EBF32E5
-P 8250 2125
-F 0 "R26" V 8043 2125 50  0000 C CNN
-F 1 "330" V 8134 2125 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8180 2125 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8250 2125 50  0001 C CNN
-F 4 "CRCW0603330RJNEA" V 8250 2125 50  0001 C CNN "Mfr. #"
-F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8250 2125 50  0001 C CNN "Order"
-	1    8250 2125
+P 8800 2525
+F 0 "R26" V 8593 2525 50  0000 C CNN
+F 1 "330" V 8684 2525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 2525 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8800 2525 50  0001 C CNN
+F 4 "CRCW0603330RJNEA" V 8800 2525 50  0001 C CNN "Mfr. #"
+F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8800 2525 50  0001 C CNN "Order"
+	1    8800 2525
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R27
 U 1 1 5EBF36EC
-P 8250 2450
-F 0 "R27" V 8043 2450 50  0000 C CNN
-F 1 "330" V 8134 2450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8180 2450 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8250 2450 50  0001 C CNN
-F 4 "CRCW0603330RJNEA" V 8250 2450 50  0001 C CNN "Mfr. #"
-F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8250 2450 50  0001 C CNN "Order"
-	1    8250 2450
+P 8800 2850
+F 0 "R27" V 8593 2850 50  0000 C CNN
+F 1 "330" V 8684 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 2850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8800 2850 50  0001 C CNN
+F 4 "CRCW0603330RJNEA" V 8800 2850 50  0001 C CNN "Mfr. #"
+F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8800 2850 50  0001 C CNN "Order"
+	1    8800 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R28
 U 1 1 5EBF3B36
-P 8250 2800
-F 0 "R28" V 8043 2800 50  0000 C CNN
-F 1 "330" V 8134 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8180 2800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8250 2800 50  0001 C CNN
-F 4 "CRCW0603330RJNEA" V 8250 2800 50  0001 C CNN "Mfr. #"
-F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8250 2800 50  0001 C CNN "Order"
-	1    8250 2800
+P 8800 3200
+F 0 "R28" V 8593 3200 50  0000 C CNN
+F 1 "330" V 8684 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 3200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8800 3200 50  0001 C CNN
+F 4 "CRCW0603330RJNEA" V 8800 3200 50  0001 C CNN "Mfr. #"
+F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8800 3200 50  0001 C CNN "Order"
+	1    8800 3200
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R20
 U 1 1 5EBF523F
-P 2525 4650
-F 0 "R20" V 2625 4750 50  0000 C CNN
-F 1 "49.9" V 2625 4550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2455 4650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2525 4650 50  0001 C CNN
-F 4 "RR0816Q-49R9-D-68R " V 2525 4650 50  0001 C CNN "Mfr. #"
-F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 2525 4650 50  0001 C CNN "Order"
-	1    2525 4650
+P 2625 1750
+F 0 "R20" V 2725 1850 50  0000 C CNN
+F 1 "49.9" V 2725 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2555 1750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2625 1750 50  0001 C CNN
+F 4 "RR0816Q-49R9-D-68R " V 2625 1750 50  0001 C CNN "Mfr. #"
+F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 2625 1750 50  0001 C CNN "Order"
+	1    2625 1750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R21
 U 1 1 5EBF54D7
-P 2525 4850
-F 0 "R21" V 2625 4950 50  0000 C CNN
-F 1 "49.9" V 2625 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2455 4850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2525 4850 50  0001 C CNN
-F 4 "RR0816Q-49R9-D-68R " V 2525 4850 50  0001 C CNN "Mfr. #"
-F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 2525 4850 50  0001 C CNN "Order"
-	1    2525 4850
+P 2625 1950
+F 0 "R21" V 2725 2050 50  0000 C CNN
+F 1 "49.9" V 2725 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2555 1950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2625 1950 50  0001 C CNN
+F 4 "RR0816Q-49R9-D-68R " V 2625 1950 50  0001 C CNN "Mfr. #"
+F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 2625 1950 50  0001 C CNN "Order"
+	1    2625 1950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R22
 U 1 1 5EBF5728
-P 2525 5050
-F 0 "R22" V 2625 5150 50  0000 C CNN
-F 1 "49.9" V 2625 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2455 5050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2525 5050 50  0001 C CNN
-F 4 "RR0816Q-49R9-D-68R " V 2525 5050 50  0001 C CNN "Mfr. #"
-F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 2525 5050 50  0001 C CNN "Order"
-	1    2525 5050
+P 2625 2150
+F 0 "R22" V 2725 2250 50  0000 C CNN
+F 1 "49.9" V 2725 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2555 2150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2625 2150 50  0001 C CNN
+F 4 "RR0816Q-49R9-D-68R " V 2625 2150 50  0001 C CNN "Mfr. #"
+F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 2625 2150 50  0001 C CNN "Order"
+	1    2625 2150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R23
 U 1 1 6310C55D
-P 1925 8250
-F 0 "R23" V 2025 8350 50  0000 C CNN
-F 1 "49.9" V 2025 8150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1855 8250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1925 8250 50  0001 C CNN
-F 4 "RR0816Q-49R9-D-68R " V 1925 8250 50  0001 C CNN "Mfr. #"
-F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 1925 8250 50  0001 C CNN "Order"
-	1    1925 8250
+P 2025 5350
+F 0 "R23" V 2125 5450 50  0000 C CNN
+F 1 "49.9" V 2125 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1955 5350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2025 5350 50  0001 C CNN
+F 4 "RR0816Q-49R9-D-68R " V 2025 5350 50  0001 C CNN "Mfr. #"
+F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 2025 5350 50  0001 C CNN "Order"
+	1    2025 5350
 	0    -1   -1   0   
 $EndComp
-Text Notes 775  6075 0    50   ~ 0
+Text Notes 875  3175 0    50   ~ 0
 SRST = System Reset\nTRST = JTAG specific reset
 $Comp
 L Diode:ESD9B5.0ST5G D6
 U 1 1 6310C57A
-P 8850 5225
-F 0 "D6" H 8850 5441 50  0000 C CNN
-F 1 "ESD9B5.0ST5G" H 8850 5350 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-923" H 8850 5225 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" H 8850 5225 50  0001 C CNN
-F 4 "ESD9B5.0ST5G" H 8850 5225 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/ESD9B5-0ST5G/ESD9B5-0ST5GOSCT-ND/1646497" H 8850 5225 50  0001 C CNN "Order"
-	1    8850 5225
+P 8350 4650
+F 0 "D6" H 8350 4866 50  0000 C CNN
+F 1 "ESD9B5.0ST5G" H 8350 4775 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-923" H 8350 4650 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" H 8350 4650 50  0001 C CNN
+F 4 "ESD9B5.0ST5G" H 8350 4650 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/ESD9B5-0ST5G/ESD9B5-0ST5GOSCT-ND/1646497" H 8350 4650 50  0001 C CNN "Order"
+	1    8350 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:ESD9B5.0ST5G D7
 U 1 1 6310C57B
-P 8850 5600
-F 0 "D7" H 8850 5384 50  0000 C CNN
-F 1 "ESD9B5.0ST5G" H 8850 5475 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-923" H 8850 5600 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" H 8850 5600 50  0001 C CNN
-F 4 "ESD9B5.0ST5G" H 8850 5600 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/ESD9B5-0ST5G/ESD9B5-0ST5GOSCT-ND/1646497" H 8850 5600 50  0001 C CNN "Order"
-	1    8850 5600
+P 8350 5025
+F 0 "D7" H 8350 4809 50  0000 C CNN
+F 1 "ESD9B5.0ST5G" H 8350 4900 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-923" H 8350 5025 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" H 8350 5025 50  0001 C CNN
+F 4 "ESD9B5.0ST5G" H 8350 5025 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/ESD9B5-0ST5G/ESD9B5-0ST5GOSCT-ND/1646497" H 8350 5025 50  0001 C CNN "Order"
+	1    8350 5025
 	-1   0    0    1   
 $EndComp
 $Comp
 L Diode:ESD9B5.0ST5G D8
 U 1 1 60383895
-P 8850 5925
-F 0 "D8" H 8850 5709 50  0000 C CNN
-F 1 "ESD9B5.0ST5G" H 8850 5800 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-923" H 8850 5925 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" H 8850 5925 50  0001 C CNN
-F 4 "ESD9B5.0ST5G" H 8850 5925 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/ESD9B5-0ST5G/ESD9B5-0ST5GOSCT-ND/1646497" H 8850 5925 50  0001 C CNN "Order"
-	1    8850 5925
+P 8350 5350
+F 0 "D8" H 8350 5134 50  0000 C CNN
+F 1 "ESD9B5.0ST5G" H 8350 5225 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-923" H 8350 5350 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" H 8350 5350 50  0001 C CNN
+F 4 "ESD9B5.0ST5G" H 8350 5350 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/ESD9B5-0ST5G/ESD9B5-0ST5GOSCT-ND/1646497" H 8350 5350 50  0001 C CNN "Order"
+	1    8350 5350
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8525 4400 8525 5225
+	8025 3975 8025 4650
+Connection ~ 8025 3975
 Wire Wire Line
-	8525 5225 8700 5225
-Connection ~ 8525 4400
+	8025 3975 7725 3975
 Wire Wire Line
-	8525 4400 8225 4400
+	7950 4075 7950 5025
+Connection ~ 7950 4075
 Wire Wire Line
-	8450 4500 8450 5600
+	7950 4075 8175 4075
 Wire Wire Line
-	8450 5600 8700 5600
-Connection ~ 8450 4500
+	7850 4175 7850 5350
+Connection ~ 7850 4175
 Wire Wire Line
-	8450 4500 8675 4500
-Wire Wire Line
-	8350 4600 8350 5925
-Wire Wire Line
-	8350 5925 8700 5925
-Connection ~ 8350 4600
-Wire Wire Line
-	8350 4600 8225 4600
-Text HLabel 9400 5600 2    50   Input ~ 0
+	7850 4175 7725 4175
+Text HLabel 8900 5025 2    50   Input ~ 0
 TARGET_GND
 Wire Wire Line
-	9000 5600 9250 5600
+	8500 5025 8750 5025
 Wire Wire Line
-	9000 5225 9250 5225
+	8500 4650 8750 4650
 Wire Wire Line
-	9250 5225 9250 5600
-Connection ~ 9250 5600
+	8750 4650 8750 5025
+Connection ~ 8750 5025
 Wire Wire Line
-	9250 5600 9400 5600
+	8750 5025 8900 5025
 Wire Wire Line
-	9000 5925 9250 5925
+	8500 5350 8750 5350
 Wire Wire Line
-	9250 5925 9250 5600
+	8750 5350 8750 5025
 Wire Wire Line
-	1775 7975 1300 7975
-Text HLabel 1300 7975 0    50   Input ~ 0
+	1875 5075 1400 5075
+Text HLabel 1400 5075 0    50   Input ~ 0
 JTAG_TRST
 $Comp
 L 1K_Custom_Symbol:TP_1.5x1.5 TP37
 U 1 1 5EB6FE31
-P 2250 7975
-F 0 "TP37" V 2175 8150 50  0000 R CNN
-F 1 "TP_1.5x1.5" V 2325 8400 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2450 7975 50  0001 C CNN
-F 3 "~" H 2450 7975 50  0001 C CNN
-	1    2250 7975
+P 2350 5075
+F 0 "TP37" V 2275 5250 50  0000 R CNN
+F 1 "TP_1.5x1.5" V 2425 5500 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2550 5075 50  0001 C CNN
+F 3 "~" H 2550 5075 50  0001 C CNN
+	1    2350 5075
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R19
 U 1 1 6310C54B
-P 1925 7975
-F 0 "R19" V 2025 8075 50  0000 C CNN
-F 1 "49.9" V 2025 7875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1855 7975 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1925 7975 50  0001 C CNN
-F 4 "RR0816Q-49R9-D-68R " V 1925 7975 50  0001 C CNN "Mfr. #"
-F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 1925 7975 50  0001 C CNN "Order"
-	1    1925 7975
+P 2025 5075
+F 0 "R19" V 2125 5175 50  0000 C CNN
+F 1 "49.9" V 2125 4975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1955 5075 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2025 5075 50  0001 C CNN
+F 4 "RR0816Q-49R9-D-68R " V 2025 5075 50  0001 C CNN "Mfr. #"
+F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 2025 5075 50  0001 C CNN "Order"
+	1    2025 5075
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2800 4650 4575 4650
+	2900 1750 4675 1750
 Wire Wire Line
-	3425 4850 3425 4750
+	3525 1950 3525 1850
 Wire Wire Line
-	3425 4750 4575 4750
+	3525 1850 4675 1850
 Wire Wire Line
-	3500 5050 3500 4850
+	3600 2150 3600 1950
 Wire Wire Line
-	3500 4850 4575 4850
+	3600 1950 4675 1950
 Wire Wire Line
-	1900 5275 3650 5275
+	2000 2375 3750 2375
 $Comp
 L Connector_Generic:Conn_01x05 J12
 U 1 1 5F0459EB
-P 4775 4750
-F 0 "J12" H 4855 4792 50  0000 L CNN
-F 1 "Conn_01x05" H 4855 4701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4775 4750 50  0001 C CNN
-F 3 "~" H 4775 4750 50  0001 C CNN
-F 4 "PH1-05-UA" H 4775 4750 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/adam-tech/PH1-05-UA/2057-PH1-05-UA-ND/9830343" H 4775 4750 50  0001 C CNN "Order"
-	1    4775 4750
+P 4875 1850
+F 0 "J12" H 4955 1892 50  0000 L CNN
+F 1 "Conn_01x05" H 4955 1801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4875 1850 50  0001 C CNN
+F 3 "~" H 4875 1850 50  0001 C CNN
+F 4 "PH1-05-UA" H 4875 1850 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/adam-tech/PH1-05-UA/2057-PH1-05-UA-ND/9830343" H 4875 1850 50  0001 C CNN "Order"
+	1    4875 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 4950 4575 4950
+	3750 2050 4675 2050
 Wire Wire Line
-	3650 4950 3650 5275
+	3750 2050 3750 2375
 Wire Wire Line
-	1900 4475 3425 4475
+	2000 1575 3525 1575
 Wire Wire Line
-	3425 4475 3425 4550
+	3525 1575 3525 1650
 Wire Wire Line
-	3425 4550 4575 4550
+	3525 1650 4675 1650
 Wire Wire Line
-	2075 8250 2250 8250
+	2175 5350 2350 5350
 Wire Wire Line
-	2075 7975 2250 7975
+	2175 5075 2350 5075
 $Comp
 L Device:LED_Small_ALT D4
 U 1 1 5F06170E
-P 7550 2450
-F 0 "D4" H 7550 2685 50  0000 C CNN
-F 1 "LED_SMD_YELLOW" H 7550 2594 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7550 2450 50  0001 C CNN
-F 3 "https://www.digikey.com/Web%20Export/Common/icons/datasheet.png" V 7550 2450 50  0001 C CNN
-F 4 "150060YS75000" H 7550 2450 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060YS75000/732-4981-1-ND/4489907" H 7550 2450 50  0001 C CNN "Order"
-	1    7550 2450
+P 8100 2850
+F 0 "D4" H 8100 3085 50  0000 C CNN
+F 1 "LED_SMD_YELLOW" H 8100 2994 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8100 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/Web%20Export/Common/icons/datasheet.png" V 8100 2850 50  0001 C CNN
+F 4 "150060YS75000" H 8100 2850 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060YS75000/732-4981-1-ND/4489907" H 8100 2850 50  0001 C CNN "Order"
+	1    8100 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED_Small_ALT D5
 U 1 1 6310C566
-P 7550 2800
-F 0 "D5" H 7550 3035 50  0000 C CNN
-F 1 "LED_SMD_YELLOW" H 7550 2944 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7550 2800 50  0001 C CNN
-F 3 "https://www.digikey.com/Web%20Export/Common/icons/datasheet.png" V 7550 2800 50  0001 C CNN
-F 4 "150060YS75000" H 7550 2800 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060YS75000/732-4981-1-ND/4489907" H 7550 2800 50  0001 C CNN "Order"
-	1    7550 2800
+P 8100 3200
+F 0 "D5" H 8100 3435 50  0000 C CNN
+F 1 "LED_SMD_YELLOW" H 8100 3344 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8100 3200 50  0001 C CNN
+F 3 "https://www.digikey.com/Web%20Export/Common/icons/datasheet.png" V 8100 3200 50  0001 C CNN
+F 4 "150060YS75000" H 8100 3200 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060YS75000/732-4981-1-ND/4489907" H 8100 3200 50  0001 C CNN "Order"
+	1    8100 3200
 	1    0    0    -1  
 $EndComp
-Connection ~ 8400 1775
-Connection ~ 8400 2125
-Connection ~ 8400 2450
+Connection ~ 8950 2175
+Connection ~ 8950 2525
+Connection ~ 8950 2850
 Wire Wire Line
-	8400 1775 8400 2125
+	8950 2175 8950 2525
 Wire Wire Line
-	8400 2125 8400 2450
+	8950 2525 8950 2850
 Wire Wire Line
-	8400 2450 8400 2800
+	8950 2850 8950 3200
+Wire Notes Line width 20
+	750  1325 5675 1325
+Wire Notes Line width 20
+	5675 1325 5675 5550
+Wire Notes Line width 20
+	5675 5550 750  5550
+Wire Notes Line width 20
+	750  5550 750  1325
+Wire Notes Line width 20
+	6250 1325 6250 3450
+Wire Notes Line width 20
+	6250 3450 10275 3450
+Wire Notes Line width 20
+	10275 3450 10275 1325
+Wire Notes Line width 20
+	10275 1325 6250 1325
+Wire Wire Line
+	8025 4650 8200 4650
+Wire Wire Line
+	8200 5025 7950 5025
+Wire Wire Line
+	7850 5350 8200 5350
+Wire Notes Line width 20
+	6250 3825 10275 3825
+Wire Notes Line width 20
+	10275 3825 10275 5550
+Wire Notes Line width 20
+	10275 5550 6250 5550
+Wire Notes Line width 20
+	6250 5550 6250 3825
 $EndSCHEMATC

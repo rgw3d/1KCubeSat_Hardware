@@ -24,8 +24,8 @@ AR Path="/5F3589F2/5F32EDA5" Ref="U?"  Part="1"
 AR Path="/5F3DE515/5F32EDA5" Ref="U?"  Part="1" 
 AR Path="/5F3E03A5/5F32EDA5" Ref="U?"  Part="1" 
 AR Path="/5F40A177/5F32EDA5" Ref="U?"  Part="1" 
-AR Path="/5F71F783/5F32EDA5" Ref="U?"  Part="1" 
-F 0 "U?" H 5700 5025 50  0000 C CNN
+AR Path="/5F71F783/5F32EDA5" Ref="U15"  Part="1" 
+F 0 "U15" H 5700 5025 50  0000 C CNN
 F 1 "LTC4415" H 5700 5150 50  0000 C CNN
 F 2 "Package_SO:MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm_ThermalVias" H 5700 2900 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4415fa.pdf" H 5700 3850 50  0001 C CNN
@@ -1748,11 +1748,13 @@ AR Path="/5F3589F2/5F33369A" Ref="R?"  Part="1"
 AR Path="/5F3DE515/5F33369A" Ref="R?"  Part="1" 
 AR Path="/5F3E03A5/5F33369A" Ref="R?"  Part="1" 
 AR Path="/5F40A177/5F33369A" Ref="R?"  Part="1" 
-AR Path="/5F71F783/5F33369A" Ref="R?"  Part="1" 
-F 0 "R?" V 4550 3350 50  0000 C CNN
+AR Path="/5F71F783/5F33369A" Ref="R85"  Part="1" 
+F 0 "R85" V 4550 3350 50  0000 C CNN
 F 1 "150" V 4550 3525 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 3450 50  0001 C CNN
 F 3 "~" H 4650 3450 50  0001 C CNN
+F 4 "RMCF0603JT150R" H 4650 3450 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603JT150R/1757965" H 4650 3450 50  0001 C CNN "Order"
 	1    4650 3450
 	0    1    1    0   
 $EndComp
@@ -1771,7 +1773,7 @@ Wire Wire Line
 Connection ~ 4300 3450
 Wire Wire Line
 	4300 3450 4500 3450
-Text Notes 3175 3675 0    50   ~ 0
+Text Notes 3150 3675 0    50   ~ 0
 3.33A current limit per diode
 Text Notes 1025 5800 0    50   ~ 0
 Voltage Threasholds for the Enable pins:\nVenth = 0.8V with Venhyst = 0.055V
@@ -1796,11 +1798,13 @@ AR Path="/5F3589F2/5F7F3229" Ref="R?"  Part="1"
 AR Path="/5F3DE515/5F7F3229" Ref="R?"  Part="1" 
 AR Path="/5F3E03A5/5F7F3229" Ref="R?"  Part="1" 
 AR Path="/5F40A177/5F7F3229" Ref="R?"  Part="1" 
-AR Path="/5F71F783/5F7F3229" Ref="R?"  Part="1" 
-F 0 "R?" V 4550 3650 50  0000 C CNN
+AR Path="/5F71F783/5F7F3229" Ref="R86"  Part="1" 
+F 0 "R86" V 4550 3650 50  0000 C CNN
 F 1 "150" V 4550 3825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4580 3750 50  0001 C CNN
 F 3 "~" H 4650 3750 50  0001 C CNN
+F 4 "RMCF0603JT150R" H 4650 3750 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603JT150R/1757965" H 4650 3750 50  0001 C CNN "Order"
 	1    4650 3750
 	0    1    1    0   
 $EndComp

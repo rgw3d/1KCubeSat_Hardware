@@ -578,8 +578,8 @@ F 0 "R1" V 7375 2525 50  0000 C CNN
 F 1 "0" V 7375 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7300 2475 50  0001 C CNN
 F 3 "~" H 7300 2475 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 7300 2475 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 7300 2475 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 7300 2475 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 7300 2475 50  0001 C CNN "Order"
 	1    7300 2475
 	0    1    1    0   
 $EndComp
@@ -724,8 +724,6 @@ Text Notes 15300 3750 2    50   ~ 0
 3-3.3V Power\n20mA
 Text Label 10050 7625 0    50   ~ 0
 RCC_OSC32_IN
-Text Label 10050 7725 0    50   ~ 0
-RCC_OSC32_OUT
 $Comp
 L Device:C_Small C3
 U 1 1 6511C347
@@ -748,8 +746,8 @@ F 0 "C13" V 8375 2075 50  0000 C CNN
 F 1 "0.01uF" V 8350 1850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8475 1975 50  0001 C CNN
 F 3 "~" H 8475 1975 50  0001 C CNN
-F 4 "CL10B103KB8NCNC" V 8475 1975 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B103KB8NCNC/1276-1921-1-ND/3890007" V 8475 1975 50  0001 C CNN "Order"
+F 4 "CL10B103KB8NNNC" V 8475 1975 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B103KB8NNNC/3886667" V 8475 1975 50  0001 C CNN "Order"
 F 6 "50V" V 8425 1800 50  0000 C CNN "Voltage"
 	1    8475 1975
 	0    1    1    0   
@@ -776,8 +774,8 @@ F 0 "C1" H 5700 3275 50  0000 C CNN
 F 1 "0.01uF" H 5625 3100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5775 3175 50  0001 C CNN
 F 3 "~" H 5775 3175 50  0001 C CNN
-F 4 "CL10B103KB8NCNC" V 5775 3175 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B103KB8NCNC/1276-1921-1-ND/3890007" V 5775 3175 50  0001 C CNN "Order"
+F 4 "CL10B103KB8NNNC" V 5775 3175 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B103KB8NNNC/3886667" V 5775 3175 50  0001 C CNN "Order"
 F 6 "50V" H 5625 3175 50  0000 C CNN "Voltage"
 	1    5775 3175
 	-1   0    0    1   
@@ -790,8 +788,8 @@ F 0 "C2" H 6025 3275 50  0000 C CNN
 F 1 "0.01uF" H 5950 3100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6125 3175 50  0001 C CNN
 F 3 "~" H 6125 3175 50  0001 C CNN
-F 4 "CL10B103KB8NCNC" V 6125 3175 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B103KB8NCNC/1276-1921-1-ND/3890007" V 6125 3175 50  0001 C CNN "Order"
+F 4 "CL10B103KB8NNNC" V 6125 3175 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B103KB8NNNC/3886667" V 6125 3175 50  0001 C CNN "Order"
 F 6 "50V" H 5975 3175 50  0000 C CNN "Voltage"
 	1    6125 3175
 	-1   0    0    1   
@@ -1084,28 +1082,28 @@ CANH
 Text HLabel 15750 4025 2    50   BiDi ~ 0
 CANL
 $Comp
-L Device:R_Small R?
+L Device:R_Small R304
 U 1 1 6011A689
 P 11925 2750
-F 0 "R?" V 12000 2800 50  0000 C CNN
-F 1 "0" V 12000 2675 50  0000 C CNN
+F 0 "R304" V 11850 2750 50  0000 C CNN
+F 1 "0" V 12000 2750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11925 2750 50  0001 C CNN
 F 3 "~" H 11925 2750 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 11925 2750 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 11925 2750 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 11925 2750 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 11925 2750 50  0001 C CNN "Order"
 	1    11925 2750
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R305
 U 1 1 60154B1B
 P 11925 3000
-F 0 "R?" V 12000 3050 50  0000 C CNN
-F 1 "0" V 12000 2925 50  0000 C CNN
+F 0 "R305" V 11850 3000 50  0000 C CNN
+F 1 "0" V 12000 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11925 3000 50  0001 C CNN
 F 3 "~" H 11925 3000 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 11925 3000 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 11925 3000 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 11925 3000 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 11925 3000 50  0001 C CNN "Order"
 	1    11925 3000
 	0    1    1    0   
 $EndComp
@@ -1266,495 +1264,495 @@ Wire Wire Line
 Wire Wire Line
 	13325 6150 14750 6150
 $Comp
-L Device:R_Small R?
+L Device:R_Small R271
 U 1 1 60F259FD
 P 5225 4725
-F 0 "R?" V 5275 4850 50  0000 C CNN
+F 0 "R271" V 5275 4900 50  0000 C CNN
 F 1 "0" V 5275 4625 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 4725 50  0001 C CNN
 F 3 "~" H 5225 4725 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 4725 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 4725 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 4725 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 4725 50  0001 C CNN "Order"
 	1    5225 4725
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 4725 7100 4725
 $Comp
-L Device:R_Small R?
+L Device:R_Small R287
 U 1 1 60F26E96
 P 5675 4525
-F 0 "R?" V 5725 4650 50  0000 C CNN
+F 0 "R287" V 5750 4650 50  0000 C CNN
 F 1 "0" V 5725 4425 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 4525 50  0001 C CNN
 F 3 "~" H 5675 4525 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 4525 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 4525 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 4525 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 4525 50  0001 C CNN "Order"
 	1    5675 4525
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 4525 7100 4525
 $Comp
-L Device:R_Small R?
+L Device:R_Small R288
 U 1 1 60F271E7
 P 5675 4825
-F 0 "R?" V 5725 4950 50  0000 C CNN
+F 0 "R288" V 5725 5000 50  0000 C CNN
 F 1 "0" V 5725 4725 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 4825 50  0001 C CNN
 F 3 "~" H 5675 4825 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 4825 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 4825 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 4825 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 4825 50  0001 C CNN "Order"
 	1    5675 4825
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 4825 7100 4825
 $Comp
-L Device:R_Small R?
+L Device:R_Small R272
 U 1 1 60F27AA8
 P 5225 4925
-F 0 "R?" V 5275 5050 50  0000 C CNN
+F 0 "R272" V 5275 5100 50  0000 C CNN
 F 1 "0" V 5275 4825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 4925 50  0001 C CNN
 F 3 "~" H 5225 4925 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 4925 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 4925 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 4925 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 4925 50  0001 C CNN "Order"
 	1    5225 4925
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 4925 7100 4925
 $Comp
-L Device:R_Small R?
+L Device:R_Small R289
 U 1 1 60F27FC8
 P 5675 5025
-F 0 "R?" V 5725 5150 50  0000 C CNN
+F 0 "R289" V 5725 5200 50  0000 C CNN
 F 1 "0" V 5725 4925 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 5025 50  0001 C CNN
 F 3 "~" H 5675 5025 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 5025 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 5025 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 5025 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 5025 50  0001 C CNN "Order"
 	1    5675 5025
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 5025 7100 5025
 $Comp
-L Device:R_Small R?
+L Device:R_Small R273
 U 1 1 60F2820B
 P 5225 5125
-F 0 "R?" V 5275 5250 50  0000 C CNN
+F 0 "R273" V 5275 5300 50  0000 C CNN
 F 1 "0" V 5275 5025 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 5125 50  0001 C CNN
 F 3 "~" H 5225 5125 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 5125 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 5125 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 5125 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 5125 50  0001 C CNN "Order"
 	1    5225 5125
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 5125 7100 5125
 $Comp
-L Device:R_Small R?
+L Device:R_Small R290
 U 1 1 60F28739
 P 5675 5225
-F 0 "R?" V 5725 5350 50  0000 C CNN
+F 0 "R290" V 5725 5400 50  0000 C CNN
 F 1 "0" V 5725 5125 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 5225 50  0001 C CNN
 F 3 "~" H 5675 5225 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 5225 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 5225 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 5225 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 5225 50  0001 C CNN "Order"
 	1    5675 5225
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 5225 7100 5225
 $Comp
-L Device:R_Small R?
+L Device:R_Small R274
 U 1 1 60F28DBD
 P 5225 5325
-F 0 "R?" V 5275 5450 50  0000 C CNN
+F 0 "R274" V 5275 5500 50  0000 C CNN
 F 1 "0" V 5275 5225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 5325 50  0001 C CNN
 F 3 "~" H 5225 5325 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 5325 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 5325 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 5325 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 5325 50  0001 C CNN "Order"
 	1    5225 5325
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 5325 7100 5325
 $Comp
-L Device:R_Small R?
+L Device:R_Small R291
 U 1 1 60F2939B
 P 5675 5425
-F 0 "R?" V 5725 5550 50  0000 C CNN
+F 0 "R291" V 5725 5600 50  0000 C CNN
 F 1 "0" V 5725 5325 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 5425 50  0001 C CNN
 F 3 "~" H 5675 5425 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 5425 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 5425 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 5425 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 5425 50  0001 C CNN "Order"
 	1    5675 5425
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 5425 7100 5425
 $Comp
-L Device:R_Small R?
+L Device:R_Small R275
 U 1 1 60F2986D
 P 5225 5525
-F 0 "R?" V 5275 5650 50  0000 C CNN
+F 0 "R275" V 5275 5700 50  0000 C CNN
 F 1 "0" V 5275 5425 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 5525 50  0001 C CNN
 F 3 "~" H 5225 5525 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 5525 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 5525 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 5525 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 5525 50  0001 C CNN "Order"
 	1    5225 5525
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 5525 7100 5525
 $Comp
-L Device:R_Small R?
+L Device:R_Small R292
 U 1 1 60F2A1FD
 P 5675 5625
-F 0 "R?" V 5725 5750 50  0000 C CNN
+F 0 "R292" V 5725 5800 50  0000 C CNN
 F 1 "0" V 5725 5525 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 5625 50  0001 C CNN
 F 3 "~" H 5675 5625 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 5625 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 5625 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 5625 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 5625 50  0001 C CNN "Order"
 	1    5675 5625
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 5625 7100 5625
 $Comp
-L Device:R_Small R?
+L Device:R_Small R276
 U 1 1 60F2A5DF
 P 5225 5725
-F 0 "R?" V 5275 5850 50  0000 C CNN
+F 0 "R276" V 5275 5900 50  0000 C CNN
 F 1 "0" V 5275 5625 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 5725 50  0001 C CNN
 F 3 "~" H 5225 5725 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 5725 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 5725 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 5725 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 5725 50  0001 C CNN "Order"
 	1    5225 5725
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 5725 7100 5725
 $Comp
-L Device:R_Small R?
+L Device:R_Small R293
 U 1 1 60F2AAAE
 P 5675 5825
-F 0 "R?" V 5725 5950 50  0000 C CNN
+F 0 "R293" V 5725 6000 50  0000 C CNN
 F 1 "0" V 5725 5725 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 5825 50  0001 C CNN
 F 3 "~" H 5675 5825 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 5825 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 5825 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 5825 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 5825 50  0001 C CNN "Order"
 	1    5675 5825
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 5825 7100 5825
 $Comp
-L Device:R_Small R?
+L Device:R_Small R277
 U 1 1 60F2AE56
 P 5225 5925
-F 0 "R?" V 5275 6050 50  0000 C CNN
+F 0 "R277" V 5275 6100 50  0000 C CNN
 F 1 "0" V 5275 5825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 5925 50  0001 C CNN
 F 3 "~" H 5225 5925 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 5925 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 5925 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 5925 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 5925 50  0001 C CNN "Order"
 	1    5225 5925
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 5925 7100 5925
 $Comp
-L Device:R_Small R?
+L Device:R_Small R294
 U 1 1 60F2B4CA
 P 5675 6025
-F 0 "R?" V 5725 6150 50  0000 C CNN
+F 0 "R294" V 5725 6200 50  0000 C CNN
 F 1 "0" V 5725 5925 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 6025 50  0001 C CNN
 F 3 "~" H 5675 6025 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 6025 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 6025 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 6025 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 6025 50  0001 C CNN "Order"
 	1    5675 6025
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 6025 7100 6025
 $Comp
-L Device:R_Small R?
+L Device:R_Small R278
 U 1 1 60F5106F
 P 5225 6225
-F 0 "R?" V 5275 6350 50  0000 C CNN
+F 0 "R278" V 5275 6400 50  0000 C CNN
 F 1 "0" V 5275 6125 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 6225 50  0001 C CNN
 F 3 "~" H 5225 6225 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 6225 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 6225 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 6225 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 6225 50  0001 C CNN "Order"
 	1    5225 6225
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 6225 7100 6225
 $Comp
-L Device:R_Small R?
+L Device:R_Small R295
 U 1 1 60F51527
 P 5675 6325
-F 0 "R?" V 5725 6450 50  0000 C CNN
+F 0 "R295" V 5725 6500 50  0000 C CNN
 F 1 "0" V 5725 6225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 6325 50  0001 C CNN
 F 3 "~" H 5675 6325 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 6325 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 6325 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 6325 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 6325 50  0001 C CNN "Order"
 	1    5675 6325
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 6325 7100 6325
 $Comp
-L Device:R_Small R?
+L Device:R_Small R279
 U 1 1 60F51A58
 P 5225 6925
-F 0 "R?" V 5275 7050 50  0000 C CNN
+F 0 "R279" V 5275 7100 50  0000 C CNN
 F 1 "0" V 5275 6825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 6925 50  0001 C CNN
 F 3 "~" H 5225 6925 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 6925 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 6925 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 6925 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 6925 50  0001 C CNN "Order"
 	1    5225 6925
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 6925 7100 6925
 $Comp
-L Device:R_Small R?
+L Device:R_Small R296
 U 1 1 60F525C3
 P 5675 7125
-F 0 "R?" V 5725 7250 50  0000 C CNN
+F 0 "R296" V 5725 7300 50  0000 C CNN
 F 1 "0" V 5725 7025 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 7125 50  0001 C CNN
 F 3 "~" H 5675 7125 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 7125 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 7125 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 7125 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 7125 50  0001 C CNN "Order"
 	1    5675 7125
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 7125 7100 7125
 $Comp
-L Device:R_Small R?
+L Device:R_Small R280
 U 1 1 60F529FA
 P 5225 7325
-F 0 "R?" V 5275 7450 50  0000 C CNN
+F 0 "R280" V 5275 7500 50  0000 C CNN
 F 1 "0" V 5275 7225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 7325 50  0001 C CNN
 F 3 "~" H 5225 7325 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 7325 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 7325 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 7325 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 7325 50  0001 C CNN "Order"
 	1    5225 7325
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 7325 7100 7325
 $Comp
-L Device:R_Small R?
+L Device:R_Small R297
 U 1 1 60F52E67
 P 5675 7425
-F 0 "R?" V 5725 7550 50  0000 C CNN
+F 0 "R297" V 5725 7600 50  0000 C CNN
 F 1 "0" V 5725 7325 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 7425 50  0001 C CNN
 F 3 "~" H 5675 7425 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 7425 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 7425 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 7425 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 7425 50  0001 C CNN "Order"
 	1    5675 7425
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 7425 7100 7425
 $Comp
-L Device:R_Small R?
+L Device:R_Small R281
 U 1 1 60F53136
 P 5225 7525
-F 0 "R?" V 5275 7650 50  0000 C CNN
+F 0 "R281" V 5275 7700 50  0000 C CNN
 F 1 "0" V 5275 7425 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 7525 50  0001 C CNN
 F 3 "~" H 5225 7525 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 7525 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 7525 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 7525 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 7525 50  0001 C CNN "Order"
 	1    5225 7525
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 7525 7100 7525
 $Comp
-L Device:R_Small R?
+L Device:R_Small R298
 U 1 1 60F534E4
 P 5675 7625
-F 0 "R?" V 5725 7750 50  0000 C CNN
+F 0 "R298" V 5725 7800 50  0000 C CNN
 F 1 "0" V 5725 7525 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 7625 50  0001 C CNN
 F 3 "~" H 5675 7625 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 7625 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 7625 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 7625 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 7625 50  0001 C CNN "Order"
 	1    5675 7625
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 7625 7100 7625
 $Comp
-L Device:R_Small R?
+L Device:R_Small R282
 U 1 1 60F539CF
 P 5225 7725
-F 0 "R?" V 5275 7850 50  0000 C CNN
+F 0 "R282" V 5275 7900 50  0000 C CNN
 F 1 "0" V 5275 7625 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 7725 50  0001 C CNN
 F 3 "~" H 5225 7725 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 7725 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 7725 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 7725 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 7725 50  0001 C CNN "Order"
 	1    5225 7725
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 7725 7100 7725
 $Comp
-L Device:R_Small R?
+L Device:R_Small R299
 U 1 1 60F53E1E
 P 5675 8025
-F 0 "R?" V 5725 8150 50  0000 C CNN
+F 0 "R299" V 5725 8200 50  0000 C CNN
 F 1 "0" V 5725 7925 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 8025 50  0001 C CNN
 F 3 "~" H 5675 8025 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 8025 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 8025 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 8025 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 8025 50  0001 C CNN "Order"
 	1    5675 8025
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 8025 7100 8025
 $Comp
-L Device:R_Small R?
+L Device:R_Small R283
 U 1 1 60F5422E
 P 5225 8125
-F 0 "R?" V 5275 8250 50  0000 C CNN
+F 0 "R283" V 5275 8300 50  0000 C CNN
 F 1 "0" V 5275 8025 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 8125 50  0001 C CNN
 F 3 "~" H 5225 8125 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 8125 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 8125 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 8125 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 8125 50  0001 C CNN "Order"
 	1    5225 8125
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 8125 7100 8125
 $Comp
-L Device:R_Small R?
+L Device:R_Small R300
 U 1 1 60F546DD
 P 5675 8225
-F 0 "R?" V 5725 8350 50  0000 C CNN
+F 0 "R300" V 5725 8400 50  0000 C CNN
 F 1 "0" V 5725 8125 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 8225 50  0001 C CNN
 F 3 "~" H 5675 8225 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 8225 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 8225 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 8225 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 8225 50  0001 C CNN "Order"
 	1    5675 8225
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 8225 7100 8225
 $Comp
-L Device:R_Small R?
+L Device:R_Small R284
 U 1 1 60F549F9
 P 5225 8325
-F 0 "R?" V 5275 8450 50  0000 C CNN
+F 0 "R284" V 5275 8500 50  0000 C CNN
 F 1 "0" V 5275 8225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 8325 50  0001 C CNN
 F 3 "~" H 5225 8325 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 8325 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 8325 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 8325 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 8325 50  0001 C CNN "Order"
 	1    5225 8325
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 8325 7100 8325
 $Comp
-L Device:R_Small R?
+L Device:R_Small R301
 U 1 1 60F55447
 P 5675 8425
-F 0 "R?" V 5725 8550 50  0000 C CNN
+F 0 "R301" V 5725 8600 50  0000 C CNN
 F 1 "0" V 5725 8325 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 8425 50  0001 C CNN
 F 3 "~" H 5675 8425 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 8425 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 8425 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 8425 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 8425 50  0001 C CNN "Order"
 	1    5675 8425
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 8425 7100 8425
 $Comp
-L Device:R_Small R?
+L Device:R_Small R285
 U 1 1 60F55A0D
 P 5225 8525
-F 0 "R?" V 5275 8650 50  0000 C CNN
+F 0 "R285" V 5275 8700 50  0000 C CNN
 F 1 "0" V 5275 8425 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 8525 50  0001 C CNN
 F 3 "~" H 5225 8525 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 8525 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 8525 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 8525 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 8525 50  0001 C CNN "Order"
 	1    5225 8525
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 8525 7100 8525
 $Comp
-L Device:R_Small R?
+L Device:R_Small R302
 U 1 1 60F55F27
 P 5675 8625
-F 0 "R?" V 5725 8750 50  0000 C CNN
+F 0 "R302" V 5725 8800 50  0000 C CNN
 F 1 "0" V 5725 8525 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 8625 50  0001 C CNN
 F 3 "~" H 5675 8625 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 8625 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 8625 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 8625 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 8625 50  0001 C CNN "Order"
 	1    5675 8625
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5775 8625 7100 8625
 $Comp
-L Device:R_Small R?
+L Device:R_Small R286
 U 1 1 60F562A3
 P 5225 8725
-F 0 "R?" V 5275 8850 50  0000 C CNN
+F 0 "R286" V 5275 8900 50  0000 C CNN
 F 1 "0" V 5275 8625 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5225 8725 50  0001 C CNN
 F 3 "~" H 5225 8725 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5225 8725 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 8725 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5225 8725 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5225 8725 50  0001 C CNN "Order"
 	1    5225 8725
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5325 8725 7100 8725
 $Comp
-L Device:R_Small R?
+L Device:R_Small R303
 U 1 1 60F5681B
 P 5675 8825
-F 0 "R?" V 5725 8950 50  0000 C CNN
+F 0 "R303" V 5725 9000 50  0000 C CNN
 F 1 "0" V 5725 8725 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5675 8825 50  0001 C CNN
 F 3 "~" H 5675 8825 50  0001 C CNN
-F 4 "RK73Z1JTTD" V 5675 8825 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 8825 50  0001 C CNN "Order"
+F 4 "RK73Z1JTTD" V 5675 8825 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" V 5675 8825 50  0001 C CNN "Order"
 	1    5675 8825
 	0    1    1    0   
 $EndComp

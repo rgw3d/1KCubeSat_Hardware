@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 12 24
+Sheet 12 23
 Title "Temperature Sensors"
 Date "2020-05-05"
 Rev ""
@@ -172,8 +172,8 @@ L Device:R R?
 U 1 1 63F792FA
 P 1875 1250
 AR Path="/5EA31C93/5EAB13AE/63F792FA" Ref="R?"  Part="1" 
-AR Path="/5EA31C93/5EAB0B79/63F792FA" Ref="R?"  Part="1" 
-F 0 "R?" V 1668 1250 50  0000 C CNN
+AR Path="/5EA31C93/5EAB0B79/63F792FA" Ref="R8"  Part="1" 
+F 0 "R8" V 1668 1250 50  0000 C CNN
 F 1 "0" V 1759 1250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1805 1250 50  0001 C CNN
 F 3 "~" H 1875 1250 50  0001 C CNN

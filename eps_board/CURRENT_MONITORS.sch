@@ -29,8 +29,8 @@ AR Path="/5F5C3BDB/601A1624" Ref="R?"  Part="1"
 AR Path="/601A1624" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1624" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1624" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1624" Ref="R?"  Part="1" 
-F 0 "R?" H 1600 1175 50  0000 C CNN
+AR Path="/60177EB3/601A1624" Ref="R93"  Part="1" 
+F 0 "R93" H 1600 1175 50  0000 C CNN
 F 1 "0.1" H 1600 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1405 1225 50  0001 C CNN
 F 3 "~" H 1475 1225 50  0001 C CNN
@@ -59,13 +59,13 @@ AR Path="/5F5C3BDB/601A162E" Ref="R?"  Part="1"
 AR Path="/601A162E" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A162E" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A162E" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A162E" Ref="R?"  Part="1" 
-F 0 "R?" H 2600 975 50  0000 C CNN
-F 1 "20k" H 2550 1100 50  0000 C CNN
+AR Path="/60177EB3/601A162E" Ref="R99"  Part="1" 
+F 0 "R99" H 2600 975 50  0000 C CNN
+F 1 "20K" H 2550 1100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2655 1025 50  0001 C CNN
 F 3 "~" H 2725 1025 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 2725 1025 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 2725 1025 50  0001 C CNN "Order"
+F 4 "RMCF0603FT20K0" H 2725 1025 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT20K0/1760829" H 2725 1025 50  0001 C CNN "Order"
 	1    2725 1025
 	-1   0    0    1   
 $EndComp
@@ -89,13 +89,13 @@ AR Path="/5F5C3BDB/601A1638" Ref="R?"  Part="1"
 AR Path="/601A1638" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1638" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1638" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1638" Ref="R?"  Part="1" 
-F 0 "R?" H 2600 1375 50  0000 C CNN
-F 1 "3090" H 2550 1475 50  0000 C CNN
+AR Path="/60177EB3/601A1638" Ref="R100"  Part="1" 
+F 0 "R100" H 2600 1375 50  0000 C CNN
+F 1 "3.09K" H 2550 1475 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2655 1425 50  0001 C CNN
 F 3 "~" H 2725 1425 50  0001 C CNN
-F 4 "" H 2725 1425 50  0001 C CNN "Mfr. #"
-F 5 "" H 2725 1425 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 2725 1425 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 2725 1425 50  0001 C CNN "Order"
 	1    2725 1425
 	-1   0    0    1   
 $EndComp
@@ -123,13 +123,13 @@ AR Path="/5F5C3BDB/601A165F" Ref="R?"  Part="1"
 AR Path="/601A165F" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A165F" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A165F" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A165F" Ref="R?"  Part="1" 
-F 0 "R?" H 1600 2400 50  0000 C CNN
-F 1 "0.04" H 1625 2525 50  0000 C CNN
+AR Path="/60177EB3/601A165F" Ref="R94"  Part="1" 
+F 0 "R94" H 1600 2400 50  0000 C CNN
+F 1 "0.039" H 1625 2525 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1405 2450 50  0001 C CNN
 F 3 "~" H 1475 2450 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 1475 2450 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 1475 2450 50  0001 C CNN "Order"
+F 4 "ERJ-3BWFR039V" H 1475 2450 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3BWFR039V/5647502" H 1475 2450 50  0001 C CNN "Order"
 	1    1475 2450
 	-1   0    0    1   
 $EndComp
@@ -153,13 +153,13 @@ AR Path="/5F5C3BDB/601A1669" Ref="R?"  Part="1"
 AR Path="/601A1669" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1669" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1669" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1669" Ref="R?"  Part="1" 
-F 0 "R?" H 2600 2200 50  0000 C CNN
-F 1 "140k" H 2550 2325 50  0000 C CNN
+AR Path="/60177EB3/601A1669" Ref="R101"  Part="1" 
+F 0 "R101" H 2550 2200 50  0000 C CNN
+F 1 "140K" H 2550 2325 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2655 2250 50  0001 C CNN
 F 3 "~" H 2725 2250 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 2725 2250 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 2725 2250 50  0001 C CNN "Order"
+F 4 "RK73H1JTTD1403F" H 2725 2250 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1403F/9845164" H 2725 2250 50  0001 C CNN "Order"
 	1    2725 2250
 	-1   0    0    1   
 $EndComp
@@ -183,13 +183,13 @@ AR Path="/5F5C3BDB/601A1673" Ref="R?"  Part="1"
 AR Path="/601A1673" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1673" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1673" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1673" Ref="R?"  Part="1" 
-F 0 "R?" H 2600 2600 50  0000 C CNN
-F 1 "3090" H 2550 2700 50  0000 C CNN
+AR Path="/60177EB3/601A1673" Ref="R102"  Part="1" 
+F 0 "R102" H 2550 2600 50  0000 C CNN
+F 1 "3.09K" H 2550 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2655 2650 50  0001 C CNN
 F 3 "~" H 2725 2650 50  0001 C CNN
-F 4 "" H 2725 2650 50  0001 C CNN "Mfr. #"
-F 5 "" H 2725 2650 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 2725 2650 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 2725 2650 50  0001 C CNN "Order"
 	1    2725 2650
 	-1   0    0    1   
 $EndComp
@@ -215,8 +215,8 @@ AR Path="/5F5C3BDB/601A169A" Ref="R?"  Part="1"
 AR Path="/601A169A" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A169A" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A169A" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A169A" Ref="R?"  Part="1" 
-F 0 "R?" H 1600 3625 50  0000 C CNN
+AR Path="/60177EB3/601A169A" Ref="R95"  Part="1" 
+F 0 "R95" H 1600 3625 50  0000 C CNN
 F 1 "0.1" H 1600 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1405 3675 50  0001 C CNN
 F 3 "~" H 1475 3675 50  0001 C CNN
@@ -245,13 +245,13 @@ AR Path="/5F5C3BDB/601A16A4" Ref="R?"  Part="1"
 AR Path="/601A16A4" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A16A4" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A16A4" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A16A4" Ref="R?"  Part="1" 
-F 0 "R?" H 2600 3425 50  0000 C CNN
-F 1 "140k" H 2550 3550 50  0000 C CNN
+AR Path="/60177EB3/601A16A4" Ref="R103"  Part="1" 
+F 0 "R103" H 2550 3425 50  0000 C CNN
+F 1 "140K" H 2550 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2655 3475 50  0001 C CNN
 F 3 "~" H 2725 3475 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 2725 3475 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 2725 3475 50  0001 C CNN "Order"
+F 4 "RK73H1JTTD1403F" H 2725 3475 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1403F/9845164" H 2725 3475 50  0001 C CNN "Order"
 	1    2725 3475
 	-1   0    0    1   
 $EndComp
@@ -275,13 +275,13 @@ AR Path="/5F5C3BDB/601A16AE" Ref="R?"  Part="1"
 AR Path="/601A16AE" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A16AE" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A16AE" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A16AE" Ref="R?"  Part="1" 
-F 0 "R?" H 2600 3825 50  0000 C CNN
-F 1 "3090" H 2550 3925 50  0000 C CNN
+AR Path="/60177EB3/601A16AE" Ref="R104"  Part="1" 
+F 0 "R104" H 2550 3825 50  0000 C CNN
+F 1 "3.09K" H 2550 3925 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2655 3875 50  0001 C CNN
 F 3 "~" H 2725 3875 50  0001 C CNN
-F 4 "" H 2725 3875 50  0001 C CNN "Mfr. #"
-F 5 "" H 2725 3875 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 2725 3875 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 2725 3875 50  0001 C CNN "Order"
 	1    2725 3875
 	-1   0    0    1   
 $EndComp
@@ -307,8 +307,8 @@ AR Path="/5F5C3BDB/601A16D5" Ref="R?"  Part="1"
 AR Path="/601A16D5" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A16D5" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A16D5" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A16D5" Ref="R?"  Part="1" 
-F 0 "R?" H 1600 4900 50  0000 C CNN
+AR Path="/60177EB3/601A16D5" Ref="R96"  Part="1" 
+F 0 "R96" H 1600 4900 50  0000 C CNN
 F 1 "0.1" H 1600 5025 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1405 4950 50  0001 C CNN
 F 3 "~" H 1475 4950 50  0001 C CNN
@@ -337,13 +337,13 @@ AR Path="/5F5C3BDB/601A16DF" Ref="R?"  Part="1"
 AR Path="/601A16DF" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A16DF" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A16DF" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A16DF" Ref="R?"  Part="1" 
-F 0 "R?" H 2600 4700 50  0000 C CNN
-F 1 "140k" H 2550 4825 50  0000 C CNN
+AR Path="/60177EB3/601A16DF" Ref="R105"  Part="1" 
+F 0 "R105" H 2550 4700 50  0000 C CNN
+F 1 "140K" H 2550 4825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2655 4750 50  0001 C CNN
 F 3 "~" H 2725 4750 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 2725 4750 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 2725 4750 50  0001 C CNN "Order"
+F 4 "RK73H1JTTD1403F" H 2725 4750 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1403F/9845164" H 2725 4750 50  0001 C CNN "Order"
 	1    2725 4750
 	-1   0    0    1   
 $EndComp
@@ -367,13 +367,13 @@ AR Path="/5F5C3BDB/601A16E9" Ref="R?"  Part="1"
 AR Path="/601A16E9" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A16E9" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A16E9" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A16E9" Ref="R?"  Part="1" 
-F 0 "R?" H 2600 5100 50  0000 C CNN
-F 1 "3090" H 2550 5200 50  0000 C CNN
+AR Path="/60177EB3/601A16E9" Ref="R106"  Part="1" 
+F 0 "R106" H 2550 5100 50  0000 C CNN
+F 1 "3.09K" H 2550 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2655 5150 50  0001 C CNN
 F 3 "~" H 2725 5150 50  0001 C CNN
-F 4 "" H 2725 5150 50  0001 C CNN "Mfr. #"
-F 5 "" H 2725 5150 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 2725 5150 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 2725 5150 50  0001 C CNN "Order"
 	1    2725 5150
 	-1   0    0    1   
 $EndComp
@@ -399,8 +399,8 @@ AR Path="/5F5C3BDB/601A18E4" Ref="R?"  Part="1"
 AR Path="/601A18E4" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A18E4" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A18E4" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A18E4" Ref="R?"  Part="1" 
-F 0 "R?" H 8100 1175 50  0000 C CNN
+AR Path="/60177EB3/601A18E4" Ref="R131"  Part="1" 
+F 0 "R131" H 8125 1175 50  0000 C CNN
 F 1 "0.1" H 8100 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7905 1225 50  0001 C CNN
 F 3 "~" H 7975 1225 50  0001 C CNN
@@ -429,13 +429,13 @@ AR Path="/5F5C3BDB/601A18EE" Ref="R?"  Part="1"
 AR Path="/601A18EE" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A18EE" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A18EE" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A18EE" Ref="R?"  Part="1" 
-F 0 "R?" H 9100 975 50  0000 C CNN
-F 1 "140k" H 9050 1100 50  0000 C CNN
+AR Path="/60177EB3/601A18EE" Ref="R135"  Part="1" 
+F 0 "R135" H 9050 975 50  0000 C CNN
+F 1 "140K" H 9050 1100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9155 1025 50  0001 C CNN
 F 3 "~" H 9225 1025 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 9225 1025 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 9225 1025 50  0001 C CNN "Order"
+F 4 "RK73H1JTTD1403F" H 9225 1025 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1403F/9845164" H 9225 1025 50  0001 C CNN "Order"
 	1    9225 1025
 	-1   0    0    1   
 $EndComp
@@ -459,13 +459,13 @@ AR Path="/5F5C3BDB/601A18F8" Ref="R?"  Part="1"
 AR Path="/601A18F8" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A18F8" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A18F8" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A18F8" Ref="R?"  Part="1" 
-F 0 "R?" H 9100 1375 50  0000 C CNN
-F 1 "3090" H 9050 1475 50  0000 C CNN
+AR Path="/60177EB3/601A18F8" Ref="R136"  Part="1" 
+F 0 "R136" H 9050 1375 50  0000 C CNN
+F 1 "3.09K" H 9050 1475 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9155 1425 50  0001 C CNN
 F 3 "~" H 9225 1425 50  0001 C CNN
-F 4 "" H 9225 1425 50  0001 C CNN "Mfr. #"
-F 5 "" H 9225 1425 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 9225 1425 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 9225 1425 50  0001 C CNN "Order"
 	1    9225 1425
 	-1   0    0    1   
 $EndComp
@@ -491,8 +491,8 @@ AR Path="/5F5C3BDB/601A191E" Ref="R?"  Part="1"
 AR Path="/601A191E" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A191E" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A191E" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A191E" Ref="R?"  Part="1" 
-F 0 "R?" H 8100 2400 50  0000 C CNN
+AR Path="/60177EB3/601A191E" Ref="R132"  Part="1" 
+F 0 "R132" H 8125 2400 50  0000 C CNN
 F 1 "0.1" H 8100 2525 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7905 2450 50  0001 C CNN
 F 3 "~" H 7975 2450 50  0001 C CNN
@@ -521,13 +521,13 @@ AR Path="/5F5C3BDB/601A1928" Ref="R?"  Part="1"
 AR Path="/601A1928" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1928" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1928" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1928" Ref="R?"  Part="1" 
-F 0 "R?" H 9100 2200 50  0000 C CNN
-F 1 "140k" H 9050 2325 50  0000 C CNN
+AR Path="/60177EB3/601A1928" Ref="R137"  Part="1" 
+F 0 "R137" H 9050 2200 50  0000 C CNN
+F 1 "140K" H 9050 2325 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9155 2250 50  0001 C CNN
 F 3 "~" H 9225 2250 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 9225 2250 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 9225 2250 50  0001 C CNN "Order"
+F 4 "RK73H1JTTD1403F" H 9225 2250 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1403F/9845164" H 9225 2250 50  0001 C CNN "Order"
 	1    9225 2250
 	-1   0    0    1   
 $EndComp
@@ -551,13 +551,13 @@ AR Path="/5F5C3BDB/601A1932" Ref="R?"  Part="1"
 AR Path="/601A1932" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1932" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1932" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1932" Ref="R?"  Part="1" 
-F 0 "R?" H 9100 2600 50  0000 C CNN
-F 1 "3090" H 9050 2700 50  0000 C CNN
+AR Path="/60177EB3/601A1932" Ref="R138"  Part="1" 
+F 0 "R138" H 9050 2600 50  0000 C CNN
+F 1 "3.09K" H 9050 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9155 2650 50  0001 C CNN
 F 3 "~" H 9225 2650 50  0001 C CNN
-F 4 "" H 9225 2650 50  0001 C CNN "Mfr. #"
-F 5 "" H 9225 2650 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 9225 2650 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 9225 2650 50  0001 C CNN "Order"
 	1    9225 2650
 	-1   0    0    1   
 $EndComp
@@ -583,8 +583,8 @@ AR Path="/5F5C3BDB/601A1958" Ref="R?"  Part="1"
 AR Path="/601A1958" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1958" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1958" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1958" Ref="R?"  Part="1" 
-F 0 "R?" H 8100 3625 50  0000 C CNN
+AR Path="/60177EB3/601A1958" Ref="R133"  Part="1" 
+F 0 "R133" H 8125 3625 50  0000 C CNN
 F 1 "0.1" H 8100 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7905 3675 50  0001 C CNN
 F 3 "~" H 7975 3675 50  0001 C CNN
@@ -613,13 +613,13 @@ AR Path="/5F5C3BDB/601A1962" Ref="R?"  Part="1"
 AR Path="/601A1962" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1962" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1962" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1962" Ref="R?"  Part="1" 
-F 0 "R?" H 9100 3425 50  0000 C CNN
-F 1 "140k" H 9050 3550 50  0000 C CNN
+AR Path="/60177EB3/601A1962" Ref="R139"  Part="1" 
+F 0 "R139" H 9050 3425 50  0000 C CNN
+F 1 "140K" H 9050 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9155 3475 50  0001 C CNN
 F 3 "~" H 9225 3475 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 9225 3475 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 9225 3475 50  0001 C CNN "Order"
+F 4 "RK73H1JTTD1403F" H 9225 3475 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1403F/9845164" H 9225 3475 50  0001 C CNN "Order"
 	1    9225 3475
 	-1   0    0    1   
 $EndComp
@@ -643,13 +643,13 @@ AR Path="/5F5C3BDB/601A196C" Ref="R?"  Part="1"
 AR Path="/601A196C" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A196C" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A196C" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A196C" Ref="R?"  Part="1" 
-F 0 "R?" H 9100 3825 50  0000 C CNN
-F 1 "3090" H 9050 3925 50  0000 C CNN
+AR Path="/60177EB3/601A196C" Ref="R140"  Part="1" 
+F 0 "R140" H 9050 3825 50  0000 C CNN
+F 1 "3.09K" H 9050 3925 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9155 3875 50  0001 C CNN
 F 3 "~" H 9225 3875 50  0001 C CNN
-F 4 "" H 9225 3875 50  0001 C CNN "Mfr. #"
-F 5 "" H 9225 3875 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 9225 3875 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 9225 3875 50  0001 C CNN "Order"
 	1    9225 3875
 	-1   0    0    1   
 $EndComp
@@ -675,8 +675,8 @@ AR Path="/5F5C3BDB/601A1992" Ref="R?"  Part="1"
 AR Path="/601A1992" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1992" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1992" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1992" Ref="R?"  Part="1" 
-F 0 "R?" H 8100 4900 50  0000 C CNN
+AR Path="/60177EB3/601A1992" Ref="R134"  Part="1" 
+F 0 "R134" H 8125 4900 50  0000 C CNN
 F 1 "0.1" H 8100 5025 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7905 4950 50  0001 C CNN
 F 3 "~" H 7975 4950 50  0001 C CNN
@@ -705,13 +705,13 @@ AR Path="/5F5C3BDB/601A199C" Ref="R?"  Part="1"
 AR Path="/601A199C" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A199C" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A199C" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A199C" Ref="R?"  Part="1" 
-F 0 "R?" H 9100 4700 50  0000 C CNN
-F 1 "140k" H 9050 4825 50  0000 C CNN
+AR Path="/60177EB3/601A199C" Ref="R141"  Part="1" 
+F 0 "R141" H 9050 4700 50  0000 C CNN
+F 1 "140K" H 9050 4825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9155 4750 50  0001 C CNN
 F 3 "~" H 9225 4750 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 9225 4750 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 9225 4750 50  0001 C CNN "Order"
+F 4 "RK73H1JTTD1403F" H 9225 4750 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1403F/9845164" H 9225 4750 50  0001 C CNN "Order"
 	1    9225 4750
 	-1   0    0    1   
 $EndComp
@@ -735,13 +735,13 @@ AR Path="/5F5C3BDB/601A19A6" Ref="R?"  Part="1"
 AR Path="/601A19A6" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A19A6" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A19A6" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A19A6" Ref="R?"  Part="1" 
-F 0 "R?" H 9100 5100 50  0000 C CNN
-F 1 "3090" H 9050 5200 50  0000 C CNN
+AR Path="/60177EB3/601A19A6" Ref="R142"  Part="1" 
+F 0 "R142" H 9050 5100 50  0000 C CNN
+F 1 "3.09K" H 9050 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9155 5150 50  0001 C CNN
 F 3 "~" H 9225 5150 50  0001 C CNN
-F 4 "" H 9225 5150 50  0001 C CNN "Mfr. #"
-F 5 "" H 9225 5150 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 9225 5150 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 9225 5150 50  0001 C CNN "Order"
 	1    9225 5150
 	-1   0    0    1   
 $EndComp
@@ -961,13 +961,13 @@ AR Path="/5F5C3BDB/601A17D5" Ref="R?"  Part="1"
 AR Path="/601A17D5" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A17D5" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A17D5" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A17D5" Ref="R?"  Part="1" 
-F 0 "R?" H 4725 5100 50  0000 C CNN
-F 1 "3090" H 4675 5200 50  0000 C CNN
+AR Path="/60177EB3/601A17D5" Ref="R118"  Part="1" 
+F 0 "R118" H 4700 5100 50  0000 C CNN
+F 1 "3.09K" H 4675 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 5150 50  0001 C CNN
 F 3 "~" H 4850 5150 50  0001 C CNN
-F 4 "" H 4850 5150 50  0001 C CNN "Mfr. #"
-F 5 "" H 4850 5150 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 4850 5150 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 4850 5150 50  0001 C CNN "Order"
 	1    4850 5150
 	-1   0    0    1   
 $EndComp
@@ -995,8 +995,8 @@ AR Path="/5F5C3BDB/601A17C1" Ref="R?"  Part="1"
 AR Path="/601A17C1" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A17C1" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A17C1" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A17C1" Ref="R?"  Part="1" 
-F 0 "R?" H 3725 4900 50  0000 C CNN
+AR Path="/60177EB3/601A17C1" Ref="R110"  Part="1" 
+F 0 "R110" H 3750 4900 50  0000 C CNN
 F 1 "0.1" H 3725 5025 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3530 4950 50  0001 C CNN
 F 3 "~" H 3600 4950 50  0001 C CNN
@@ -1027,13 +1027,13 @@ AR Path="/5F5C3BDB/601A179A" Ref="R?"  Part="1"
 AR Path="/601A179A" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A179A" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A179A" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A179A" Ref="R?"  Part="1" 
-F 0 "R?" H 4725 3825 50  0000 C CNN
-F 1 "3090" H 4675 3925 50  0000 C CNN
+AR Path="/60177EB3/601A179A" Ref="R116"  Part="1" 
+F 0 "R116" H 4700 3825 50  0000 C CNN
+F 1 "3.09K" H 4675 3925 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 3875 50  0001 C CNN
 F 3 "~" H 4850 3875 50  0001 C CNN
-F 4 "" H 4850 3875 50  0001 C CNN "Mfr. #"
-F 5 "" H 4850 3875 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 4850 3875 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 4850 3875 50  0001 C CNN "Order"
 	1    4850 3875
 	-1   0    0    1   
 $EndComp
@@ -1061,8 +1061,8 @@ AR Path="/5F5C3BDB/601A1786" Ref="R?"  Part="1"
 AR Path="/601A1786" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1786" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1786" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1786" Ref="R?"  Part="1" 
-F 0 "R?" H 3725 3625 50  0000 C CNN
+AR Path="/60177EB3/601A1786" Ref="R109"  Part="1" 
+F 0 "R109" H 3750 3625 50  0000 C CNN
 F 1 "0.1" H 3725 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3530 3675 50  0001 C CNN
 F 3 "~" H 3600 3675 50  0001 C CNN
@@ -1093,13 +1093,13 @@ AR Path="/5F5C3BDB/601A175F" Ref="R?"  Part="1"
 AR Path="/601A175F" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A175F" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A175F" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A175F" Ref="R?"  Part="1" 
-F 0 "R?" H 4725 2600 50  0000 C CNN
-F 1 "3090" H 4675 2700 50  0000 C CNN
+AR Path="/60177EB3/601A175F" Ref="R114"  Part="1" 
+F 0 "R114" H 4700 2600 50  0000 C CNN
+F 1 "3.09K" H 4675 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 2650 50  0001 C CNN
 F 3 "~" H 4850 2650 50  0001 C CNN
-F 4 "" H 4850 2650 50  0001 C CNN "Mfr. #"
-F 5 "" H 4850 2650 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 4850 2650 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 4850 2650 50  0001 C CNN "Order"
 	1    4850 2650
 	-1   0    0    1   
 $EndComp
@@ -1123,13 +1123,13 @@ AR Path="/5F5C3BDB/601A1755" Ref="R?"  Part="1"
 AR Path="/601A1755" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1755" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1755" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1755" Ref="R?"  Part="1" 
-F 0 "R?" H 4725 2200 50  0000 C CNN
+AR Path="/60177EB3/601A1755" Ref="R113"  Part="1" 
+F 0 "R113" H 4700 2200 50  0000 C CNN
 F 1 "1.5M" H 4675 2325 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 2250 50  0001 C CNN
 F 3 "~" H 4850 2250 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 4850 2250 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 4850 2250 50  0001 C CNN "Order"
+F 4 "RC0603FR-071M5L" H 4850 2250 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071M5L/726865" H 4850 2250 50  0001 C CNN "Order"
 	1    4850 2250
 	-1   0    0    1   
 $EndComp
@@ -1153,8 +1153,8 @@ AR Path="/5F5C3BDB/601A174B" Ref="R?"  Part="1"
 AR Path="/601A174B" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A174B" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A174B" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A174B" Ref="R?"  Part="1" 
-F 0 "R?" H 3725 2400 50  0000 C CNN
+AR Path="/60177EB3/601A174B" Ref="R108"  Part="1" 
+F 0 "R108" H 3750 2400 50  0000 C CNN
 F 1 "0.1" H 3725 2525 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3530 2450 50  0001 C CNN
 F 3 "~" H 3600 2450 50  0001 C CNN
@@ -1185,13 +1185,13 @@ AR Path="/5F5C3BDB/601A1724" Ref="R?"  Part="1"
 AR Path="/601A1724" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1724" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1724" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1724" Ref="R?"  Part="1" 
-F 0 "R?" H 4725 1375 50  0000 C CNN
-F 1 "3090" H 4675 1475 50  0000 C CNN
+AR Path="/60177EB3/601A1724" Ref="R112"  Part="1" 
+F 0 "R112" H 4700 1375 50  0000 C CNN
+F 1 "3.09K" H 4675 1475 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 1425 50  0001 C CNN
 F 3 "~" H 4850 1425 50  0001 C CNN
-F 4 "" H 4850 1425 50  0001 C CNN "Mfr. #"
-F 5 "" H 4850 1425 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 4850 1425 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 4850 1425 50  0001 C CNN "Order"
 	1    4850 1425
 	-1   0    0    1   
 $EndComp
@@ -1215,13 +1215,13 @@ AR Path="/5F5C3BDB/601A171A" Ref="R?"  Part="1"
 AR Path="/601A171A" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A171A" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A171A" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A171A" Ref="R?"  Part="1" 
-F 0 "R?" H 4725 975 50  0000 C CNN
-F 1 "700k" H 4675 1100 50  0000 C CNN
+AR Path="/60177EB3/601A171A" Ref="R111"  Part="1" 
+F 0 "R111" H 4700 975 50  0000 C CNN
+F 1 "698K" H 4675 1100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 1025 50  0001 C CNN
 F 3 "~" H 4850 1025 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 4850 1025 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 4850 1025 50  0001 C CNN "Order"
+F 4 "RMCF0603FT698K" H 4850 1025 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT698K/1760941" H 4850 1025 50  0001 C CNN "Order"
 	1    4850 1025
 	-1   0    0    1   
 $EndComp
@@ -1245,8 +1245,8 @@ AR Path="/5F5C3BDB/601A1710" Ref="R?"  Part="1"
 AR Path="/601A1710" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1710" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1710" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1710" Ref="R?"  Part="1" 
-F 0 "R?" H 3725 1175 50  0000 C CNN
+AR Path="/60177EB3/601A1710" Ref="R107"  Part="1" 
+F 0 "R107" H 3750 1175 50  0000 C CNN
 F 1 "0.1" H 3725 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3530 1225 50  0001 C CNN
 F 3 "~" H 3600 1225 50  0001 C CNN
@@ -1341,13 +1341,13 @@ AR Path="/5F5C3BDB/601A18BE" Ref="R?"  Part="1"
 AR Path="/601A18BE" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A18BE" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A18BE" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A18BE" Ref="R?"  Part="1" 
-F 0 "R?" H 6900 5100 50  0000 C CNN
-F 1 "3090" H 6850 5200 50  0000 C CNN
+AR Path="/60177EB3/601A18BE" Ref="R130"  Part="1" 
+F 0 "R130" H 6850 5100 50  0000 C CNN
+F 1 "3.09K" H 6850 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6955 5150 50  0001 C CNN
 F 3 "~" H 7025 5150 50  0001 C CNN
-F 4 "" H 7025 5150 50  0001 C CNN "Mfr. #"
-F 5 "" H 7025 5150 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 7025 5150 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 7025 5150 50  0001 C CNN "Order"
 	1    7025 5150
 	-1   0    0    1   
 $EndComp
@@ -1371,13 +1371,13 @@ AR Path="/5F5C3BDB/601A18B4" Ref="R?"  Part="1"
 AR Path="/601A18B4" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A18B4" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A18B4" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A18B4" Ref="R?"  Part="1" 
-F 0 "R?" H 6900 4700 50  0000 C CNN
-F 1 "140k" H 6850 4825 50  0000 C CNN
+AR Path="/60177EB3/601A18B4" Ref="R129"  Part="1" 
+F 0 "R129" H 6875 4700 50  0000 C CNN
+F 1 "140K" H 6850 4825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6955 4750 50  0001 C CNN
 F 3 "~" H 7025 4750 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 7025 4750 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 7025 4750 50  0001 C CNN "Order"
+F 4 "RK73H1JTTD1403F" H 7025 4750 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1403F/9845164" H 7025 4750 50  0001 C CNN "Order"
 	1    7025 4750
 	-1   0    0    1   
 $EndComp
@@ -1401,8 +1401,8 @@ AR Path="/5F5C3BDB/601A18AA" Ref="R?"  Part="1"
 AR Path="/601A18AA" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A18AA" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A18AA" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A18AA" Ref="R?"  Part="1" 
-F 0 "R?" H 5900 4900 50  0000 C CNN
+AR Path="/60177EB3/601A18AA" Ref="R122"  Part="1" 
+F 0 "R122" H 5925 4900 50  0000 C CNN
 F 1 "0.1" H 5900 5025 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5705 4950 50  0001 C CNN
 F 3 "~" H 5775 4950 50  0001 C CNN
@@ -1433,13 +1433,13 @@ AR Path="/5F5C3BDB/601A1884" Ref="R?"  Part="1"
 AR Path="/601A1884" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1884" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1884" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1884" Ref="R?"  Part="1" 
-F 0 "R?" H 6900 3825 50  0000 C CNN
-F 1 "3090" H 6850 3925 50  0000 C CNN
+AR Path="/60177EB3/601A1884" Ref="R128"  Part="1" 
+F 0 "R128" H 6850 3825 50  0000 C CNN
+F 1 "3.09K" H 6850 3925 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6955 3875 50  0001 C CNN
 F 3 "~" H 7025 3875 50  0001 C CNN
-F 4 "" H 7025 3875 50  0001 C CNN "Mfr. #"
-F 5 "" H 7025 3875 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 7025 3875 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 7025 3875 50  0001 C CNN "Order"
 	1    7025 3875
 	-1   0    0    1   
 $EndComp
@@ -1463,13 +1463,13 @@ AR Path="/5F5C3BDB/601A187A" Ref="R?"  Part="1"
 AR Path="/601A187A" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A187A" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A187A" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A187A" Ref="R?"  Part="1" 
-F 0 "R?" H 6900 3425 50  0000 C CNN
-F 1 "140k" H 6850 3550 50  0000 C CNN
+AR Path="/60177EB3/601A187A" Ref="R127"  Part="1" 
+F 0 "R127" H 6850 3425 50  0000 C CNN
+F 1 "140K" H 6850 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6955 3475 50  0001 C CNN
 F 3 "~" H 7025 3475 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 7025 3475 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 7025 3475 50  0001 C CNN "Order"
+F 4 "RK73H1JTTD1403F" H 7025 3475 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1403F/9845164" H 7025 3475 50  0001 C CNN "Order"
 	1    7025 3475
 	-1   0    0    1   
 $EndComp
@@ -1493,8 +1493,8 @@ AR Path="/5F5C3BDB/601A1870" Ref="R?"  Part="1"
 AR Path="/601A1870" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1870" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1870" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1870" Ref="R?"  Part="1" 
-F 0 "R?" H 5900 3625 50  0000 C CNN
+AR Path="/60177EB3/601A1870" Ref="R121"  Part="1" 
+F 0 "R121" H 5925 3625 50  0000 C CNN
 F 1 "0.1" H 5900 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5705 3675 50  0001 C CNN
 F 3 "~" H 5775 3675 50  0001 C CNN
@@ -1525,13 +1525,13 @@ AR Path="/5F5C3BDB/601A184A" Ref="R?"  Part="1"
 AR Path="/601A184A" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A184A" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A184A" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A184A" Ref="R?"  Part="1" 
-F 0 "R?" H 6900 2600 50  0000 C CNN
-F 1 "3090" H 6850 2700 50  0000 C CNN
+AR Path="/60177EB3/601A184A" Ref="R126"  Part="1" 
+F 0 "R126" H 6875 2600 50  0000 C CNN
+F 1 "3.09K" H 6850 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6955 2650 50  0001 C CNN
 F 3 "~" H 7025 2650 50  0001 C CNN
-F 4 "" H 7025 2650 50  0001 C CNN "Mfr. #"
-F 5 "" H 7025 2650 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 7025 2650 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 7025 2650 50  0001 C CNN "Order"
 	1    7025 2650
 	-1   0    0    1   
 $EndComp
@@ -1555,13 +1555,13 @@ AR Path="/5F5C3BDB/601A1840" Ref="R?"  Part="1"
 AR Path="/601A1840" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1840" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1840" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1840" Ref="R?"  Part="1" 
-F 0 "R?" H 6900 2200 50  0000 C CNN
-F 1 "140k" H 6850 2325 50  0000 C CNN
+AR Path="/60177EB3/601A1840" Ref="R125"  Part="1" 
+F 0 "R125" H 6875 2200 50  0000 C CNN
+F 1 "140K" H 6850 2325 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6955 2250 50  0001 C CNN
 F 3 "~" H 7025 2250 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 7025 2250 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 7025 2250 50  0001 C CNN "Order"
+F 4 "RK73H1JTTD1403F" H 7025 2250 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1403F/9845164" H 7025 2250 50  0001 C CNN "Order"
 	1    7025 2250
 	-1   0    0    1   
 $EndComp
@@ -1585,8 +1585,8 @@ AR Path="/5F5C3BDB/601A1836" Ref="R?"  Part="1"
 AR Path="/601A1836" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1836" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1836" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1836" Ref="R?"  Part="1" 
-F 0 "R?" H 5900 2400 50  0000 C CNN
+AR Path="/60177EB3/601A1836" Ref="R120"  Part="1" 
+F 0 "R120" H 5925 2400 50  0000 C CNN
 F 1 "0.1" H 5900 2525 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5705 2450 50  0001 C CNN
 F 3 "~" H 5775 2450 50  0001 C CNN
@@ -1615,13 +1615,13 @@ AR Path="/5F5C3BDB/601A1810" Ref="R?"  Part="1"
 AR Path="/601A1810" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1810" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1810" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1810" Ref="R?"  Part="1" 
-F 0 "R?" H 6900 1375 50  0000 C CNN
-F 1 "3090" H 6850 1475 50  0000 C CNN
+AR Path="/60177EB3/601A1810" Ref="R124"  Part="1" 
+F 0 "R124" H 6875 1375 50  0000 C CNN
+F 1 "3.09K" H 6850 1475 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6955 1425 50  0001 C CNN
 F 3 "~" H 7025 1425 50  0001 C CNN
-F 4 "" H 7025 1425 50  0001 C CNN "Mfr. #"
-F 5 "" H 7025 1425 50  0001 C CNN "Order"
+F 4 "RMCF0603FT3K09" H 7025 1425 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT3K09/1761340" H 7025 1425 50  0001 C CNN "Order"
 	1    7025 1425
 	-1   0    0    1   
 $EndComp
@@ -1645,13 +1645,13 @@ AR Path="/5F5C3BDB/601A1806" Ref="R?"  Part="1"
 AR Path="/601A1806" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A1806" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A1806" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A1806" Ref="R?"  Part="1" 
-F 0 "R?" H 6900 975 50  0000 C CNN
-F 1 "140k" H 6850 1100 50  0000 C CNN
+AR Path="/60177EB3/601A1806" Ref="R123"  Part="1" 
+F 0 "R123" H 6875 975 50  0000 C CNN
+F 1 "140K" H 6850 1100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6955 1025 50  0001 C CNN
 F 3 "~" H 7025 1025 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 7025 1025 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 7025 1025 50  0001 C CNN "Order"
+F 4 "RK73H1JTTD1403F" H 7025 1025 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1403F/9845164" H 7025 1025 50  0001 C CNN "Order"
 	1    7025 1025
 	-1   0    0    1   
 $EndComp
@@ -1675,8 +1675,8 @@ AR Path="/5F5C3BDB/601A17FC" Ref="R?"  Part="1"
 AR Path="/601A17FC" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/601A17FC" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/601A17FC" Ref="R?"  Part="1" 
-AR Path="/60177EB3/601A17FC" Ref="R?"  Part="1" 
-F 0 "R?" H 5900 1175 50  0000 C CNN
+AR Path="/60177EB3/601A17FC" Ref="R119"  Part="1" 
+F 0 "R119" H 5925 1175 50  0000 C CNN
 F 1 "0.1" H 5900 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5705 1225 50  0001 C CNN
 F 3 "~" H 5775 1225 50  0001 C CNN
@@ -1719,13 +1719,13 @@ AR Path="/5F5C3BDB/5FB0241A" Ref="R?"  Part="1"
 AR Path="/5FB0241A" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/5FB0241A" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/5FB0241A" Ref="R?"  Part="1" 
-AR Path="/60177EB3/5FB0241A" Ref="R?"  Part="1" 
-F 0 "R?" H 4725 3425 50  0000 C CNN
+AR Path="/60177EB3/5FB0241A" Ref="R115"  Part="1" 
+F 0 "R115" H 4700 3425 50  0000 C CNN
 F 1 "1.5M" H 4675 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 3475 50  0001 C CNN
 F 3 "~" H 4850 3475 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 4850 3475 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 4850 3475 50  0001 C CNN "Order"
+F 4 "RC0603FR-071M5L" H 4850 3475 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071M5L/726865" H 4850 3475 50  0001 C CNN "Order"
 	1    4850 3475
 	-1   0    0    1   
 $EndComp
@@ -1747,13 +1747,13 @@ AR Path="/5F5C3BDB/5FB7339B" Ref="R?"  Part="1"
 AR Path="/5FB7339B" Ref="R?"  Part="1" 
 AR Path="/5F9E2C1D/5FB7339B" Ref="R?"  Part="1" 
 AR Path="/5FD99E71/5FB7339B" Ref="R?"  Part="1" 
-AR Path="/60177EB3/5FB7339B" Ref="R?"  Part="1" 
-F 0 "R?" H 4725 4700 50  0000 C CNN
-F 1 "700k" H 4675 4825 50  0000 C CNN
+AR Path="/60177EB3/5FB7339B" Ref="R117"  Part="1" 
+F 0 "R117" H 4700 4700 50  0000 C CNN
+F 1 "698K" H 4675 4825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 4750 50  0001 C CNN
 F 3 "~" H 4850 4750 50  0001 C CNN
-F 4 "ERJ-3RSFR10V" H 4850 4750 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3RSFR10V/P-10AJCT-ND/308098" H 4850 4750 50  0001 C CNN "Order"
+F 4 "RMCF0603FT698K" H 4850 4750 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT698K/1760941" H 4850 4750 50  0001 C CNN "Order"
 	1    4850 4750
 	-1   0    0    1   
 $EndComp
@@ -2164,8 +2164,8 @@ L 1K_Custom_Symbol:TPS270 U?
 U 1 1 61F10E40
 P 2150 6350
 AR Path="/61F10E40" Ref="U?"  Part="1" 
-AR Path="/60177EB3/61F10E40" Ref="U?"  Part="1" 
-F 0 "U?" H 2150 7015 50  0000 C CNN
+AR Path="/60177EB3/61F10E40" Ref="U17"  Part="1" 
+F 0 "U17" H 2150 7015 50  0000 C CNN
 F 1 "TPS270" H 2150 6924 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering" H 2100 6000 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps27081a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1599272332553" H 2150 7150 50  0001 C CNN
@@ -2195,11 +2195,13 @@ AR Path="/5F5A5959/61F10E49" Ref="R?"  Part="1"
 AR Path="/5F5C3BDB/61F10E49" Ref="R?"  Part="1" 
 AR Path="/5F62C305/61F10E49" Ref="R?"  Part="1" 
 AR Path="/61F10E49" Ref="R?"  Part="1" 
-AR Path="/60177EB3/61F10E49" Ref="R?"  Part="1" 
-F 0 "R?" V 2250 6325 50  0000 C CNN
-F 1 "10k" V 2250 6600 50  0000 C CNN
+AR Path="/60177EB3/61F10E49" Ref="R97"  Part="1" 
+F 0 "R97" V 2250 6325 50  0000 C CNN
+F 1 "10K" V 2250 6600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2080 6475 50  0001 C CNN
 F 3 "~" H 2150 6475 50  0001 C CNN
+F 4 "RMCF0603FT10K0" H 2150 6475 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT10K0/1761235" H 2150 6475 50  0001 C CNN "Order"
 	1    2150 6475
 	0    1    1    0   
 $EndComp
@@ -2209,22 +2211,13 @@ Wire Wire Line
 	2650 6475 2650 6250
 Wire Wire Line
 	2650 6250 2500 6250
-Wire Wire Line
-	1600 5950 1725 5950
-Wire Wire Line
-	1725 5950 1725 6475
-Wire Wire Line
-	1725 6475 2000 6475
-Connection ~ 1725 5950
-Wire Wire Line
-	1725 5950 1800 5950
 $Comp
 L 1K_Custom_Symbol:TPS270 U?
 U 1 1 61F10E67
 P 2150 7375
 AR Path="/61F10E67" Ref="U?"  Part="1" 
-AR Path="/60177EB3/61F10E67" Ref="U?"  Part="1" 
-F 0 "U?" H 2150 8040 50  0000 C CNN
+AR Path="/60177EB3/61F10E67" Ref="U18"  Part="1" 
+F 0 "U18" H 2150 8040 50  0000 C CNN
 F 1 "TPS270" H 2150 7949 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering" H 2100 7025 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps27081a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1599272332553" H 2150 8175 50  0001 C CNN
@@ -2254,11 +2247,13 @@ AR Path="/5F5A5959/61F10E70" Ref="R?"  Part="1"
 AR Path="/5F5C3BDB/61F10E70" Ref="R?"  Part="1" 
 AR Path="/5F62C305/61F10E70" Ref="R?"  Part="1" 
 AR Path="/61F10E70" Ref="R?"  Part="1" 
-AR Path="/60177EB3/61F10E70" Ref="R?"  Part="1" 
-F 0 "R?" V 2250 7350 50  0000 C CNN
-F 1 "10k" V 2250 7625 50  0000 C CNN
+AR Path="/60177EB3/61F10E70" Ref="R98"  Part="1" 
+F 0 "R98" V 2250 7350 50  0000 C CNN
+F 1 "10K" V 2250 7625 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2080 7500 50  0001 C CNN
 F 3 "~" H 2150 7500 50  0001 C CNN
+F 4 "RMCF0603FT10K0" H 2150 7500 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT10K0/1761235" H 2150 7500 50  0001 C CNN "Order"
 	1    2150 7500
 	0    1    1    0   
 $EndComp
@@ -2269,16 +2264,9 @@ Wire Wire Line
 Wire Wire Line
 	2650 7275 2500 7275
 Wire Wire Line
-	1600 6975 1725 6975
+	1600 6975 1600 7500
 Wire Wire Line
-	1725 6975 1725 7500
-Wire Wire Line
-	1725 7500 2000 7500
-Connection ~ 1725 6975
-Wire Wire Line
-	1725 6975 1800 6975
-Wire Wire Line
-	1600 5950 1600 6975
+	1600 5950 1600 6475
 Connection ~ 1600 5950
 $Comp
 L Device:R R?
@@ -2295,11 +2283,13 @@ AR Path="/5F5A5959/61F10E82" Ref="R?"  Part="1"
 AR Path="/5F5C3BDB/61F10E82" Ref="R?"  Part="1" 
 AR Path="/5F62C305/61F10E82" Ref="R?"  Part="1" 
 AR Path="/61F10E82" Ref="R?"  Part="1" 
-AR Path="/60177EB3/61F10E82" Ref="R?"  Part="1" 
-F 0 "R?" H 1575 6325 50  0000 C CNN
-F 1 "1k" H 1575 6550 50  0000 C CNN
+AR Path="/60177EB3/61F10E82" Ref="R91"  Part="1" 
+F 0 "R91" H 1575 6325 50  0000 C CNN
+F 1 "1K" H 1575 6550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1355 6425 50  0001 C CNN
 F 3 "~" H 1425 6425 50  0001 C CNN
+F 4 "RMCF0603FT1K00" H 1425 6425 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT1K00/1761077" H 1425 6425 50  0001 C CNN "Order"
 	1    1425 6425
 	-1   0    0    1   
 $EndComp
@@ -2328,13 +2318,14 @@ AR Path="/5F5C3BDB/61F10E90" Ref="C?"  Part="1"
 AR Path="/5F62C305/61F10E90" Ref="C?"  Part="1" 
 AR Path="/5FCD393E/61F10E90" Ref="C?"  Part="1" 
 AR Path="/61F10E90" Ref="C?"  Part="1" 
-AR Path="/60177EB3/61F10E90" Ref="C?"  Part="1" 
-F 0 "C?" H 3090 6196 50  0000 L CNN
-F 1 "1uF" H 3090 6105 50  0000 L CNN
+AR Path="/60177EB3/61F10E90" Ref="C44"  Part="1" 
+F 0 "C44" H 3100 6200 50  0000 L CNN
+F 1 "1uF" H 3100 6125 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3013 6000 50  0001 C CNN
 F 3 "~" H 2975 6150 50  0001 C CNN
-F 4 "" H 2975 6150 50  0001 C CNN "Mfr. #"
-F 5 "" H 2975 6150 50  0001 C CNN "Order"
+F 4 "CL10B105KP8NFNC" H 2975 6150 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KP8NFNC/1276-1945-1-ND/3890031" H 2975 6150 50  0001 C CNN "Order"
+F 6 "10V" H 3175 6050 50  0000 C CNN "Voltage"
 	1    2975 6150
 	1    0    0    -1  
 $EndComp
@@ -2366,13 +2357,14 @@ AR Path="/5F5C3BDB/61F10EA0" Ref="C?"  Part="1"
 AR Path="/5F62C305/61F10EA0" Ref="C?"  Part="1" 
 AR Path="/5FCD393E/61F10EA0" Ref="C?"  Part="1" 
 AR Path="/61F10EA0" Ref="C?"  Part="1" 
-AR Path="/60177EB3/61F10EA0" Ref="C?"  Part="1" 
-F 0 "C?" H 3090 7221 50  0000 L CNN
-F 1 "1uF" H 3090 7130 50  0000 L CNN
+AR Path="/60177EB3/61F10EA0" Ref="C45"  Part="1" 
+F 0 "C45" H 3075 7225 50  0000 L CNN
+F 1 "1uF" H 3075 7150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3013 7025 50  0001 C CNN
 F 3 "~" H 2975 7175 50  0001 C CNN
-F 4 "" H 2975 7175 50  0001 C CNN "Mfr. #"
-F 5 "" H 2975 7175 50  0001 C CNN "Order"
+F 4 "CL10B105KP8NFNC" H 2975 7175 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KP8NFNC/1276-1945-1-ND/3890031" H 2975 7175 50  0001 C CNN "Order"
+F 6 "10V" H 3150 7075 50  0000 C CNN "Voltage"
 	1    2975 7175
 	1    0    0    -1  
 $EndComp
@@ -2400,11 +2392,13 @@ AR Path="/5F5A5959/61F10EB2" Ref="R?"  Part="1"
 AR Path="/5F5C3BDB/61F10EB2" Ref="R?"  Part="1" 
 AR Path="/5F62C305/61F10EB2" Ref="R?"  Part="1" 
 AR Path="/61F10EB2" Ref="R?"  Part="1" 
-AR Path="/60177EB3/61F10EB2" Ref="R?"  Part="1" 
-F 0 "R?" H 1575 7350 50  0000 C CNN
-F 1 "1k" H 1575 7575 50  0000 C CNN
+AR Path="/60177EB3/61F10EB2" Ref="R92"  Part="1" 
+F 0 "R92" H 1575 7350 50  0000 C CNN
+F 1 "1K" H 1575 7575 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1355 7450 50  0001 C CNN
 F 3 "~" H 1425 7450 50  0001 C CNN
+F 4 "RMCF0603FT1K00" H 1425 7450 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT1K00/1761077" H 1425 7450 50  0001 C CNN "Order"
 	1    1425 7450
 	-1   0    0    1   
 $EndComp
@@ -2413,21 +2407,21 @@ Wire Wire Line
 Wire Wire Line
 	1425 7275 1800 7275
 Wire Wire Line
-	1400 6100 1800 6100
+	1250 6100 1800 6100
 Wire Wire Line
-	1400 7125 1800 7125
+	1250 7125 1800 7125
 Text Notes 2550 6775 0    50   ~ 0
 R2 & C1 values should result\nin a VOUT rise time of 1.4ms
-Text HLabel 1400 5800 0    50   Input ~ 0
+Text HLabel 1250 5800 0    50   Input ~ 0
 PWR2
 Wire Wire Line
-	1400 5800 1600 5800
+	1250 5800 1600 5800
 Wire Wire Line
 	1600 5800 1600 5950
-Text HLabel 1275 6725 0    50   Input ~ 0
+Text HLabel 1250 6725 0    50   Input ~ 0
 GND
 Wire Wire Line
-	1275 6725 1425 6725
+	1250 6725 1425 6725
 Wire Wire Line
 	1425 6575 1425 6725
 Text HLabel 1250 7750 0    50   Input ~ 0
@@ -2436,12 +2430,24 @@ Wire Wire Line
 	1250 7750 1425 7750
 Wire Wire Line
 	1425 7600 1425 7750
-Text HLabel 1400 6100 0    50   Input ~ 0
+Text HLabel 1250 6100 0    50   Input ~ 0
 PWR2_1_ON
-Text HLabel 1400 7125 0    50   Input ~ 0
+Text HLabel 1250 7125 0    50   Input ~ 0
 PWR2_2_ON
 Text HLabel 3275 5950 2    50   Output ~ 0
 PWR2_1
 Text HLabel 3275 6975 2    50   Output ~ 0
 PWR2_2
+Connection ~ 1600 6975
+Wire Wire Line
+	1600 6975 1800 6975
+Wire Wire Line
+	1600 7500 2000 7500
+Wire Wire Line
+	1600 5950 1800 5950
+Wire Wire Line
+	1600 6475 2000 6475
+Connection ~ 1600 6475
+Wire Wire Line
+	1600 6475 1600 6975
 $EndSCHEMATC

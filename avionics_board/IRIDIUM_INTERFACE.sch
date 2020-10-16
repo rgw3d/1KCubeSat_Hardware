@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 23 24
+Sheet 22 24
 Title "Irridium 9603N Interface"
 Date "2020-05-06"
 Rev ""
