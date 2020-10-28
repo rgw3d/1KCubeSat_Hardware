@@ -50,7 +50,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 4725 5350 4350
 Wire Wire Line
-	5350 4725 5650 4725
+	5350 4725 5500 4725
 Wire Wire Line
 	5650 4725 5650 4350
 Connection ~ 5350 4725
@@ -1373,4 +1373,9 @@ Wire Wire Line
 	4000 4725 4675 4725
 Text Notes 4375 4975 0    50   ~ 0
 Default off, \npull down on EN
+Wire Wire Line
+	5500 4350 5500 4725
+Connection ~ 5500 4725
+Wire Wire Line
+	5500 4725 5650 4725
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 37 39
+Sheet 34 39
 Title "Solar Input"
 Date "2020-08-09"
 Rev ""
@@ -17,35 +17,6 @@ Text HLabel 7100 3775 2    50   Output ~ 0
 PWR
 Text HLabel 7100 4675 2    50   Output ~ 0
 GND
-$Comp
-L Connector_Generic_MountingPin:Conn_01x04_MountingPin J1
-U 1 1 5F353115
-P 5400 3775
-AR Path="/5F301B61/5F353115" Ref="J1"  Part="1" 
-AR Path="/5F354B90/5F353115" Ref="J?"  Part="1" 
-AR Path="/5F354E2E/5F353115" Ref="J?"  Part="1" 
-AR Path="/5F355300/5F353115" Ref="J?"  Part="1" 
-AR Path="/5F35592A/5F353115" Ref="J?"  Part="1" 
-AR Path="/5F356474/5F353115" Ref="J?"  Part="1" 
-AR Path="/5F3BB61D/5F353115" Ref="J?"  Part="1" 
-AR Path="/5F3BC7D4/5F353115" Ref="J?"  Part="1" 
-AR Path="/5F3BD959/5F353115" Ref="J?"  Part="1" 
-AR Path="/5F3BED82/5F353115" Ref="J?"  Part="1" 
-AR Path="/5F3C01C1/5F353115" Ref="J?"  Part="1" 
-AR Path="/61651505/5F353115" Ref="J7"  Part="1" 
-AR Path="/6165EBE4/5F353115" Ref="J8"  Part="1" 
-AR Path="/6166C2BB/5F353115" Ref="J9"  Part="1" 
-AR Path="/61679A36/5F353115" Ref="J10"  Part="1" 
-AR Path="/616870B5/5F353115" Ref="J11"  Part="1" 
-F 0 "J11" H 5488 3689 50  0000 L CNN
-F 1 "Conn_01x04_MountingPin" H 5488 3598 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Pico-Lock_504050-0491_1x04-1MP_P1.50mm_Horizontal" H 5400 3775 50  0001 C CNN
-F 3 "~" H 5400 3775 50  0001 C CNN
-F 4 "5040500491" H 5400 3775 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/en/products/detail/molex/5040500491/4357649" H 5400 3775 50  0001 C CNN "Order"
-	1    5400 3775
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5800 3875 5800 3975
 Wire Wire Line
@@ -59,10 +30,6 @@ Wire Wire Line
 Connection ~ 5800 3775
 Wire Wire Line
 	5800 3775 5600 3775
-Wire Wire Line
-	5800 3975 5800 4175
-Wire Wire Line
-	5800 4175 5400 4175
 Connection ~ 5800 3975
 $Comp
 L Device:D_Schottky D?
@@ -80,7 +47,7 @@ AR Path="/6165EBE4/5F649DDE" Ref="D14"  Part="1"
 AR Path="/6166C2BB/5F649DDE" Ref="D15"  Part="1" 
 AR Path="/61679A36/5F649DDE" Ref="D16"  Part="1" 
 AR Path="/616870B5/5F649DDE" Ref="D17"  Part="1" 
-F 0 "D17" H 6625 3558 50  0000 C CNN
+F 0 "D14" H 6625 3558 50  0000 C CNN
 F 1 "NRVB120VLSFT1G" H 6625 3649 50  0000 C CNN
 F 2 "footprint_custom:D_SOD-123FL_handsolder" H 6625 3775 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF" H 6625 3775 50  0001 C CNN
@@ -2588,7 +2555,6 @@ EndData
 $EndBitmap
 Text Notes 9000 900  0    50   ~ 0
 NRVB120VLSFT1G
-Connection ~ 5800 4175
 Wire Wire Line
 	6250 3775 6250 3850
 Connection ~ 6250 3775
@@ -2614,7 +2580,7 @@ AR Path="/6165EBE4/61641278" Ref="R309"  Part="1"
 AR Path="/6166C2BB/61641278" Ref="R311"  Part="1" 
 AR Path="/61679A36/61641278" Ref="R313"  Part="1" 
 AR Path="/616870B5/61641278" Ref="R315"  Part="1" 
-F 0 "R315" H 6400 4400 50  0000 C CNN
+F 0 "R309" H 6400 4400 50  0000 C CNN
 F 1 "100K" H 6400 4525 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6180 4450 50  0001 C CNN
 F 3 "~" H 6250 4450 50  0001 C CNN
@@ -2632,8 +2598,6 @@ Wire Wire Line
 Connection ~ 6250 4675
 Wire Wire Line
 	6250 4675 7100 4675
-Wire Wire Line
-	5800 4175 5800 4675
 Wire Wire Line
 	6250 4225 7100 4225
 Connection ~ 6250 4225
@@ -2661,7 +2625,7 @@ AR Path="/6165EBE4/61694927" Ref="R308"  Part="1"
 AR Path="/6166C2BB/61694927" Ref="R310"  Part="1" 
 AR Path="/61679A36/61694927" Ref="R312"  Part="1" 
 AR Path="/616870B5/61694927" Ref="R314"  Part="1" 
-F 0 "R314" H 6400 3950 50  0000 C CNN
+F 0 "R308" H 6400 3950 50  0000 C CNN
 F 1 "100K" H 6400 4075 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6180 4000 50  0001 C CNN
 F 3 "~" H 6250 4000 50  0001 C CNN
@@ -2670,4 +2634,25 @@ F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF06
 	1    6250 4000
 	1    0    0    -1  
 $EndComp
+Text Notes 5325 5775 0    50   ~ 0
+I used to use Molex Pico Lock:\n5040500491\nhttps://www.digikey.com/en/products/detail/molex/5040500491/4357649\n
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 5FFDDFD5
+P 5400 3775
+AR Path="/6165EBE4/5FFDDFD5" Ref="J5"  Part="1" 
+AR Path="/5F301B61/5FFDDFD5" Ref="J1"  Part="1" 
+AR Path="/61651505/5FFDDFD5" Ref="J3"  Part="1" 
+AR Path="/6166C2BB/5FFDDFD5" Ref="J7"  Part="1" 
+AR Path="/61679A36/5FFDDFD5" Ref="J8"  Part="1" 
+AR Path="/616870B5/5FFDDFD5" Ref="J9"  Part="1" 
+F 0 "J5" H 5318 4092 50  0000 C CNN
+F 1 "Conn_01x04" H 5318 4001 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5400 3775 50  0001 C CNN
+F 3 "~" H 5400 3775 50  0001 C CNN
+	1    5400 3775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3975 5800 4675
 $EndSCHEMATC
