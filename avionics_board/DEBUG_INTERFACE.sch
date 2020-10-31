@@ -23,69 +23,17 @@ Text Notes 950  4700 0    50   ~ 0
 JTAG    \n    TDI (Test Data In)\n    TDO (Test Data Out)\n    TCK (Test Clock)\n    TMS (Test Mode Select)\n    TRST (Test Reset) optional.
 Text Notes 2375 4525 0    50   ~ 0
 SWD\n    SWCLK (Clock signal to target CPU)\n    SWDIO (Bi-directional data pin)\n    SWO  (Serial Wire output) optional
-Wire Wire Line
-	2775 1750 2900 1750
-Wire Wire Line
-	2775 1950 2825 1950
-Wire Wire Line
-	2775 2150 2900 2150
 $Comp
 L 1K_Custom_Symbol:TP_1.5x1.5 TP39
 U 1 1 6310C54C
 P 2350 5350
 F 0 "TP39" V 2275 5525 50  0000 R CNN
 F 1 "TP_1.5x1.5" V 2400 5775 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2550 5350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2550 5350 50  0001 C CNN
 F 3 "~" H 2550 5350 50  0001 C CNN
 	1    2350 5350
 	0    1    1    0   
 $EndComp
-$Comp
-L 1K_Custom_Symbol:TP_1.5x1.5 TP41
-U 1 1 6310C54D
-P 2900 2175
-F 0 "TP41" H 2842 2201 50  0000 R CNN
-F 1 "TP_1.5x1.5" H 2842 2292 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 3100 2175 50  0001 C CNN
-F 3 "~" H 3100 2175 50  0001 C CNN
-	1    2900 2175
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2900 2175 2900 2150
-Connection ~ 2900 2150
-Wire Wire Line
-	2900 2150 3600 2150
-$Comp
-L 1K_Custom_Symbol:TP_1.5x1.5 TP38
-U 1 1 5EB6E467
-P 2825 1975
-F 0 "TP38" H 2767 2001 50  0000 R CNN
-F 1 "TP_1.5x1.5" H 2767 2092 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 3025 1975 50  0001 C CNN
-F 3 "~" H 3025 1975 50  0001 C CNN
-	1    2825 1975
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2825 1950 2825 1975
-Connection ~ 2825 1950
-Wire Wire Line
-	2825 1950 3525 1950
-$Comp
-L 1K_Custom_Symbol:TP_1.5x1.5 TP40
-U 1 1 5EB6F13C
-P 2900 1775
-F 0 "TP40" H 2842 1801 50  0000 R CNN
-F 1 "TP_1.5x1.5" H 2842 1892 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 3100 1775 50  0001 C CNN
-F 3 "~" H 3100 1775 50  0001 C CNN
-	1    2900 1775
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2900 1750 2900 1775
-Connection ~ 2900 1750
 Text HLabel 2000 1750 0    50   Input ~ 0
 JTAG_TCK_SWD_SWCLK
 Text HLabel 2000 2150 0    50   Input ~ 0
@@ -114,7 +62,7 @@ U 1 1 5EB9A283
 P 8375 4175
 F 0 "J13" H 8347 4057 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 8347 4148 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8375 4175 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8375 4175 50  0001 C CNN
 F 3 "~" H 8375 4175 50  0001 C CNN
 F 4 "PREC004SBAN-M71RC" H 8375 4175 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PREC004SBAN-M71RC/S1112EC-04-ND/2774930" H 8375 4175 50  0001 C CNN "Order"
@@ -417,7 +365,7 @@ U 1 1 5EB6FE31
 P 2350 5075
 F 0 "TP37" V 2275 5250 50  0000 R CNN
 F 1 "TP_1.5x1.5" V 2425 5500 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2550 5075 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2550 5075 50  0001 C CNN
 F 3 "~" H 2550 5075 50  0001 C CNN
 	1    2350 5075
 	0    1    1    0   
@@ -435,8 +383,6 @@ F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZ
 	1    2025 5075
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2900 1750 4675 1750
 Wire Wire Line
 	3525 1950 3525 1850
 Wire Wire Line
@@ -539,4 +485,10 @@ Wire Notes Line width 20
 	10275 5550 6250 5550
 Wire Notes Line width 20
 	6250 5550 6250 3825
+Wire Wire Line
+	2775 1950 3525 1950
+Wire Wire Line
+	2775 1750 4675 1750
+Wire Wire Line
+	2775 2150 3600 2150
 $EndSCHEMATC

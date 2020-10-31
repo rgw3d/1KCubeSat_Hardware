@@ -187,7 +187,7 @@ U 1 1 5ECB360E
 P 2650 1825
 F 0 "TP9" V 2604 2013 50  0000 L CNN
 F 1 "TP_smt_1x1" V 2695 2013 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2850 1825 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2850 1825 50  0001 C CNN
 F 3 "~" H 2850 1825 50  0001 C CNN
 	1    2650 1825
 	0    1    1    0   
@@ -198,7 +198,7 @@ U 1 1 5ECB400A
 P 1975 1925
 F 0 "TP8" V 1929 2113 50  0000 L CNN
 F 1 "TP_smt_1x1" V 2020 2113 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2175 1925 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2175 1925 50  0001 C CNN
 F 3 "~" H 2175 1925 50  0001 C CNN
 	1    1975 1925
 	0    1    1    0   

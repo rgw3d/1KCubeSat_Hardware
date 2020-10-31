@@ -27,7 +27,7 @@ AR Path="/5F40A177/5F32EDA5" Ref="U?"  Part="1"
 AR Path="/5F71F783/5F32EDA5" Ref="U15"  Part="1" 
 F 0 "U15" H 5700 5025 50  0000 C CNN
 F 1 "LTC4415" H 5700 5150 50  0000 C CNN
-F 2 "Package_SO:MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm_ThermalVias" H 5700 2900 50  0001 C CNN
+F 2 "footprint_custom:MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm_0.3mmThermalVias" H 5700 2900 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4415fa.pdf" H 5700 3850 50  0001 C CNN
 F 4 "LTC4415EMSE#PBF" H 5700 2600 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/analog-devices-inc/LTC4415EMSE-PBF/LTC4415EMSE-PBF-ND/2769860" H 5700 2750 50  0001 C CNN "Order"

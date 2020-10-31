@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 5 39
+Sheet 3 39
 Title "LTC4066"
 Date "2020-08-09"
 Rev ""
@@ -22,7 +22,7 @@ AR Path="/5F39A2F0/5F325BE6" Ref="U?"  Part="1"
 AR Path="/5F4CFCEF/5F325BE6" Ref="U12"  Part="1" 
 F 0 "U12" H 5325 4790 50  0000 C CNN
 F 1 "LTC4066" H 5325 4699 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" H 5275 1725 50  0001 C CNN
+F 2 "footprint_custom:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_0.4mmThermalVias" H 5275 1725 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4066fc.pdf" H 5325 3625 50  0001 C CNN
 F 4 "LTC4066EUF#PBF" H 5325 3725 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/analog-devices-inc/LTC4066EUF-PBF/LTC4066EUF-PBF-ND/1746224" H 5325 1925 50  0001 C CNN "Order"

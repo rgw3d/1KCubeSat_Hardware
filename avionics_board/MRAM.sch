@@ -40,45 +40,26 @@ F 5 "https://www.digikey.com/product-detail/en/everspin-technologies-inc/MR25H10
 $EndComp
 Text Notes 4860 3590 0    50   ~ 0
 WP is write protect. Low active\nHOLD suspends operation. Low active. Only available when CS is low\nCS is chip select. Low active\nSCK is SPI cock\nSO is output\nSI is input\nVDD is from 3.0V to 3.6V\nConnect pad only to VSS\n\nhttps://www.cypress.com/file/196526/download for layout guide \n\n0.1uF decoupling cap
-Text HLabel 5950 5390 0    50   Output ~ 0
-VSS
 Wire Wire Line
 	6150 5170 6150 5100
 Wire Wire Line
-	6250 5100 6250 5170
-Wire Wire Line
-	6250 5390 5950 5390
-Wire Wire Line
 	5310 3920 5310 4300
-Text HLabel 2285 5280 0    50   Output ~ 0
-VDD
-Text HLabel 2275 5580 0    50   Output ~ 0
-VSS
-Wire Wire Line
-	2485 5280 2285 5280
 $Comp
 L Device:C C18
 U 1 1 5EA85F0B
-P 2485 5430
-F 0 "C18" H 2600 5476 50  0000 L CNN
-F 1 "0.1uF" H 2600 5385 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2523 5280 50  0001 C CNN
-F 3 "~" H 2485 5430 50  0001 C CNN
-F 4 "CL10B104KA8NNNC" H 2485 5430 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092" H 2485 5430 50  0001 C CNN "Order"
-F 6 "25V" H 2485 5430 50  0001 C CNN "Voltage"
-	1    2485 5430
+P 7775 4700
+F 0 "C18" H 7890 4746 50  0000 L CNN
+F 1 "0.1uF" H 7890 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7813 4550 50  0001 C CNN
+F 3 "~" H 7775 4700 50  0001 C CNN
+F 4 "CL10B104KA8NNNC" H 7775 4700 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092" H 7775 4700 50  0001 C CNN "Order"
+F 6 "25V" H 7775 4700 50  0001 C CNN "Voltage"
+	1    7775 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2275 5580 2485 5580
-Text Notes 2645 5130 2    50   ~ 0
-Layout Note: Decoupling\n
-Wire Wire Line
 	6150 5170 6250 5170
-Connection ~ 6250 5170
-Wire Wire Line
-	6250 5170 6250 5390
 Wire Wire Line
 	5050 3920 5310 3920
 Text HLabel 5050 3920 0    50   Output ~ 0
@@ -103,30 +84,6 @@ Wire Wire Line
 	5720 4800 5850 4800
 Text HLabel 2050 2150 0    50   Output ~ 0
 VDD
-$Comp
-L 1K_Custom_Symbol:TP_1.5x1.5 TP3
-U 1 1 5EAA68AC
-P 2350 2150
-F 0 "TP3" V 2304 2338 50  0000 L CNN
-F 1 "TP_1.5x1.5" V 2395 2338 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2550 2150 50  0001 C CNN
-F 3 "~" H 2550 2150 50  0001 C CNN
-	1    2350 2150
-	0    1    1    0   
-$EndComp
-Text HLabel 2050 2250 0    50   Output ~ 0
-VSS
-$Comp
-L 1K_Custom_Symbol:TP_1.5x1.5 TP6
-U 1 1 5EAA728D
-P 3025 2250
-F 0 "TP6" V 2979 2438 50  0000 L CNN
-F 1 "TP_1.5x1.5" V 3070 2438 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 3225 2250 50  0001 C CNN
-F 3 "~" H 3225 2250 50  0001 C CNN
-	1    3025 2250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4725 4700 4725 4600
 Wire Wire Line
@@ -146,8 +103,6 @@ Wire Wire Line
 	2050 2050 3025 2050
 Wire Wire Line
 	2050 2150 2350 2150
-Wire Wire Line
-	2050 2250 3025 2250
 $Comp
 L 1K_Custom_Symbol:TP_smt_1x1 TP?
 U 1 1 5ECAA01B
@@ -158,54 +113,9 @@ AR Path="/5FBFFCB6/5EA7CBB1/5ECAA01B" Ref="TP1"  Part="1"
 AR Path="/5EA31C93/6310C53D/5ECAA01B" Ref="TP1"  Part="1" 
 F 0 "TP1" V 2304 1938 50  0000 L CNN
 F 1 "TP_smt_1x1" V 2395 1938 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2550 1750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2550 1750 50  0001 C CNN
 F 3 "~" H 2550 1750 50  0001 C CNN
 	1    2350 1750
-	0    1    1    0   
-$EndComp
-$Comp
-L 1K_Custom_Symbol:TP_smt_1x1 TP?
-U 1 1 5ECAAB4B
-P 3025 1850
-AR Path="/5EA31C93/5EAB163E/5ECAAB4B" Ref="TP?"  Part="1" 
-AR Path="/5EA31C93/5EA7CBB1/5ECAAB4B" Ref="TP4"  Part="1" 
-AR Path="/5FBFFCB6/5EA7CBB1/5ECAAB4B" Ref="TP4"  Part="1" 
-AR Path="/5EA31C93/6310C53D/5ECAAB4B" Ref="TP4"  Part="1" 
-F 0 "TP4" V 2979 2038 50  0000 L CNN
-F 1 "TP_smt_1x1" V 3070 2038 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3225 1850 50  0001 C CNN
-F 3 "~" H 3225 1850 50  0001 C CNN
-	1    3025 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L 1K_Custom_Symbol:TP_smt_1x1 TP?
-U 1 1 5ECAAF26
-P 2350 1950
-AR Path="/5EA31C93/5EAB163E/5ECAAF26" Ref="TP?"  Part="1" 
-AR Path="/5EA31C93/5EA7CBB1/5ECAAF26" Ref="TP2"  Part="1" 
-AR Path="/5FBFFCB6/5EA7CBB1/5ECAAF26" Ref="TP2"  Part="1" 
-AR Path="/5EA31C93/6310C53D/5ECAAF26" Ref="TP2"  Part="1" 
-F 0 "TP2" V 2304 2138 50  0000 L CNN
-F 1 "TP_smt_1x1" V 2395 2138 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2550 1950 50  0001 C CNN
-F 3 "~" H 2550 1950 50  0001 C CNN
-	1    2350 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L 1K_Custom_Symbol:TP_smt_1x1 TP?
-U 1 1 5ECAB2CC
-P 3025 2050
-AR Path="/5EA31C93/5EAB163E/5ECAB2CC" Ref="TP?"  Part="1" 
-AR Path="/5EA31C93/5EA7CBB1/5ECAB2CC" Ref="TP5"  Part="1" 
-AR Path="/5FBFFCB6/5EA7CBB1/5ECAB2CC" Ref="TP5"  Part="1" 
-AR Path="/5EA31C93/6310C53D/5ECAB2CC" Ref="TP5"  Part="1" 
-F 0 "TP5" V 2979 2238 50  0000 L CNN
-F 1 "TP_smt_1x1" V 3070 2238 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3225 2050 50  0001 C CNN
-F 3 "~" H 3225 2050 50  0001 C CNN
-	1    3025 2050
 	0    1    1    0   
 $EndComp
 Text Notes 6975 5125 0    50   ~ 0
@@ -267,5 +177,84 @@ F 4 "RMCF0603FT100K" H 4725 4450 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT100K/1761112" H 4725 4450 50  0001 C CNN "Order"
 	1    4725 4450
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7775 4550 7775 4300
+Wire Wire Line
+	7775 4300 6250 4300
+Connection ~ 6250 4300
+Wire Wire Line
+	7775 4850 7775 5375
+Text HLabel 5850 5375 0    50   Input ~ 0
+VSS
+Wire Wire Line
+	5850 5375 6250 5375
+Wire Wire Line
+	6250 5100 6250 5170
+Connection ~ 6250 5170
+Wire Wire Line
+	6250 5170 6250 5375
+Wire Wire Line
+	6250 5375 7775 5375
+Connection ~ 6250 5375
+$Comp
+L 1K_Custom_Symbol:TP_smt_1x1 TP?
+U 1 1 607362BC
+P 3025 1850
+AR Path="/5EA31C93/5EAB163E/607362BC" Ref="TP?"  Part="1" 
+AR Path="/5EA31C93/5EA7CBB1/607362BC" Ref="TP?"  Part="1" 
+AR Path="/5FBFFCB6/5EA7CBB1/607362BC" Ref="TP4"  Part="1" 
+AR Path="/5EA31C93/6310C53D/607362BC" Ref="TP?"  Part="1" 
+F 0 "TP4" V 2979 2038 50  0000 L CNN
+F 1 "TP_smt_1x1" V 3070 2038 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 3225 1850 50  0001 C CNN
+F 3 "~" H 3225 1850 50  0001 C CNN
+	1    3025 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L 1K_Custom_Symbol:TP_smt_1x1 TP?
+U 1 1 60736760
+P 2350 1950
+AR Path="/5EA31C93/5EAB163E/60736760" Ref="TP?"  Part="1" 
+AR Path="/5EA31C93/5EA7CBB1/60736760" Ref="TP?"  Part="1" 
+AR Path="/5FBFFCB6/5EA7CBB1/60736760" Ref="TP2"  Part="1" 
+AR Path="/5EA31C93/6310C53D/60736760" Ref="TP?"  Part="1" 
+F 0 "TP2" V 2304 2138 50  0000 L CNN
+F 1 "TP_smt_1x1" V 2395 2138 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2550 1950 50  0001 C CNN
+F 3 "~" H 2550 1950 50  0001 C CNN
+	1    2350 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L 1K_Custom_Symbol:TP_smt_1x1 TP?
+U 1 1 60736A19
+P 3025 2050
+AR Path="/5EA31C93/5EAB163E/60736A19" Ref="TP?"  Part="1" 
+AR Path="/5EA31C93/5EA7CBB1/60736A19" Ref="TP?"  Part="1" 
+AR Path="/5FBFFCB6/5EA7CBB1/60736A19" Ref="TP5"  Part="1" 
+AR Path="/5EA31C93/6310C53D/60736A19" Ref="TP?"  Part="1" 
+F 0 "TP5" V 2979 2238 50  0000 L CNN
+F 1 "TP_smt_1x1" V 3070 2238 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 3225 2050 50  0001 C CNN
+F 3 "~" H 3225 2050 50  0001 C CNN
+	1    3025 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L 1K_Custom_Symbol:TP_smt_1x1 TP?
+U 1 1 60736CF9
+P 2350 2150
+AR Path="/5EA31C93/5EAB163E/60736CF9" Ref="TP?"  Part="1" 
+AR Path="/5EA31C93/5EA7CBB1/60736CF9" Ref="TP?"  Part="1" 
+AR Path="/5FBFFCB6/5EA7CBB1/60736CF9" Ref="TP3"  Part="1" 
+AR Path="/5EA31C93/6310C53D/60736CF9" Ref="TP?"  Part="1" 
+F 0 "TP3" V 2304 2338 50  0000 L CNN
+F 1 "TP_smt_1x1" V 2395 2338 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2550 2150 50  0001 C CNN
+F 3 "~" H 2550 2150 50  0001 C CNN
+	1    2350 2150
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

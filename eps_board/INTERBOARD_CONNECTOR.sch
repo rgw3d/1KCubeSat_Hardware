@@ -30,17 +30,17 @@ F 5 "https://www.digikey.com/product-detail/en/samtec-inc/ESQ-120-13-T-D/ESQ-120
 	1    5775 3775
 	1    0    0    -1  
 $EndComp
-Text HLabel 5100 2875 0    50   Output ~ 0
+Text HLabel 6550 4075 2    50   Output ~ 0
 3V3_1
-Text HLabel 6550 4775 2    50   Output ~ 0
+Text HLabel 6550 3575 2    50   Output ~ 0
 AVI_RESET
-Text HLabel 5100 4475 0    50   BiDi ~ 0
+Text HLabel 6550 4775 2    50   BiDi ~ 0
 CANH
-Text HLabel 5100 4575 0    50   BiDi ~ 0
+Text HLabel 5100 4775 0    50   BiDi ~ 0
 CANL
-Text HLabel 5100 4675 0    50   Output ~ 0
+Text HLabel 5100 3475 0    50   Output ~ 0
 UART_A_TXO
-Text HLabel 5100 4775 0    50   Input ~ 0
+Text HLabel 6550 3475 2    50   Input ~ 0
 UART_A_RXI
 Wire Wire Line
 	5100 2875 5575 2875
@@ -56,15 +56,15 @@ Wire Wire Line
 	6075 3275 6550 3275
 Wire Wire Line
 	6075 3375 6550 3375
-Text HLabel 5100 3075 0    50   Output ~ 0
+Text HLabel 5100 2975 0    50   Output ~ 0
 GND
 Wire Wire Line
 	6075 3475 6550 3475
-Text HLabel 5100 3375 0    50   Output ~ 0
+Text HLabel 6550 4675 2    50   Output ~ 0
 GND
 Wire Wire Line
 	6075 3575 6550 3575
-Text HLabel 6550 2875 2    50   Output ~ 0
+Text HLabel 6550 4175 2    50   Output ~ 0
 GND
 Wire Wire Line
 	6075 3675 6550 3675
@@ -120,13 +120,13 @@ Wire Wire Line
 	6075 4275 6550 4275
 Text HLabel 5100 4275 0    50   Output ~ 0
 SPARE_3
-Text HLabel 5100 4075 0    50   Output ~ 0
+Text HLabel 5100 3175 0    50   Output ~ 0
 SPARE_1
 Wire Wire Line
 	6075 3875 6550 3875
 Wire Wire Line
 	6075 3975 6550 3975
-Text HLabel 6550 3175 2    50   Output ~ 0
+Text HLabel 6550 3275 2    50   Output ~ 0
 GND
 Wire Wire Line
 	6075 3775 6550 3775
@@ -138,58 +138,58 @@ Text HLabel 5100 3675 0    50   Output ~ 0
 GND
 Wire Wire Line
 	6075 4375 6550 4375
-Text HLabel 6550 4675 2    50   Output ~ 0
-EPS_RESET
-Text HLabel 5100 2975 0    50   Output ~ 0
-3V3_2
-Text HLabel 5100 3175 0    50   Output ~ 0
-3V3_3
-Text HLabel 5100 3275 0    50   Output ~ 0
-3V3_4
-Text HLabel 5100 3475 0    50   Output ~ 0
-3V3_5
-Text HLabel 5100 3575 0    50   Output ~ 0
-3V3_6
-Text HLabel 6550 2975 2    50   Output ~ 0
-3V3_7
-Text HLabel 6550 3075 2    50   Output ~ 0
-3V3_8
-Text HLabel 6550 3275 2    50   Output ~ 0
-3V3_9
 Text HLabel 6550 3375 2    50   Output ~ 0
+EPS_RESET
+Text HLabel 5100 3375 0    50   Output ~ 0
+3V3_3
+Text HLabel 5100 3075 0    50   Output ~ 0
+3V3_4
+Text HLabel 6550 2875 2    50   Output ~ 0
+3V3_5
+Text HLabel 6550 3175 2    50   Output ~ 0
+3V3_7
+Text HLabel 5100 4075 0    50   Output ~ 0
+3V3_8
+Text HLabel 5100 3275 0    50   Output ~ 0
+3V3_9
+Text HLabel 6550 3075 2    50   Output ~ 0
 3V3_10
-Text HLabel 6550 3575 2    50   Output ~ 0
+Text HLabel 5100 2875 0    50   Output ~ 0
 3V3_11
 Text HLabel 6550 3675 2    50   Output ~ 0
 3V3_12
-Text HLabel 5100 3775 0    50   Output ~ 0
+Text HLabel 6550 4275 2    50   Output ~ 0
 5V0_1
-Text HLabel 5100 3875 0    50   Output ~ 0
+Text HLabel 6550 4475 2    50   Output ~ 0
 5V0_2
-Text HLabel 6550 3475 2    50   Output ~ 0
+Text HLabel 5100 4575 0    50   Output ~ 0
 GND
 Text HLabel 6550 3775 2    50   Output ~ 0
 GND
-Text HLabel 5100 4375 0    50   Output ~ 0
-SPARE_4
-Text HLabel 6550 4275 2    50   Output ~ 0
-UART_B_TXO
-Text HLabel 6550 4375 2    50   Input ~ 0
-UART_B_RXI
-Text HLabel 6550 3875 2    50   Output ~ 0
-5V0_2
-Text HLabel 6550 4475 2    50   Input ~ 0
-UART_B_CTS
 Text HLabel 6550 4575 2    50   Output ~ 0
-UART_B_RTS
-Text HLabel 5100 3975 0    50   Output ~ 0
+SPARE_4
+Text HLabel 5100 3875 0    50   Output ~ 0
+UART_B_TXO
+Text HLabel 6550 3875 2    50   Input ~ 0
+UART_B_RXI
+Text HLabel 5100 4475 0    50   Output ~ 0
+5V0_2
+Text HLabel 5100 4375 0    50   Output ~ 0
 GND
-Text HLabel 6550 3975 2    50   Output ~ 0
+Text HLabel 6550 4375 2    50   Output ~ 0
 GND
-Text HLabel 6550 4075 2    50   Output ~ 0
-SPARE_5
-Text HLabel 6550 4175 2    50   Output ~ 0
-SPARE_6
 Text Notes 4950 5225 0    50   ~ 0
 There are a lot of options that could work:\nhttps://www.digikey.com/short/znc31r
+Text HLabel 5100 3575 0    50   Output ~ 0
+UART_B_RTS
+Text HLabel 6550 3975 2    50   Output ~ 0
+3V3_2
+Text HLabel 5100 3775 0    50   Input ~ 0
+UART_B_CTS
+Text HLabel 5100 3975 0    50   Output ~ 0
+3V3_6
+Text HLabel 5100 4675 0    50   Output ~ 0
+GND
+Text HLabel 6550 2975 2    50   Output ~ 0
+GND
 $EndSCHEMATC

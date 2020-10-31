@@ -47,16 +47,10 @@ Wire Wire Line
 Wire Wire Line
 	6550 3475 6550 3575
 Connection ~ 6550 3575
-Text Notes 2420 6455 2    50   ~ 0
-Layout Note: Decoupling\n
-Text HLabel 1625 6600 0    50   Input ~ 0
-PWR
-Text HLabel 1625 6900 0    50   Input ~ 0
-GND
 $Comp
 L Device:C C?
 U 1 1 5FEDE147
-P 2425 6750
+P 5100 4050
 AR Path="/5EA31C93/5EA7CBB1/5FEDE147" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB027D/5FEDE147" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB163E/5FEDE147" Ref="C?"  Part="1" 
@@ -66,14 +60,14 @@ AR Path="/5EA31C93/5EAB17B1/5FEDE147" Ref="C?"  Part="1"
 AR Path="/5EA31C93/5FEDB823/5FEDE147" Ref="C36"  Part="1" 
 AR Path="/5EA31C93/6310C56A/5FEDE147" Ref="C36"  Part="1" 
 AR Path="/5FBFFCB6/5FEDB823/5FEDE147" Ref="C36"  Part="1" 
-F 0 "C36" H 2540 6796 50  0000 L CNN
-F 1 "0.1uF" H 2540 6705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2463 6600 50  0001 C CNN
-F 3 "~" H 2425 6750 50  0001 C CNN
-F 4 "25V" H 2425 6750 50  0001 C CNN "Voltage"
-F 5 "CL10B104KA8NNNC" H 2425 6750 50  0001 C CNN "Mfr. #"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092" H 2425 6750 50  0001 C CNN "Order"
-	1    2425 6750
+F 0 "C36" H 5215 4096 50  0000 L CNN
+F 1 "0.1uF" H 5215 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5138 3900 50  0001 C CNN
+F 3 "~" H 5100 4050 50  0001 C CNN
+F 4 "25V" H 5100 4050 50  0001 C CNN "Voltage"
+F 5 "CL10B104KA8NNNC" H 5100 4050 50  0001 C CNN "Mfr. #"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092" H 5100 4050 50  0001 C CNN "Order"
+	1    5100 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -112,10 +106,6 @@ F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1J
 $EndComp
 Text HLabel 3575 3575 0    50   Input ~ 0
 PWR
-Wire Wire Line
-	1625 6600 2425 6600
-Wire Wire Line
-	1625 6900 2425 6900
 Text HLabel 3575 4350 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -128,7 +118,7 @@ Wire Wire Line
 	5350 3675 5350 3575
 Connection ~ 5350 3575
 Wire Wire Line
-	5350 3575 4800 3575
+	5350 3575 5100 3575
 $Comp
 L Device:R R?
 U 1 1 5FEE2119
@@ -173,11 +163,21 @@ Wire Wire Line
 Wire Wire Line
 	4800 4025 4275 4025
 Wire Wire Line
-	3575 4350 6550 4350
+	3575 4350 5100 4350
 Wire Wire Line
 	6550 3775 6550 4350
 Wire Wire Line
 	3575 3575 4375 3575
 Text Notes 3750 2825 0    50   ~ 0
 By default, OE is tied high so the chip is enabled immediatly
+Wire Wire Line
+	5100 3900 5100 3575
+Connection ~ 5100 3575
+Wire Wire Line
+	5100 3575 4800 3575
+Wire Wire Line
+	5100 4200 5100 4350
+Connection ~ 5100 4350
+Wire Wire Line
+	5100 4350 6550 4350
 $EndSCHEMATC
