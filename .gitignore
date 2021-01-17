@@ -28,6 +28,16 @@ fp-info-cache
 
 # Other
 *.png
+
+# Gerber files (Protel)
 *.gbr
-*.drl
 *.gbrjob
+*.drl
+*.gbl
+*.gbs
+*.gbo
+*.gm1
+*.gtl
+*.gts
+*.gto
+

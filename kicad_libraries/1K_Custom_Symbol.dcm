@@ -18,6 +18,10 @@ K Single Gate Buff LVC CMOS Open Drain
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP ADP150AUJZ-3.3-R7
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP150.pdf
+$ENDCMP
+#
 $CMP BMG250
 D Small, low power GYROSCOPE 3-AXIS SPI/I2C SMD, LGA-14
 K Bosh IMU small low power Gyroscope
@@ -52,6 +56,10 @@ $CMP I3G4250D
 D 3 Axis Digital Gyroscope
 K Gyro Gyroscope
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/e4/b1/d1/62/1a/e6/44/2f/DM00168691.pdf/files/DM00168691.pdf/jcr:content/translations/en.DM00168691.pdf
+$ENDCMP
+#
+$CMP K857PE
+F https://www.vishay.com/docs/80136/k857pe.pdf
 $ENDCMP
 #
 $CMP LTC3130-1
