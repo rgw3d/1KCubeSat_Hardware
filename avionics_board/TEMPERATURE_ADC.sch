@@ -175,7 +175,7 @@ AR Path="/5EA31C93/5EAB13AE/63F792FA" Ref="R?"  Part="1"
 AR Path="/5EA31C93/5EAB0B79/63F792FA" Ref="R8"  Part="1" 
 F 0 "R8" V 1668 1250 50  0000 C CNN
 F 1 "0" V 1759 1250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1805 1250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1805 1250 50  0001 C CNN
 F 3 "~" H 1875 1250 50  0001 C CNN
 F 4 "RK73Z1JTTD" H 1875 1250 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" H 1875 1250 50  0001 C CNN "Order"

@@ -122,7 +122,7 @@ AR Path="/5EA31C93/5EAB0ED7/5EC1ACC3" Ref="C?"  Part="1"
 AR Path="/5EA31C93/5EB482DD/5EC1ACC3" Ref="C30"  Part="1" 
 F 0 "C30" H 1690 5421 50  0000 L CNN
 F 1 "0.1uF" H 1690 5330 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1613 5225 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1613 5225 50  0001 C CNN
 F 3 "~" H 1575 5375 50  0001 C CNN
 F 4 "25V" H 1575 5375 50  0001 C CNN "Voltage"
 F 5 "CL10B104KA8NNNC" H 1575 5375 50  0001 C CNN "Mfr. #"
@@ -132,16 +132,8 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B10
 $EndComp
 Wire Wire Line
 	1575 5225 1250 5225
-Text HLabel 1375 900  0    50   Input ~ 0
-PWR_COIL
-Text HLabel 1375 1000 0    50   Input ~ 0
-PWR_LOGIC
 Text HLabel 1375 1100 0    50   Input ~ 0
 GND
-Text HLabel 1250 5225 0    50   Input ~ 0
-PWR_COIL
-Text HLabel 1250 5850 0    50   Input ~ 0
-PWR_LOGIC
 Text HLabel 1250 6150 0    50   Output ~ 0
 GND
 Wire Wire Line
@@ -156,7 +148,7 @@ AR Path="/5EA31C93/5EAB0ED7/5EC1D606" Ref="C?"  Part="1"
 AR Path="/5EA31C93/5EB482DD/5EC1D606" Ref="C31"  Part="1" 
 F 0 "C31" H 1690 6046 50  0000 L CNN
 F 1 "0.1uF" H 1690 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1613 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1613 5850 50  0001 C CNN
 F 3 "~" H 1575 6000 50  0001 C CNN
 F 4 "25V" H 1575 6000 50  0001 C CNN "Voltage"
 F 5 "CL10B104KA8NNNC" H 1575 6000 50  0001 C CNN "Mfr. #"
@@ -184,10 +176,6 @@ Text HLabel 1375 1300 0    50   Input ~ 0
 X_PH
 Text HLabel 1375 1400 0    50   Input ~ 0
 X_EN
-Text HLabel 1375 1500 0    50   Input ~ 0
-Y_nSLEEP
-Text HLabel 1375 1600 0    50   Input ~ 0
-Y_PH
 Text HLabel 1375 1700 0    50   Input ~ 0
 Y_EN
 Text HLabel 1375 1800 0    50   Input ~ 0
@@ -251,9 +239,9 @@ F 5 "https://www.digikey.com/product-detail/en/texas-instruments/DRV8838DSGR/296
 	1    0    0    -1  
 $EndComp
 Text HLabel 2775 2650 0    50   Input ~ 0
-PWR_COIL
+PWR_COIL_IN
 Text HLabel 2775 2750 0    50   Input ~ 0
-PWR_LOGIC
+PWR_LOGIC_IN
 Wire Wire Line
 	5675 3400 5900 3400
 Wire Wire Line
@@ -264,12 +252,6 @@ Wire Wire Line
 	6000 3300 6000 3550
 Text Notes 5750 3100 0    118  ~ 0
 Y AXIS
-Text HLabel 5275 3950 0    50   Input ~ 0
-X_nSLEEP
-Text HLabel 5275 4050 0    50   Input ~ 0
-X_PH
-Text HLabel 5275 4150 0    50   Input ~ 0
-X_EN
 Wire Wire Line
 	5275 3950 5600 3950
 Wire Wire Line
@@ -328,12 +310,6 @@ Wire Wire Line
 	6000 5350 6000 5600
 Text Notes 5725 5250 0    118  ~ 0
 Z AXIS
-Text HLabel 5275 6000 0    50   Input ~ 0
-X_nSLEEP
-Text HLabel 5275 6100 0    50   Input ~ 0
-X_PH
-Text HLabel 5275 6200 0    50   Input ~ 0
-X_EN
 Wire Wire Line
 	5275 6000 5600 6000
 Wire Wire Line
@@ -379,7 +355,7 @@ AR Path="/5EA31C93/5EAB0ED7/5EC2827D" Ref="C?"  Part="1"
 AR Path="/5EA31C93/5EB482DD/5EC2827D" Ref="C32"  Part="1" 
 F 0 "C32" H 2240 5421 50  0000 L CNN
 F 1 "0.1uF" H 2240 5330 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2163 5225 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2163 5225 50  0001 C CNN
 F 3 "~" H 2125 5375 50  0001 C CNN
 F 4 "25V" H 2125 5375 50  0001 C CNN "Voltage"
 F 5 "CL10B104KA8NNNC" H 2125 5375 50  0001 C CNN "Mfr. #"
@@ -397,7 +373,7 @@ AR Path="/5EA31C93/5EAB0ED7/5EC28536" Ref="C?"  Part="1"
 AR Path="/5EA31C93/5EB482DD/5EC28536" Ref="C34"  Part="1" 
 F 0 "C34" H 2790 5421 50  0000 L CNN
 F 1 "0.1uF" H 2790 5330 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2713 5225 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2713 5225 50  0001 C CNN
 F 3 "~" H 2675 5375 50  0001 C CNN
 F 4 "25V" H 2675 5375 50  0001 C CNN "Voltage"
 F 5 "CL10B104KA8NNNC" H 2675 5375 50  0001 C CNN "Mfr. #"
@@ -415,7 +391,7 @@ AR Path="/5EA31C93/5EAB0ED7/5EC291BD" Ref="C?"  Part="1"
 AR Path="/5EA31C93/5EB482DD/5EC291BD" Ref="C33"  Part="1" 
 F 0 "C33" H 2240 6046 50  0000 L CNN
 F 1 "0.1uF" H 2240 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2163 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2163 5850 50  0001 C CNN
 F 3 "~" H 2125 6000 50  0001 C CNN
 F 4 "25V" H 2125 6000 50  0001 C CNN "Voltage"
 F 5 "CL10B104KA8NNNC" H 2125 6000 50  0001 C CNN "Mfr. #"
@@ -433,7 +409,7 @@ AR Path="/5EA31C93/5EAB0ED7/5EC291C3" Ref="C?"  Part="1"
 AR Path="/5EA31C93/5EB482DD/5EC291C3" Ref="C35"  Part="1" 
 F 0 "C35" H 2790 6046 50  0000 L CNN
 F 1 "0.1uF" H 2790 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2713 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2713 5850 50  0001 C CNN
 F 3 "~" H 2675 6000 50  0001 C CNN
 F 4 "25V" H 2675 6000 50  0001 C CNN "Voltage"
 F 5 "CL10B104KA8NNNC" H 2675 6000 50  0001 C CNN "Mfr. #"
@@ -623,7 +599,7 @@ AR Path="/5EA31C93/5EA7CBB1/5EC78446" Ref="R?"  Part="1"
 AR Path="/5EA31C93/5EB482DD/5EC78446" Ref="R17"  Part="1" 
 F 0 "R17" V 3143 2525 50  0000 C CNN
 F 1 "0" V 3234 2525 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3280 2525 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3280 2525 50  0001 C CNN
 F 3 "~" H 3350 2525 50  0001 C CNN
 F 4 "RK73Z1JTTD" H 3350 2525 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" H 3350 2525 50  0001 C CNN "Order"
@@ -638,7 +614,7 @@ AR Path="/5EA31C93/5EA7CBB1/5EC7A28F" Ref="R?"  Part="1"
 AR Path="/5EA31C93/5EB482DD/5EC7A28F" Ref="R18"  Part="1" 
 F 0 "R18" V 3143 2875 50  0000 C CNN
 F 1 "0" V 3234 2875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3280 2875 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3280 2875 50  0001 C CNN
 F 3 "~" H 3350 2875 50  0001 C CNN
 F 4 "RK73Z1JTTD" H 3350 2875 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" H 3350 2875 50  0001 C CNN "Order"
@@ -685,4 +661,28 @@ Wire Wire Line
 Connection ~ 2125 5525
 Text Notes 8025 2925 0    50   ~ 0
 PWR COIL: 0 to 11 V\nPWR Logic: 1.8 to 7 V
+Text HLabel 1375 1600 0    50   Input ~ 0
+Y_PH
+Text HLabel 1375 1500 0    50   Input ~ 0
+Y_nSLEEP
+Text HLabel 5275 4150 0    50   Input ~ 0
+Y_EN
+Text HLabel 5275 4050 0    50   Input ~ 0
+Y_PH
+Text HLabel 5275 3950 0    50   Input ~ 0
+Y_nSLEEP
+Text HLabel 5275 6000 0    50   Input ~ 0
+Z_nSLEEP
+Text HLabel 5275 6100 0    50   Input ~ 0
+Z_PH
+Text HLabel 5275 6200 0    50   Input ~ 0
+Z_EN
+Text Label 1250 5225 2    50   ~ 0
+PWR_COIL
+Text Label 1250 5850 2    50   ~ 0
+PWR_LOGIC
+Text Label 1375 1000 2    50   ~ 0
+PWR_LOGIC
+Text Label 1375 900  2    50   ~ 0
+PWR_COIL
 $EndSCHEMATC

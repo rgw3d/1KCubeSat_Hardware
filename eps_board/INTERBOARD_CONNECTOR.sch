@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 9 39
+Sheet 23 23
 Title "Current Monitor"
 Date "2020-05-25"
 Rev ""
@@ -20,8 +20,8 @@ P 5775 3775
 AR Path="/5EA31C93/6310AFB3/5FD3BACF/6310C580" Ref="J?"  Part="1" 
 AR Path="/5EA31C93/631545C7/6310C580" Ref="J1"  Part="1" 
 AR Path="/5FD3BACF/6310C580" Ref="J6"  Part="1" 
-AR Path="/5EA31C93/639EBCB0/6310C580" Ref="J?"  Part="1" 
-F 0 "J6" H 5825 4892 50  0000 C CNN
+AR Path="/5EA31C93/639EBCB0/6310C580" Ref="J1"  Part="1" 
+F 0 "J1" H 5825 4892 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 5825 4801 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5775 3775 50  0001 C CNN
 F 3 "~" H 5775 3775 50  0001 C CNN

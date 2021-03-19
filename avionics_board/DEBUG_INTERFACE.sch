@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 29 39
+Sheet 8 23
 Title "DEBUG INTERFACE"
 Date "2020-05-02"
 Rev ""
@@ -138,7 +138,7 @@ U 1 1 5EBBE0B8
 P 8800 1825
 F 0 "R24" V 8593 1825 50  0000 C CNN
 F 1 "330" V 8684 1825 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 1825 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8730 1825 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8800 1825 50  0001 C CNN
 F 4 "CRCW0603330RJNEA" V 8800 1825 50  0001 C CNN "Mfr. #"
 F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8800 1825 50  0001 C CNN "Order"
@@ -186,7 +186,7 @@ U 1 1 5EBF2CE3
 P 8800 2175
 F 0 "R25" V 8593 2175 50  0000 C CNN
 F 1 "330" V 8684 2175 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 2175 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8730 2175 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8800 2175 50  0001 C CNN
 F 4 "CRCW0603330RJNEA" V 8800 2175 50  0001 C CNN "Mfr. #"
 F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8800 2175 50  0001 C CNN "Order"
@@ -199,7 +199,7 @@ U 1 1 5EBF32E5
 P 8800 2525
 F 0 "R26" V 8593 2525 50  0000 C CNN
 F 1 "330" V 8684 2525 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 2525 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8730 2525 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8800 2525 50  0001 C CNN
 F 4 "CRCW0603330RJNEA" V 8800 2525 50  0001 C CNN "Mfr. #"
 F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8800 2525 50  0001 C CNN "Order"
@@ -212,7 +212,7 @@ U 1 1 5EBF36EC
 P 8800 2850
 F 0 "R27" V 8593 2850 50  0000 C CNN
 F 1 "330" V 8684 2850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 2850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8730 2850 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8800 2850 50  0001 C CNN
 F 4 "CRCW0603330RJNEA" V 8800 2850 50  0001 C CNN "Mfr. #"
 F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8800 2850 50  0001 C CNN "Order"
@@ -225,7 +225,7 @@ U 1 1 5EBF3B36
 P 8800 3200
 F 0 "R28" V 8593 3200 50  0000 C CNN
 F 1 "330" V 8684 3200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8730 3200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8730 3200 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 8800 3200 50  0001 C CNN
 F 4 "CRCW0603330RJNEA" V 8800 3200 50  0001 C CNN "Mfr. #"
 F 5 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330RJNEA?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGuOZy2K9Wfq5k%3D" V 8800 3200 50  0001 C CNN "Order"
@@ -238,7 +238,7 @@ U 1 1 5EBF523F
 P 2625 1750
 F 0 "R20" V 2725 1850 50  0000 C CNN
 F 1 "49.9" V 2725 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2555 1750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2555 1750 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2625 1750 50  0001 C CNN
 F 4 "RR0816Q-49R9-D-68R " V 2625 1750 50  0001 C CNN "Mfr. #"
 F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 2625 1750 50  0001 C CNN "Order"
@@ -251,7 +251,7 @@ U 1 1 5EBF54D7
 P 2625 1950
 F 0 "R21" V 2725 2050 50  0000 C CNN
 F 1 "49.9" V 2725 1850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2555 1950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2555 1950 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2625 1950 50  0001 C CNN
 F 4 "RR0816Q-49R9-D-68R " V 2625 1950 50  0001 C CNN "Mfr. #"
 F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 2625 1950 50  0001 C CNN "Order"
@@ -264,7 +264,7 @@ U 1 1 5EBF5728
 P 2625 2150
 F 0 "R22" V 2725 2250 50  0000 C CNN
 F 1 "49.9" V 2725 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2555 2150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2555 2150 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2625 2150 50  0001 C CNN
 F 4 "RR0816Q-49R9-D-68R " V 2625 2150 50  0001 C CNN "Mfr. #"
 F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 2625 2150 50  0001 C CNN "Order"
@@ -277,7 +277,7 @@ U 1 1 6310C55D
 P 2025 5350
 F 0 "R23" V 2125 5450 50  0000 C CNN
 F 1 "49.9" V 2125 5250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1955 5350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1955 5350 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2025 5350 50  0001 C CNN
 F 4 "RR0816Q-49R9-D-68R " V 2025 5350 50  0001 C CNN "Mfr. #"
 F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 2025 5350 50  0001 C CNN "Order"
@@ -376,7 +376,7 @@ U 1 1 6310C54B
 P 2025 5075
 F 0 "R19" V 2125 5175 50  0000 C CNN
 F 1 "49.9" V 2125 4975 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1955 5075 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1955 5075 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 2025 5075 50  0001 C CNN
 F 4 "RR0816Q-49R9-D-68R " V 2025 5075 50  0001 C CNN "Mfr. #"
 F 5 "https://www.mouser.com/ProductDetail/Susumu/RR0816Q-49R9-D-68R?qs=sGAEpiMZZMvdGkrng054t0uOsFOTJMhbzihXfnlCLAU%3D" V 2025 5075 50  0001 C CNN "Order"

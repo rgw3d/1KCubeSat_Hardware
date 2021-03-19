@@ -34,7 +34,7 @@ AR Path="/5EA31C93/5EAB0B79/5EC02E3E/5EB42947" Ref="R51"  Part="1"
 AR Path="/5EA31C93/5EAB0B79/5EC02E43/5EB42947" Ref="R52"  Part="1" 
 F 0 "R52" H 4680 1854 50  0000 R CNN
 F 1 "47K" H 4680 1945 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 1900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4680 1900 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" H 4750 1900 50  0001 C CNN
 F 4 "CR0603-FX-4702ELF" H 4750 1900 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-4702ELF/CR0603-FX-4702ELFCT-ND/3925317" H 4750 1900 50  0001 C CNN "Order"

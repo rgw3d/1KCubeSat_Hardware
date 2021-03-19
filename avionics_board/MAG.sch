@@ -29,7 +29,7 @@ U 1 1 5EB37EFF
 P 6325 3450
 F 0 "C45" H 6200 3425 50  0000 R CNN
 F 1 "10uF" H 6200 3500 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6363 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6363 3300 50  0001 C CNN
 F 3 "~" H 6325 3450 50  0001 C CNN
 F 4 "CL10X106MO8NRNC" H 6325 3450 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10X106MO8NRNC/1276-6769-1-ND/5961628" H 6325 3450 50  0001 C CNN "Order"
@@ -66,7 +66,7 @@ AR Path="/5EA31C93/5EAB0A1F/5EB37DF9" Ref="C?"  Part="1"
 AR Path="/5EA31C93/5EAB13AE/5EB37DF9" Ref="C44"  Part="1" 
 F 0 "C44" H 2090 5471 50  0000 L CNN
 F 1 "1uF" H 2090 5380 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2013 5275 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2013 5275 50  0001 C CNN
 F 3 "~" H 1975 5425 50  0001 C CNN
 F 4 "CL10B105KP8NFNC" H 1975 5425 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KP8NFNC/1276-1945-1-ND/3890031" H 1975 5425 50  0001 C CNN "Order"
@@ -100,7 +100,7 @@ U 1 1 5EB3A638
 P 4700 2875
 F 0 "R44" V 4493 2875 50  0000 C CNN
 F 1 "0" V 4584 2875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4630 2875 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4630 2875 50  0001 C CNN
 F 3 "~" H 4700 2875 50  0001 C CNN
 F 4 "RK73Z1JTTD" H 4700 2875 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" H 4700 2875 50  0001 C CNN "Order"
@@ -209,7 +209,7 @@ U 1 1 5ECDA071
 P 4700 2500
 F 0 "R43" V 4493 2500 50  0000 C CNN
 F 1 "0" V 4584 2500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4630 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4630 2500 50  0001 C CNN
 F 3 "~" H 4700 2500 50  0001 C CNN
 F 4 "RK73Z1JTTD" H 4700 2500 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522" H 4700 2500 50  0001 C CNN "Order"
