@@ -40,4 +40,9 @@ fp-info-cache
 *.gtl
 *.gts
 *.gto
+*.gbt
+*.gbp
+*.gtp
+*.g2
+*.g3
 

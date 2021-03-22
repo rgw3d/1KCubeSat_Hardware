@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 25 23
+Sheet 22 23
 Title "I3G4250D 3-axis digital gyroscope"
 Date "2020-04-27"
 Rev ""
@@ -13,25 +13,23 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1775 4850 0    50   Output ~ 0
-VDD
-Text Notes 2145 4630 2    50   ~ 0
+Text Notes 7570 3230 2    50   ~ 0
 Layout Note: Decoupling\n
 $Comp
 L Device:C C?
 U 1 1 5EAEC43D
-P 2475 5000
+P 7350 3425
 AR Path="/5EA31C93/5EA7CBB1/5EAEC43D" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB027D/5EAEC43D" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB163E/5EAEC43D" Ref="C43"  Part="1" 
-F 0 "C43" H 2600 5050 50  0000 L CNN
-F 1 "0.1uF" H 2600 4975 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2513 4850 50  0001 C CNN
-F 3 "~" H 2475 5000 50  0001 C CNN
-F 4 "25V" H 2675 4900 50  0000 C CNN "Voltage"
-F 5 "CL10B104KA8NNNC" H 2475 5000 50  0001 C CNN "Mfr. #"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092" H 2475 5000 50  0001 C CNN "Order"
-	1    2475 5000
+F 0 "C43" H 7475 3475 50  0000 L CNN
+F 1 "0.1uF" H 7475 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7388 3275 50  0001 C CNN
+F 3 "~" H 7350 3425 50  0001 C CNN
+F 4 "25V" H 7550 3325 50  0000 C CNN "Voltage"
+F 5 "CL10B104KA8NNNC" H 7350 3425 50  0001 C CNN "Mfr. #"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092" H 7350 3425 50  0001 C CNN "Order"
+	1    7350 3425
 	1    0    0    -1  
 $EndComp
 Text HLabel 4675 3275 0    50   Output ~ 0
@@ -60,12 +58,6 @@ Wire Wire Line
 	5150 3875 4675 3875
 Wire Wire Line
 	4675 3975 5150 3975
-Text HLabel 1475 3200 0    50   Output ~ 0
-VDD
-Text HLabel 1475 2400 0    50   Output ~ 0
-VDD_IO
-Text HLabel 1475 3100 0    50   Output ~ 0
-GND
 Text HLabel 1475 3000 0    50   Output ~ 0
 INT2
 Text HLabel 1475 2900 0    50   Output ~ 0
@@ -78,41 +70,6 @@ Text HLabel 1475 2600 0    50   Output ~ 0
 MOSI
 Text HLabel 1475 2500 0    50   Output ~ 0
 CLK
-$Comp
-L 1K_Custom_Symbol:TP_1.5x1.5 TP42
-U 1 1 5EAFDC3D
-P 1800 2400
-F 0 "TP42" V 1754 2588 50  0000 L CNN
-F 1 "TP_1.5x1.5" V 1845 2588 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2000 2400 50  0001 C CNN
-F 3 "~" H 2000 2400 50  0001 C CNN
-	1    1800 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L 1K_Custom_Symbol:TP_1.5x1.5 TP51
-U 1 1 5EB07CF8
-P 2425 3100
-F 0 "TP51" V 2379 3288 50  0000 L CNN
-F 1 "TP_1.5x1.5" V 2470 3288 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2625 3100 50  0001 C CNN
-F 3 "~" H 2625 3100 50  0001 C CNN
-	1    2425 3100
-	0    1    1    0   
-$EndComp
-$Comp
-L 1K_Custom_Symbol:TP_1.5x1.5 TP46
-U 1 1 5EB0868C
-P 1800 3200
-F 0 "TP46" V 1754 3388 50  0000 L CNN
-F 1 "TP_1.5x1.5" V 1845 3388 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2000 3200 50  0001 C CNN
-F 3 "~" H 2000 3200 50  0001 C CNN
-	1    1800 3200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1475 2400 1800 2400
 Wire Wire Line
 	2425 2500 1475 2500
 Wire Wire Line
@@ -125,10 +82,6 @@ Wire Wire Line
 	1475 2900 2425 2900
 Wire Wire Line
 	1800 3000 1475 3000
-Wire Wire Line
-	1475 3100 2425 3100
-Wire Wire Line
-	1475 3200 1800 3200
 $Comp
 L Device:R R?
 U 1 1 5ECA060C
@@ -231,33 +184,31 @@ $EndComp
 Wire Wire Line
 	5550 3275 5650 3275
 Wire Wire Line
-	1775 4850 2025 4850
-Wire Wire Line
-	1775 5150 2025 5150
+	6650 3575 6900 3575
 $Comp
 L Device:C C?
 U 1 1 5F0218D0
-P 2025 5000
+P 6900 3425
 AR Path="/5EA31C93/5EA7CBB1/5F0218D0" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB027D/5F0218D0" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB163E/5F0218D0" Ref="C40"  Part="1" 
-F 0 "C40" H 2150 5050 50  0000 L CNN
-F 1 "0.1uF" H 2150 4975 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2063 4850 50  0001 C CNN
-F 3 "~" H 2025 5000 50  0001 C CNN
-F 4 "25V" H 2225 4900 50  0000 C CNN "Voltage"
-F 5 "CL10B104KA8NNNC" H 2025 5000 50  0001 C CNN "Mfr. #"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092" H 2025 5000 50  0001 C CNN "Order"
-	1    2025 5000
+F 0 "C40" H 7025 3475 50  0000 L CNN
+F 1 "0.1uF" H 7025 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6938 3275 50  0001 C CNN
+F 3 "~" H 6900 3425 50  0001 C CNN
+F 4 "25V" H 7100 3325 50  0000 C CNN "Voltage"
+F 5 "CL10B104KA8NNNC" H 6900 3425 50  0001 C CNN "Mfr. #"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092" H 6900 3425 50  0001 C CNN "Order"
+	1    6900 3425
 	1    0    0    -1  
 $EndComp
-Connection ~ 2025 4850
+Connection ~ 6900 3275
 Wire Wire Line
-	2025 4850 2475 4850
-Connection ~ 2025 5150
+	6900 3275 7350 3275
+Connection ~ 6900 3575
 Wire Wire Line
-	2025 5150 2475 5150
-Text HLabel 1775 5150 0    50   Output ~ 0
+	6900 3575 7350 3575
+Text HLabel 6650 3575 0    50   Output ~ 0
 GND
 Text HLabel 4675 4175 0    50   Output ~ 0
 GND
@@ -278,4 +229,7 @@ Wire Wire Line
 Connection ~ 4750 3275
 Wire Wire Line
 	4750 3275 4775 3275
+Wire Wire Line
+	5650 3275 6900 3275
+Connection ~ 5650 3275
 $EndSCHEMATC

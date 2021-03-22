@@ -82,8 +82,6 @@ Wire Wire Line
 	6650 4700 6820 4700
 Wire Wire Line
 	5720 4800 5850 4800
-Text HLabel 2050 2150 0    50   Output ~ 0
-VDD
 Wire Wire Line
 	4725 4700 4725 4600
 Wire Wire Line
@@ -101,8 +99,6 @@ Wire Wire Line
 	2050 1950 2350 1950
 Wire Wire Line
 	2050 2050 3025 2050
-Wire Wire Line
-	2050 2150 2350 2150
 $Comp
 L 1K_Custom_Symbol:TP_smt_1x1 TP?
 U 1 1 5ECAA01B
@@ -240,21 +236,6 @@ F 1 "TP_smt_1x1" V 3070 2238 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 3225 2050 50  0001 C CNN
 F 3 "~" H 3225 2050 50  0001 C CNN
 	1    3025 2050
-	0    1    1    0   
-$EndComp
-$Comp
-L 1K_Custom_Symbol:TP_smt_1x1 TP?
-U 1 1 60736CF9
-P 2350 2150
-AR Path="/5EA31C93/5EAB163E/60736CF9" Ref="TP?"  Part="1" 
-AR Path="/5EA31C93/5EA7CBB1/60736CF9" Ref="TP?"  Part="1" 
-AR Path="/5FBFFCB6/5EA7CBB1/60736CF9" Ref="TP3"  Part="1" 
-AR Path="/5EA31C93/6310C53D/60736CF9" Ref="TP3"  Part="1" 
-F 0 "TP3" V 2304 2338 50  0000 L CNN
-F 1 "TP_smt_1x1" V 2395 2338 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2550 2150 50  0001 C CNN
-F 3 "~" H 2550 2150 50  0001 C CNN
-	1    2350 2150
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC

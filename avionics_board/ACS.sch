@@ -208,7 +208,7 @@ U 1 1 5EC223DC
 P 7425 2100
 F 0 "J9" H 7343 1775 50  0000 C CNN
 F 1 "Conn_01x02" H 7343 1866 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 7425 2100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7425 2100 50  0001 C CNN
 F 3 "~" H 7425 2100 50  0001 C CNN
 	1    7425 2100
 	1    0    0    1   
@@ -270,7 +270,7 @@ U 1 1 5EC241D7
 P 7425 4100
 F 0 "J10" H 7343 3775 50  0000 C CNN
 F 1 "Conn_01x02" H 7343 3866 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 7425 4100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7425 4100 50  0001 C CNN
 F 3 "~" H 7425 4100 50  0001 C CNN
 	1    7425 4100
 	1    0    0    1   
@@ -328,7 +328,7 @@ U 1 1 5EC25C50
 P 7425 6150
 F 0 "J11" H 7343 5825 50  0000 C CNN
 F 1 "Conn_01x02" H 7343 5916 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 7425 6150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7425 6150 50  0001 C CNN
 F 3 "~" H 7425 6150 50  0001 C CNN
 	1    7425 6150
 	1    0    0    1   
@@ -546,17 +546,6 @@ F 3 "~" H 2700 900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 1K_Custom_Symbol:TP_1.5x1.5 TP25
-U 1 1 5EC3BC0C
-P 1775 1000
-F 0 "TP25" V 1729 1188 50  0000 L CNN
-F 1 "TP_1.5x1.5" V 1820 1188 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 1975 1000 50  0001 C CNN
-F 3 "~" H 1975 1000 50  0001 C CNN
-	1    1775 1000
-	0    1    1    0   
-$EndComp
-$Comp
 L 1K_Custom_Symbol:TP_1.5x1.5 TP32
 U 1 1 5EC3F304
 P 2500 1100
@@ -569,8 +558,6 @@ F 3 "~" H 2700 1100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1375 900  2500 900 
-Wire Wire Line
-	1775 1000 1375 1000
 Wire Wire Line
 	1375 1100 2500 1100
 Wire Wire Line
@@ -680,8 +667,6 @@ Z_EN
 Text Label 1250 5225 2    50   ~ 0
 PWR_COIL
 Text Label 1250 5850 2    50   ~ 0
-PWR_LOGIC
-Text Label 1375 1000 2    50   ~ 0
 PWR_LOGIC
 Text Label 1375 900  2    50   ~ 0
 PWR_COIL

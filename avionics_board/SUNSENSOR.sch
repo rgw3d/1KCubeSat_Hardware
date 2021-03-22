@@ -123,30 +123,24 @@ Wire Wire Line
 Connection ~ 4975 4225
 Wire Wire Line
 	4975 4225 5475 4225
-Text Notes 2095 6380 2    50   ~ 0
-Layout Note: Decoupling\n
-Wire Wire Line
-	1425 6525 1750 6525
-Wire Wire Line
-	1425 6825 1750 6825
 $Comp
 L Device:C C?
 U 1 1 5EC6F830
-P 1750 6675
+P 3350 2850
 AR Path="/5EA31C93/5EA7CBB1/5EC6F830" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB027D/5EC6F830" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB163E/5EC6F830" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB0A1F/5EC6F830" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB13AE/5EC6F830" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB17B1/5EC6F830" Ref="C28"  Part="1" 
-F 0 "C28" H 1865 6721 50  0000 L CNN
-F 1 "1uF" H 1865 6630 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1788 6525 50  0001 C CNN
-F 3 "~" H 1750 6675 50  0001 C CNN
-F 4 "CL10B105KP8NFNC" H 1750 6675 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KP8NFNC/1276-1945-1-ND/3890031" H 1750 6675 50  0001 C CNN "Order"
-F 6 "10V" H 1750 6675 50  0001 C CNN "Voltage"
-	1    1750 6675
+F 0 "C28" H 3465 2896 50  0000 L CNN
+F 1 "1uF" H 3465 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3388 2700 50  0001 C CNN
+F 3 "~" H 3350 2850 50  0001 C CNN
+F 4 "CL10B105KP8NFNC" H 3350 2850 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B105KP8NFNC/1276-1945-1-ND/3890031" H 3350 2850 50  0001 C CNN "Order"
+F 6 "10V" H 3350 2850 50  0001 C CNN "Voltage"
+	1    3350 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -154,36 +148,28 @@ Wire Wire Line
 Connection ~ 4200 2700
 Wire Wire Line
 	4200 2700 4800 2700
-Text HLabel 1425 6525 0    50   Input ~ 0
-PWR
-Text HLabel 1425 6825 0    50   Input ~ 0
-GND
 $Comp
 L Device:C C?
 U 1 1 5EC716A5
-P 2225 6675
+P 3825 2850
 AR Path="/5EA31C93/5EA7CBB1/5EC716A5" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB027D/5EC716A5" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB163E/5EC716A5" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB0A1F/5EC716A5" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB13AE/5EC716A5" Ref="C?"  Part="1" 
 AR Path="/5EA31C93/5EAB17B1/5EC716A5" Ref="C29"  Part="1" 
-F 0 "C29" H 2340 6721 50  0000 L CNN
-F 1 "0.1uF" H 2340 6630 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2263 6525 50  0001 C CNN
-F 3 "~" H 2225 6675 50  0001 C CNN
-F 4 "25V" H 2225 6675 50  0001 C CNN "Voltage"
-F 5 "CL10B104KA8NNNC" H 2225 6675 50  0001 C CNN "Mfr. #"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092" H 2225 6675 50  0001 C CNN "Order"
-	1    2225 6675
+F 0 "C29" H 3940 2896 50  0000 L CNN
+F 1 "0.1uF" H 3940 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3863 2700 50  0001 C CNN
+F 3 "~" H 3825 2850 50  0001 C CNN
+F 4 "25V" H 3825 2850 50  0001 C CNN "Voltage"
+F 5 "CL10B104KA8NNNC" H 3825 2850 50  0001 C CNN "Mfr. #"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092" H 3825 2850 50  0001 C CNN "Order"
+	1    3825 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 6525 2225 6525
-Connection ~ 1750 6525
-Wire Wire Line
-	2225 6825 1750 6825
-Connection ~ 1750 6825
+	3825 3000 3350 3000
 Text Notes 5575 3000 0    50   ~ 0
 One sensor to test functionality, and the ability to add external sensors\n
 $Comp
@@ -199,10 +185,6 @@ F 5 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PREC0
 	1    5000 1675
 	1    0    0    -1  
 $EndComp
-Text HLabel 3525 1675 0    50   Output ~ 0
-FRAME_RDY_3
-Text HLabel 3525 1775 0    50   Input ~ 0
-CS_3
 Wire Wire Line
 	4800 1675 3525 1675
 Wire Wire Line
@@ -225,11 +207,26 @@ $EndComp
 Wire Wire Line
 	2700 2700 2850 2700
 Wire Wire Line
-	3150 2700 4200 2700
-Text Notes 7250 3775 0    50   ~ 0
+	3150 2700 3350 2700
+Text Notes 6200 1975 0    50   ~ 0
 142 Pixel linear optical array\n
-Text Notes 7250 3975 0    50   ~ 0
+Text Notes 6200 2175 0    50   ~ 0
 Pixels are 100um (H) by 47um (W) with a 50um pitch
 Text Notes 5350 5025 0    50   ~ 0
 PWR: 3.0 to 3.6V, 3.3V typical
+Text HLabel 3525 1675 0    50   Output ~ 0
+FRAME_RDY_1
+Text HLabel 3525 1775 0    50   Input ~ 0
+CS_1
+Connection ~ 3350 2700
+Wire Wire Line
+	3350 2700 3825 2700
+Connection ~ 3825 2700
+Wire Wire Line
+	3825 2700 4200 2700
+Text HLabel 3225 3000 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3225 3000 3350 3000
+Connection ~ 3350 3000
 $EndSCHEMATC
