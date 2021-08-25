@@ -1,0 +1,4 @@
+[submodule "openlst-hw"]
+	path = openlst-hw
+	url = git@github.com:rgw3d/openlst-hw.git
+  branch = 1kcubesat-updates
