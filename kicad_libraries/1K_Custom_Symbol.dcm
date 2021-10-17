@@ -86,6 +86,10 @@ K comparator reference
 F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6541%20Output%20SubMicroamp%20Comparators%2020001696K.pdf
 $ENDCMP
 #
+$CMP MIC803
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC803-3-Pin-Microprocessor-Supervisor-Circuit-with-Open-Drain-Reset-Output-DS20006456A.pdf
+$ENDCMP
+#
 $CMP MLX75306
 D Linear optical array, SPI
 K melexis MLX optical array
@@ -116,6 +120,20 @@ K connector SD microsd
 F https://www.molex.com/pdm_docs/sd/472192001_sd.pdf
 $ENDCMP
 #
+$CMP PE4250MLI
+F https://www.psemi.com/pdf/datasheets/pe4250ds.pdf
+$ENDCMP
+#
+$CMP RFFM6406
+D Copy of RFFM6403 Symbol from OpenLST Reference
+F https://www.qorvo.com/products/d/da000807
+$ENDCMP
+#
+$CMP SF2446E
+D SAW filter 435MHz
+F https://www.rfmi.co/pdf/Datasheet/sf2446e.pdf
+$ENDCMP
+#
 $CMP SS4-10-3.00-L-D-K-TR
 D Samtec low-profile 20-pin connector. Irridium 9603n requires this.
 K Samtec ss4
@@ -126,6 +144,12 @@ $CMP TG-3541CE
 D 32.768kHz TCXO CMOS Oscillator 1.5V ~ 5.5V Enable/Disable 10-SMD, No Lead
 K TCXO EPSON 32kHz
 F https://support.epson.biz/td/api/doc_check.php?dl=brief_TG-3541CE&lang=en
+$ENDCMP
+#
+$CMP TG2520SMN
+D 27MHz TCXO Clipped Sine Wave Oscillator 2.8V-3.3V 4-SMD, No Lead
+K Crystal Clock Oscillator TCXO 27MHz
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_TG2520SMN&lang=en
 $ENDCMP
 #
 $CMP TPS270
