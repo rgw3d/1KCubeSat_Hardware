@@ -12,4 +12,4 @@ My progress so far, what I'm calling the ½ Cubesat. The [avionics board](avioni
 ## Radio Board
 
 See [my fork of the OpenLST repo](https://github.com/rgw3d/openlst-hw/tree/1kcubesat-updates) for more information!
-![1KCubesat RadioBoard V1](openlst-hw/images/1kcubesat_radioboard_v1_front.jpg)
+![1KCubesat RadioBoard V1](https://github.com/rgw3d/openlst-hw/blob/1kcubesat-updates/images/1kcubesat_radioboard_v1_front.jpg?raw=true)
